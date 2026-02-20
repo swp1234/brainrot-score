@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Brain Rot Score | À quel point ton cerveau est pourri ? - DopaBrain",
+    "description": "Test Brain Rot Score ! 12 questions sur les memes, l'argot internet et la culture en ligne. Découvre ton niveau d'addiction à internet."
+  },
+  "app": {
+    "title": "🧠 Brain Rot Score",
+    "subtitle": "À quel point ton cerveau est pourri ?",
+    "warning": "* À des fins de divertissement uniquement",
+    "introDesc": "12 questions sur la culture internet, les memes et l'argot. Réponds honnêtement... ou pas. On n'est pas tes parents.",
+    "start": "Lancer le scan cérébral 🧠"
+  },
+  "intro": {
+    "feature1": "12 Questions",
+    "feature1Sub": "~2 min",
+    "feature2": "5 Niveaux",
+    "feature2Sub": "T'en es où ?",
+    "feature3": "Meme IQ",
+    "feature3Sub": "Teste tes connaissances",
+    "feature4": "Scan Cérébral",
+    "feature4Sub": "Résultats détaillés"
+  },
+  "scan": {
+    "title": "Scan de ton cerveau en cours...",
+    "subtitle": "Analyse du niveau de brain rot..."
+  },
+  "questions": {
+    "q1": {
+      "text": "Que signifie 'sah' ?",
+      "o1": "Aucune idée",
+      "o2": "Un mot arabe ?",
+      "o3": "Sérieux/Grave - utilisé pour insister sur la véracité",
+      "o4": "Sah quel test de ouf frère, wallah j'suis mort 💀"
+    },
+    "q2": {
+      "text": "Que veut dire 'c'est chaud' sur internet ?",
+      "o1": "La température est élevée ?",
+      "o2": "Quelque chose de difficile ?",
+      "o3": "Situation compliquée, impressionnante ou risquée",
+      "o4": "Mon screen time c'est chaud frère, t'as même pas idée"
+    },
+    "q3": {
+      "text": "Combien de vidéos courtes tu regardes par jour ?",
+      "o1": "Je ne regarde pas TikTok/Reels/Shorts",
+      "o2": "Environ 10-20 minutes",
+      "o3": "1-2 heures minimum",
+      "o4": "Le temps n'existe plus. Je me réveille à 3h du mat'"
+    },
+    "q4": {
+      "text": "Que signifie 'ratio' ?",
+      "o1": "Un calcul mathématique ?",
+      "o2": "Quelque chose sur Twitter ?",
+      "o3": "Quand une réponse a plus de likes que le post original",
+      "o4": "Ratio + L + pas d'avis + skill issue + cope harder"
+    },
+    "q5": {
+      "text": "L'algorithme te connaît bien ?",
+      "o1": "Quel algorithme ?",
+      "o2": "Il me montre parfois des trucs que j'aime",
+      "o3": "Il me connaît mieux que moi-même",
+      "o4": "L'algorithme C'EST moi. On est un. Mon agent de la DGSE est mon bestie"
+    },
+    "q6": {
+      "text": "Que veut dire 'c'est la hess' ?",
+      "o1": "Je ne sais pas",
+      "o2": "Quelque chose de négatif ?",
+      "o3": "Être dans la galère/misère",
+      "o4": "C'est la hess totale de faire ce quiz à 3h du mat' mais j'arrête pas"
+    },
+    "q7": {
+      "text": "Combien de memes tu utilises dans tes conversations ?",
+      "o1": "C'est quoi un meme ?",
+      "o2": "Parfois, mais je dois les expliquer",
+      "o3": "Régulièrement, mes amis comprennent",
+      "o4": "Je communique exclusivement en memes. Les mots sont optionnels"
+    },
+    "q8": {
+      "text": "Quel est ton temps d'écran quotidien ?",
+      "o1": "Moins de 2 heures",
+      "o2": "3-4 heures",
+      "o3": "5-7 heures",
+      "o4": "8+ heures, j'ai peur de vérifier"
+    },
+    "q9": {
+      "text": "Que signifie 'c'est dead' ?",
+      "o1": "C'est mort ? Au sens littéral ?",
+      "o2": "Quelque chose d'annulé ?",
+      "o3": "C'est foutu/fini/impossible",
+      "o4": "Ma vie sociale c'est dead, je suis que sur mon tel h24"
+    },
+    "q10": {
+      "text": "Combien de temps tu scrolles avant de dormir ?",
+      "o1": "Je n'utilise pas mon tel au lit",
+      "o2": "10-20 minutes max",
+      "o3": "Au moins une heure de doom scrolling",
+      "o4": "'Une dernière vidéo' → il est 4h du mat' et j'ai des regrets"
+    },
+    "q11": {
+      "text": "Que veut dire 'NPC' ?",
+      "o1": "Un truc de jeu vidéo ?",
+      "o2": "Personnage non-jouable ?",
+      "o3": "Personne qui agit comme un robot sans personnalité",
+      "o4": "J'ai des moments NPC tous les jours, genre je marche et je buggue"
+    },
+    "q12": {
+      "text": "Le langage internet s'infiltre dans tes conversations IRL ?",
+      "o1": "Jamais",
+      "o2": "Parfois, consciemment",
+      "o3": "Souvent, je ne peux pas m'arrêter",
+      "o4": "La vraie vie C'EST internet. Y a plus de différence"
+    }
+  },
+  "tiers": {
+    "champion": {
+      "name": "Champion du Détox Digital",
+      "emoji": "🌿",
+      "desc": "Félicitations ! Ton cerveau est impeccable. Tu as réussi à éviter le brain rot d'internet. Tu sors probablement, tu touches de l'herbe et tu lis des livres physiques. On est impressionné.",
+      "symptom1": "🌱 Touche vraiment de l'herbe régulièrement",
+      "symptom2": "📚 Lit des livres physiques pour le plaisir",
+      "symptom3": "😴 S'endort avant minuit"
+    },
+    "casual": {
+      "name": "Scrolleur Casual",
+      "emoji": "📱",
+      "desc": "Tu es un utilisateur d'internet équilibré. Tu connais des memes mais ils ne te définissent pas. Tu peux encore tenir des conversations sans références TikTok.",
+      "symptom1": "📱 Vérifie les réseaux sociaux quelques fois par jour",
+      "symptom2": "😄 Rigole aux memes mais ne les sauvegarde pas",
+      "symptom3": "🌅 Regarde parfois de vrais couchers de soleil"
+    },
+    "algorithm": {
+      "name": "Chouchou de l'Algorithme",
+      "emoji": "🎯",
+      "desc": "L'algorithme t'adore et tu l'adores. Tu as une solide culture internet et tu captes les tendances vite. Tu es au bord du chroniquement en ligne. Le brain rot avance.",
+      "symptom1": "🔄 'Un scroll de plus' devient une heure",
+      "symptom2": "💬 Place des références de memes dans la conversation",
+      "symptom3": "📊 Ignore les notifications de temps d'écran"
+    },
+    "chronic": {
+      "name": "Chroniquement en Ligne",
+      "emoji": "💀",
+      "desc": "Tu es chroniquement en ligne. Internet est ta deuxième maison et les memes sont ta langue maternelle. Tu oublies parfois que l'herbe existe dehors.",
+      "symptom1": "🌙 Sessions memes à 3h du mat' c'est normal",
+      "symptom2": "🤖 Ne peut pas communiquer sans références aux memes",
+      "symptom3": "📵 Anxiété sévère sans accès au téléphone"
+    },
+    "touchgrass": {
+      "name": "Touche de l'Herbe Immédiatement",
+      "emoji": "☠️",
+      "desc": "ALERTE URGENCE ! Ton cerveau est complètement pourri. Les memes coulent dans tes veines et les vidéos courtes ont remplacé ton oxygène. Tu penses en sons TikTok. S'il te plaît, sors et touche de l'herbe IMMÉDIATEMENT.",
+      "symptom1": "☠️ Réalité et internet ont fusionné",
+      "symptom2": "🧠 Le cerveau joue des sons de memes en musique de fond",
+      "symptom3": "🌿 Ne se souvient plus à quoi ressemble 'l'herbe'"
+    }
+  },
+  "result": {
+    "brainrotLevel": "Niveau de Brain Rot",
+    "symptoms": "🩺 Symptômes",
+    "retake": "Refaire le test 🔄"
+  },
+  "share": {
+    "title": "Partage tes résultats",
+    "twitter": "𝕏 Partager",
+    "copyUrl": "🔗 Copier le lien",
+    "copied": "✅ Copié !",
+    "twitterText": "Mon Brain Rot Score : {score}% - {tier} ! 🧠 Et toi ?"
+  },
+  "nav": {
+    "back": "← DopaBrain"
+  },
+  "a11y": {
+    "skip": "Aller au contenu"
+  }
+}

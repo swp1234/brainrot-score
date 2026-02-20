@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Brain Rot Score | Seberapa Busuk Otakmu? - DopaBrain",
+    "description": "Tes Brain Rot Score! 12 pertanyaan tentang meme, slang internet, dan budaya online. Cek seberapa kecanduan internet kamu."
+  },
+  "app": {
+    "title": "🧠 Brain Rot Score",
+    "subtitle": "Seberapa busuk otakmu?",
+    "warning": "* Hanya untuk hiburan",
+    "introDesc": "12 pertanyaan tentang budaya internet, meme, dan slang. Jawab jujur... atau nggak. Kita bukan orang tuamu kok.",
+    "start": "Mulai Scan Otak 🧠"
+  },
+  "intro": {
+    "feature1": "12 Pertanyaan",
+    "feature1Sub": "~2 menit",
+    "feature2": "5 Tingkat",
+    "feature2Sub": "Seberapa parah?",
+    "feature3": "Meme IQ",
+    "feature3Sub": "Uji pengetahuanmu",
+    "feature4": "Scan Otak",
+    "feature4Sub": "Hasil detail"
+  },
+  "scan": {
+    "title": "Memindai otakmu...",
+    "subtitle": "Menganalisis level brain rot..."
+  },
+  "questions": {
+    "q1": {
+      "text": "Apa arti 'wkwkwk'?",
+      "o1": "Bunyi aneh?",
+      "o2": "Kayaknya ketawa deh",
+      "o3": "Ketawa khas Indonesia di internet",
+      "o4": "WKWKWKWK NGAKAK 💀 (aku setiap 5 detik)"
+    },
+    "q2": {
+      "text": "Apa itu 'bucin'?",
+      "o1": "Nggak tau",
+      "o2": "Sesuatu tentang cinta?",
+      "o3": "Budak Cinta - orang yang terlalu sayang sama pasangan",
+      "o4": "Aku bucin akut, pacar ngomong apa aja aku iyain 🥺"
+    },
+    "q3": {
+      "text": "Berapa lama nonton konten pendek per hari?",
+      "o1": "Nggak nonton TikTok/Reels/Shorts",
+      "o2": "Sekitar 10-20 menit",
+      "o3": "1-2 jam minimal",
+      "o4": "Waktu itu ilusi. Sadar-sadar udah jam 3 pagi"
+    },
+    "q4": {
+      "text": "Apa arti 'ghosting'?",
+      "o1": "Jadi hantu?",
+      "o2": "Menghilang dari seseorang?",
+      "o3": "Tiba-tiba nggak bales chat dan menghilang",
+      "o4": "Pernah di-ghosting dan pernah ghosting. Lingkaran setan 😭"
+    },
+    "q5": {
+      "text": "Seberapa kenal algoritma denganmu?",
+      "o1": "Algoritma apaan?",
+      "o2": "Kadang muncul hal yang aku suka",
+      "o3": "Lebih kenal aku daripada aku sendiri",
+      "o4": "Algoritma ITU aku. Kami satu. Agen FBI-ku bestie-ku"
+    },
+    "q6": {
+      "text": "Apa itu 'gercep'?",
+      "o1": "Nggak tau",
+      "o2": "Sesuatu yang cepat?",
+      "o3": "Gerak Cepat - langsung bertindak",
+      "o4": "Aku gercep banget kalau urusan scroll FYP, kalau kerjaan mah nanti"
+    },
+    "q7": {
+      "text": "Seberapa sering pakai meme dalam percakapan?",
+      "o1": "Meme itu apa?",
+      "o2": "Kadang, tapi harus jelasin",
+      "o3": "Sering, teman-teman paham",
+      "o4": "Komunikasi cuma lewat meme. Kata-kata itu opsional"
+    },
+    "q8": {
+      "text": "Berapa screen time harianmu?",
+      "o1": "Kurang dari 2 jam",
+      "o2": "3-4 jam",
+      "o3": "5-7 jam",
+      "o4": "8+ jam, takut cek"
+    },
+    "q9": {
+      "text": "Apa itu 'receh'?",
+      "o1": "Uang kecil?",
+      "o2": "Humor garing?",
+      "o3": "Humor sederhana/garing tapi bikin ketawa",
+      "o4": "Seluruh timeline-ku receh semua dan aku bangga WKWK"
+    },
+    "q10": {
+      "text": "Berapa lama scroll sebelum tidur?",
+      "o1": "Nggak main HP di kasur",
+      "o2": "10-20 menit maksimal",
+      "o3": "Minimal 1 jam doom scrolling",
+      "o4": "'Satu video lagi' → jam 4 pagi dan menyesal"
+    },
+    "q11": {
+      "text": "Apa arti 'salty'?",
+      "o1": "Asin?",
+      "o2": "Marah?",
+      "o3": "Kesel atau tersinggung karena kalah/ditolak",
+      "o4": "Aku salty 24/7, auto salty kalau lihat orang toxic"
+    },
+    "q12": {
+      "text": "Bahasa internet bocor ke percakapan nyata?",
+      "o1": "Sama sekali nggak",
+      "o2": "Kadang, sengaja",
+      "o3": "Sering, nggak bisa stop",
+      "o4": "Kehidupan nyata ITU internet. Nggak ada bedanya lagi"
+    }
+  },
+  "tiers": {
+    "champion": {
+      "name": "Juara Detoks Digital",
+      "emoji": "🌿",
+      "desc": "Selamat! Otakmu bersih. Kamu berhasil menghindari brain rot internet. Kamu mungkin beneran keluar rumah, sentuh rumput, dan baca buku fisik. Kami kagum.",
+      "symptom1": "🌱 Beneran sentuh rumput secara rutin",
+      "symptom2": "📚 Baca buku fisik untuk kesenangan",
+      "symptom3": "😴 Tidur sebelum tengah malam"
+    },
+    "casual": {
+      "name": "Scroller Santai",
+      "emoji": "📱",
+      "desc": "Kamu pengguna internet yang sehat. Tau beberapa meme tapi nggak mendefinisikanmu. Masih bisa ngobrol tanpa referensi TikTok.",
+      "symptom1": "📱 Cek medsos beberapa kali sehari",
+      "symptom2": "😄 Ketawa lihat meme tapi nggak save",
+      "symptom3": "🌅 Kadang nonton sunset beneran"
+    },
+    "algorithm": {
+      "name": "Kesayangan Algoritma",
+      "emoji": "🎯",
+      "desc": "Algoritma sayang kamu, kamu sayang algoritma. Literasi internetmu solid dan cepat tangkap tren. Kamu di ambang kronisnya online. Brain rot mulai menyerang.",
+      "symptom1": "🔄 'Satu scroll lagi' jadi satu jam",
+      "symptom2": "💬 Drop referensi meme dalam percakapan",
+      "symptom3": "📊 Ignore notifikasi screen time"
+    },
+    "chronic": {
+      "name": "Kronis Online",
+      "emoji": "💀",
+      "desc": "Kamu kronis online. Internet rumah keduamu, meme bahasa pertamamu. Kadang lupa kalau rumput ada di luar sana.",
+      "symptom1": "🌙 Sesi meme jam 3 pagi itu normal",
+      "symptom2": "🤖 Nggak bisa komunikasi tanpa referensi meme",
+      "symptom3": "📵 Anxiety parah tanpa akses HP"
+    },
+    "touchgrass": {
+      "name": "Sentuh Rumput Sekarang",
+      "emoji": "☠️",
+      "desc": "DARURAT! Otakmu sudah busuk total. Meme mengalir di pembuluh darahmu dan konten pendek menggantikan oksigenmu. Kamu berpikir dalam suara TikTok. Tolong keluar dan sentuh rumput SEKARANG JUGA.",
+      "symptom1": "☠️ Realitas dan internet sudah menyatu",
+      "symptom2": "🧠 Otak memutar suara meme sebagai BGM",
+      "symptom3": "🌿 Nggak ingat 'rumput' itu kayak apa"
+    }
+  },
+  "result": {
+    "brainrotLevel": "Level Brain Rot",
+    "symptoms": "🩺 Gejala",
+    "retake": "Tes Ulang 🔄"
+  },
+  "share": {
+    "title": "Bagikan hasilmu",
+    "twitter": "𝕏 Bagikan",
+    "copyUrl": "🔗 Salin link",
+    "copied": "✅ Disalin!",
+    "twitterText": "Brain Rot Score-ku: {score}% - {tier}! 🧠 Punyamu berapa?"
+  },
+  "nav": {
+    "back": "← DopaBrain"
+  },
+  "a11y": {
+    "skip": "Lompat ke konten"
+  }
+}

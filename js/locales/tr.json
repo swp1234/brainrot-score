@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Brain Rot Skoru | Beynin Ne Kadar Çürüdü? - DopaBrain",
+    "description": "Brain Rot Skoru Testi! Memler, internet argosu ve online kültür hakkında 12 soru. İnternet bağımlılık seviyeni öğren."
+  },
+  "app": {
+    "title": "🧠 Brain Rot Skoru",
+    "subtitle": "Beynin ne kadar çürüdü?",
+    "warning": "* Sadece eğlence amaçlıdır",
+    "introDesc": "İnternet kültürü, memler ve argo hakkında 12 soru. Dürüstçe cevapla... ya da cevaplama. Biz annen baban değiliz.",
+    "start": "Beyin Taramasını Başlat 🧠"
+  },
+  "intro": {
+    "feature1": "12 Soru",
+    "feature1Sub": "~2 dk",
+    "feature2": "5 Seviye",
+    "feature2Sub": "Ne kadar ileri gittin?",
+    "feature3": "Meme IQ",
+    "feature3Sub": "Bilgini test et",
+    "feature4": "Beyin Taraması",
+    "feature4Sub": "Detaylı sonuçlar"
+  },
+  "scan": {
+    "title": "Beynin taranıyor...",
+    "subtitle": "Brain rot seviyesi analiz ediliyor..."
+  },
+  "questions": {
+    "q1": {
+      "text": "'Amk' ne demek?",
+      "o1": "Hiçbir fikrim yok",
+      "o2": "Galiba bir kısaltma",
+      "o3": "Klasik Türk internet kısaltması, herkes bilir",
+      "o4": "Her cümlemin sonunda var amk 💀"
+    },
+    "q2": {
+      "text": "'Cringe' ne zaman kullanılır?",
+      "o1": "Bilmiyorum",
+      "o2": "Utanç verici bir şey?",
+      "o3": "Başkası adına utanılan durumlar için",
+      "o4": "Hayatım bir cringe compilation, ben de başrolüm"
+    },
+    "q3": {
+      "text": "Günde ne kadar kısa video izliyorsun?",
+      "o1": "TikTok/Reels/Shorts izlemiyorum",
+      "o2": "10-20 dakika civarı",
+      "o3": "Minimum 1-2 saat",
+      "o4": "Zaman kavramı yok. Kendime geldiğimde saat gece 3"
+    },
+    "q4": {
+      "text": "'Sigma' ne demek?",
+      "o1": "Yunan harfi?",
+      "o2": "Bağımsız biri?",
+      "o3": "Sigma male grindset - tek başına güçlü",
+      "o4": "Ben sigma'yım, şu an grindset modundayım, kafamda phonk çalıyor"
+    },
+    "q5": {
+      "text": "Algoritma seni ne kadar iyi tanıyor?",
+      "o1": "Hangi algoritma?",
+      "o2": "Bazen sevdiğim şeyleri gösteriyor",
+      "o3": "Beni benden iyi tanıyor",
+      "o4": "Algoritma BEN'im. Biz biriz. FBI ajanım en yakın arkadaşım"
+    },
+    "q6": {
+      "text": "'Şeriatçı dayı' meme'i ne hakkında?",
+      "o1": "Bilmiyorum",
+      "o2": "Komik bir şey?",
+      "o3": "İnternette tutucu/eski kafalı davranışlara yapılan espri",
+      "o4": "Her Türk meme'ini ezbere biliyorum, arşivim var 📁"
+    },
+    "q7": {
+      "text": "Günlük konuşmalarda ne kadar meme kullanıyorsun?",
+      "o1": "Meme ne?",
+      "o2": "Bazen, ama açıklamam gerekiyor",
+      "o3": "Düzenli olarak, arkadaşlarım anlıyor",
+      "o4": "Sadece meme'lerle iletişim kuruyorum. Kelimeler opsiyonel"
+    },
+    "q8": {
+      "text": "Günlük ekran süren ne kadar?",
+      "o1": "2 saatten az",
+      "o2": "3-4 saat",
+      "o3": "5-7 saat",
+      "o4": "8+ saat, kontrol etmekten korkuyorum"
+    },
+    "q9": {
+      "text": "'Ağla' ne zaman kullanılır?",
+      "o1": "Biri üzgün olduğunda?",
+      "o2": "Dalga geçmek için?",
+      "o3": "Birini trollerken veya tartışmada son söz olarak",
+      "o4": "Ağla + 🗿 = benim varsayılan cevabım her şeye"
+    },
+    "q10": {
+      "text": "Uyumadan önce ne kadar scroll yapıyorsun?",
+      "o1": "Yatakta telefon kullanmıyorum",
+      "o2": "Maksimum 10-20 dakika",
+      "o3": "En az 1 saat doom scrolling",
+      "o4": "'Son bir video' → sabah 4 ve pişmanlık"
+    },
+    "q11": {
+      "text": "'Boş yapma' ne demek?",
+      "o1": "Boş bir şey yapmamak?",
+      "o2": "Saçmalamak?",
+      "o3": "Anlamsız konuşmayı bırak",
+      "o4": "Boş yapma kardeşim! (her gün 50 kez kullanıyorum)"
+    },
+    "q12": {
+      "text": "İnternet dili gerçek konuşmalarına sızıyor mu?",
+      "o1": "Asla",
+      "o2": "Bazen, bilinçli olarak",
+      "o3": "Sık sık, durduramıyorum",
+      "o4": "Gerçek hayat = internet. Artık fark yok"
+    }
+  },
+  "tiers": {
+    "champion": {
+      "name": "Dijital Detoks Şampiyonu",
+      "emoji": "🌿",
+      "desc": "Tebrikler! Beynin tertemiz. İnternet kültürü seni hiç etkilememiş. Muhtemelen dışarı çıkıyorsun, çim dokunuyorsun ve fiziksel kitap okuyorsun. Etkilendik.",
+      "symptom1": "🌱 Gerçekten düzenli olarak çime dokunuyor",
+      "symptom2": "📚 Eğlence için fiziksel kitap okuyor",
+      "symptom3": "😴 Gece yarısından önce uyuyor"
+    },
+    "casual": {
+      "name": "Rahat Scroller",
+      "emoji": "📱",
+      "desc": "Sağlıklı bir internet kullanıcısısın. Bazı meme'leri biliyorsun ama seni tanımlamıyorlar. TikTok referansları olmadan hâlâ sohbet edebilirsin.",
+      "symptom1": "📱 Günde birkaç kez sosyal medya kontrol eder",
+      "symptom2": "😄 Meme'lere güler ama kaydetmez",
+      "symptom3": "🌅 Bazen gerçek gün batımı izler"
+    },
+    "algorithm": {
+      "name": "Algoritmanın Gözdesi",
+      "emoji": "🎯",
+      "desc": "Algoritma seni seviyor, sen de onu. Sağlam internet okuryazarlığın var ve trendleri hızlı yakalıyorsun. Kronik online'ın eşiğindesin. Brain rot ilerliyor.",
+      "symptom1": "🔄 'Bir scroll daha' bir saate dönüşüyor",
+      "symptom2": "💬 Sohbette meme referansları veriyor",
+      "symptom3": "📊 Ekran süresi bildirimlerini yok sayıyor"
+    },
+    "chronic": {
+      "name": "Kronik Online",
+      "emoji": "💀",
+      "desc": "Kronik olarak çevrimiçisin. İnternet ikinci evin, meme'ler ana dilin. Dışarıda çim olduğunu bazen unutuyorsun.",
+      "symptom1": "🌙 Gece 3'te meme seansları normal",
+      "symptom2": "🤖 Meme referansları olmadan iletişim kuramaz",
+      "symptom3": "📵 Telefon olmadan ciddi anksiyete"
+    },
+    "touchgrass": {
+      "name": "Hemen Çime Dokun",
+      "emoji": "☠️",
+      "desc": "ACİL DURUM! Beynin tamamen çürüdü. Meme'ler damarlarında akıyor ve kısa videolar oksijeninin yerini aldı. TikTok sesleriyle düşünüyorsun. Lütfen dışarı çık ve HEMEN çime dokun!",
+      "symptom1": "☠️ Gerçeklik ve internet birleşti",
+      "symptom2": "🧠 Beyin arka plan müziği olarak meme sesleri çalıyor",
+      "symptom3": "🌿 'Çim'in nasıl göründüğünü hatırlamıyor"
+    }
+  },
+  "result": {
+    "brainrotLevel": "Brain Rot Seviyesi",
+    "symptoms": "🩺 Belirtiler",
+    "retake": "Tekrar Test Et 🔄"
+  },
+  "share": {
+    "title": "Sonuçlarını paylaş",
+    "twitter": "𝕏 Paylaş",
+    "copyUrl": "🔗 Linki kopyala",
+    "copied": "✅ Kopyalandı!",
+    "twitterText": "Brain Rot Skorum: {score}% - {tier}! 🧠 Seninki kaç?"
+  },
+  "nav": {
+    "back": "← DopaBrain"
+  },
+  "a11y": {
+    "skip": "İçeriğe atla"
+  }
+}
