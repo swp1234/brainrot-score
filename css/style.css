@@ -290,7 +290,9 @@ header {
 
 .result-icon { font-size: 72px; margin-bottom: 12px; position: relative; }
 .result-title { font-size: 28px; font-weight: 900; color: #fff; margin-bottom: 6px; position: relative; }
+[data-theme="light"] .result-title { color: #1a1a2e; }
 .result-subtitle { font-size: 14px; color: rgba(255,255,255,0.85); position: relative; }
+[data-theme="light"] .result-subtitle { color: #555; }
 
 /* ── Brainrot Meter ── */
 .meter-section { margin: 20px 0; text-align: center; }
