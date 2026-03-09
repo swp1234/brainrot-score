@@ -1,171 +1,125 @@
 {
   "meta": {
-    "title": "Brain Rot Score | How Brain-Rotted Are You? - DopaBrain",
-    "description": "Take the Brain Rot Score quiz! 12 questions about memes, TikTok slang, and internet culture. Find out how chronically online you are."
+    "title": "Brain Rot Score | Scroll Addiction Simulator - DopaBrain",
+    "description": "Scroll through a fake social feed and discover your brainrot level. How addicted to scrolling are you?"
   },
   "app": {
-    "title": "🧠 Brain Rot Score",
+    "title": "Brain Rot Score",
     "subtitle": "How brain-rotted are you?",
     "warning": "* For entertainment purposes only",
-    "introDesc": "12 questions about internet culture, memes, and slang. Answer honestly... or don't. We're not your parents.",
-    "start": "Start Brain Scan 🧠"
+    "introDesc": "Scroll through a fake social feed. React to posts. We'll measure how brain-rotted you really are based on your scroll speed, reactions, and whether you can actually stop.",
+    "start": "Start Scrolling"
   },
   "intro": {
-    "feature1": "12 Questions",
-    "feature1Sub": "~2 min",
-    "feature2": "5 Tiers",
-    "feature2Sub": "How far gone are you?",
-    "feature3": "Meme IQ",
-    "feature3Sub": "Test your knowledge",
-    "feature4": "Brain Scan",
-    "feature4Sub": "Detailed results"
+    "feature1": "15 Posts",
+    "feature1Sub": "Scroll the feed",
+    "feature2": "Scroll Speed",
+    "feature2Sub": "We're watching",
+    "feature3": "Reactions",
+    "feature3Sub": "Like, Vibe, Skip",
+    "feature4": "Warnings",
+    "feature4Sub": "Can you stop?"
+  },
+  "feed": {
+    "like": "LOL",
+    "vibe": "DEAD",
+    "skip": "SKIP",
+    "scrollSpeed": "SPEED"
+  },
+  "posts": {
+    "p1": { "user": "BrainRot King", "text": "POV: you opened this app 'for just 5 minutes' three hours ago" },
+    "p2": { "user": "Meme Dealer", "text": "My screen time report just sent me a wellness check notification" },
+    "p3": { "user": "Doom Scroller", "text": "I don't have a sleep schedule, I have a 'passing out from exhaustion' schedule" },
+    "p4": { "user": "Touch Grass Never", "text": "The algorithm knows me better than my therapist and it costs $0/month" },
+    "p5": { "user": "Sigma Stan", "text": "If I had a dollar for every hour of screen time, I could retire at 25" },
+    "p6": { "user": "Chronically Online", "text": "Just accidentally said 'no cap' to my grandma at dinner. She asked if I needed a hat." },
+    "p7": { "user": "No Cap Fr", "text": "My attention span is so cooked that this post is already too long for me" },
+    "p8": { "user": "Slay Queen", "text": "I have 47 tabs open on my phone browser. Each one is a different personality." },
+    "p9": { "user": "Algorithm's Pet", "text": "3 AM me making life decisions based on a TikTok I saw 2 seconds ago" },
+    "p10": { "user": "Night Warrior", "text": "My eyes are burning but this feed is fire so I literally cannot stop" },
+    "p11": { "user": "Skibidi Stan", "text": "Skibidi dop dop dop yes yes. If you understood that, we need to talk." },
+    "p12": { "user": "Main Character", "text": "I narrate my life in my head like a TikTok voiceover. The delusion is real." },
+    "p13": { "user": "NPC Behavior", "text": "Someone talked to me IRL and I almost hit the skip button on their face" },
+    "p14": { "user": "Delulu Queen", "text": "I've been scrolling so long my thumb has developed its own consciousness" },
+    "p15": { "user": "Unhinged Poster", "text": "This is the last post. If you're reading this, congratulations: your brain is officially rotted." }
+  },
+  "warning": {
+    "title1": "Are you still scrolling?",
+    "sub1": "You've already reacted to 5 posts. Maybe take a break?",
+    "title2": "Seriously, still going?",
+    "sub2": "10 posts deep. Your thumb must be tired. We're concerned.",
+    "ignore": "Keep Scrolling",
+    "stop": "I'll Stop"
   },
   "scan": {
     "title": "Scanning your brain...",
-    "subtitle": "Analyzing brainrot levels..."
-  },
-  "questions": {
-    "q1": {
-      "text": "What does 'skibidi' mean?",
-      "o1": "I have absolutely no idea",
-      "o2": "Something from a video game?",
-      "o3": "It's from Skibidi Toilet, duh",
-      "o4": "Skibidi dop dop dop yes yes - I can't stop singing it"
-    },
-    "q2": {
-      "text": "Complete the phrase: 'It's giving...'",
-      "o1": "...what? Giving what?",
-      "o2": "I've heard this but don't use it",
-      "o3": "main character energy, slay",
-      "o4": "It's giving bestie, it's giving serve, it's giving everything 💅"
-    },
-    "q3": {
-      "text": "How much short-form content do you watch daily?",
-      "o1": "I don't watch TikTok/Reels/Shorts",
-      "o2": "Maybe 10-20 minutes",
-      "o3": "1-2 hours, minimum",
-      "o4": "Time is a construct. I emerge from the void at 3 AM"
-    },
-    "q4": {
-      "text": "What is 'rizz'?",
-      "o1": "A type of rice?",
-      "o2": "Something about being cool?",
-      "o3": "Charisma, the ability to charm someone",
-      "o4": "I have unspoken rizz and I use it daily fr fr"
-    },
-    "q5": {
-      "text": "When someone says 'no cap', they mean...",
-      "o1": "They're not wearing a hat?",
-      "o2": "Something about being honest",
-      "o3": "No lie, for real",
-      "o4": "No cap fr fr on god that's bussin respectfully 💯"
-    },
-    "q6": {
-      "text": "How well does the algorithm know you?",
-      "o1": "What algorithm?",
-      "o2": "It sometimes shows me things I like",
-      "o3": "It knows me better than I know myself",
-      "o4": "The algorithm IS me. We are one. FBI agent is my bestie"
-    },
-    "q7": {
-      "text": "How often do you use memes in daily conversation?",
-      "o1": "What's a meme?",
-      "o2": "Sometimes, but I have to explain them",
-      "o3": "Regularly, my friends get the references",
-      "o4": "I communicate exclusively in memes. Words are optional"
-    },
-    "q8": {
-      "text": "What's your daily screen time?",
-      "o1": "Under 2 hours",
-      "o2": "3-4 hours",
-      "o3": "5-7 hours",
-      "o4": "8+ hours, I'm scared to check"
-    },
-    "q9": {
-      "text": "What does 'slay' mean in internet slang?",
-      "o1": "To kill a dragon?",
-      "o2": "Something positive, I think",
-      "o3": "To do something exceptionally well",
-      "o4": "SLAY QUEEN YAAAS MOTHER IS MOTHERING 💅✨"
-    },
-    "q10": {
-      "text": "How long do you scroll before sleeping?",
-      "o1": "I don't use my phone in bed",
-      "o2": "10-20 minutes max",
-      "o3": "At least an hour of doom scrolling",
-      "o4": "'One more video' → it's 4 AM and I have regrets"
-    },
-    "q11": {
-      "text": "What is 'sigma' in internet culture?",
-      "o1": "A Greek letter?",
-      "o2": "Something about being independent?",
-      "o3": "Sigma male grindset - lone wolf mentality",
-      "o4": "I'm literally on my sigma grindset rn while Phonk plays in my head"
-    },
-    "q12": {
-      "text": "Do internet phrases slip into your real-life conversations?",
-      "o1": "Never",
-      "o2": "Occasionally, on purpose",
-      "o3": "Often, I can't stop it",
-      "o4": "Real life IS the internet. There is no difference anymore"
-    }
+    "subtitle": "Analyzing scroll addiction levels..."
   },
   "tiers": {
     "champion": {
       "name": "Digital Detox Champion",
-      "emoji": "🌿",
-      "desc": "Congratulations! Your brain is pristine. You've somehow avoided the internet's brainrot entirely. You probably go outside, touch grass, and read physical books. We're both impressed and slightly confused how you found this quiz.",
-      "symptom1": "🌱 Actually touches grass regularly",
-      "symptom2": "📚 Reads physical books for fun",
-      "symptom3": "😴 Falls asleep before midnight"
+      "emoji": "\ud83c\udf3f",
+      "desc": "Incredible. You scrolled slowly, actually read posts, and even considered stopping. Your brain is remarkably unrotted. Do you also read books and go outside? Disgusting.",
+      "symptom1": "\ud83c\udf31 Actually reads posts before reacting",
+      "symptom2": "\ud83d\udcda Probably has a normal sleep schedule",
+      "symptom3": "\ud83d\ude34 Falls asleep before midnight"
     },
     "casual": {
       "name": "Casual Scroller",
-      "emoji": "📱",
-      "desc": "You're a healthy, balanced internet user. You know some memes but they don't define you. You can still hold conversations without referencing TikTok sounds. There's hope for you yet.",
-      "symptom1": "📱 Checks social media a few times a day",
-      "symptom2": "😄 Laughs at memes but doesn't save them",
-      "symptom3": "🌅 Sometimes watches actual sunsets"
+      "emoji": "\ud83d\udcf1",
+      "desc": "You're a balanced internet user. You engage with content but don't let it consume you. The algorithm likes you but hasn't claimed your soul yet.",
+      "symptom1": "\ud83d\udcf1 Moderate scroll speed detected",
+      "symptom2": "\ud83d\ude04 Engages thoughtfully with some posts",
+      "symptom3": "\ud83c\udf05 Still aware of the outside world"
     },
     "algorithm": {
       "name": "Algorithm's Favorite",
-      "emoji": "🎯",
-      "desc": "The algorithm loves you, and you love it back. You've got solid internet literacy and catch trends quickly. You're teetering on the edge of chronically online. The brainrot is setting in.",
-      "symptom1": "🔄 'One more scroll' turns into an hour",
-      "symptom2": "💬 Drops meme references in conversation",
-      "symptom3": "📊 Ignores screen time notifications"
+      "emoji": "\ud83c\udfaf",
+      "desc": "The algorithm has marked you as a loyal consumer. You scroll at concerning speeds and react to everything. The brainrot is settling in comfortably.",
+      "symptom1": "\ud83d\udd04 Fast scroll speed — can't slow down",
+      "symptom2": "\ud83d\udcac Reacted to most posts without thinking",
+      "symptom3": "\ud83d\udcca Ignored the wellness warning"
     },
     "chronic": {
       "name": "Chronically Online",
-      "emoji": "💀",
-      "desc": "You are chronically online. The internet is your second home, and memes are your first language. You occasionally forget that grass exists outside. Your screen time would make a therapist cry.",
-      "symptom1": "🌙 3 AM meme sessions are normal",
-      "symptom2": "🤖 Can't communicate without meme references",
-      "symptom3": "📵 Severe anxiety without phone access"
+      "emoji": "\ud83d\udc80",
+      "desc": "Your scroll speed suggests your thumb has its own muscle memory. You blazed through posts, skipped warnings, and showed classic doom-scroll behavior. The brainrot is advanced.",
+      "symptom1": "\ud83c\udf19 Turbo scroll speed detected",
+      "symptom2": "\ud83e\udd16 Skipped posts without reading",
+      "symptom3": "\ud83d\udcf5 Dismissed wellness warnings instantly"
     },
     "touchgrass": {
       "name": "Touch Grass Immediately",
-      "emoji": "☠️",
-      "desc": "EMERGENCY ALERT: Your brain is fully rotted. Memes flow through your veins and short-form content has replaced your oxygen. You think in TikTok sounds. Please go outside and touch grass IMMEDIATELY. This is not a drill.",
-      "symptom1": "☠️ Reality and internet have merged",
-      "symptom2": "🧠 Brain plays meme sounds as background music",
-      "symptom3": "🌿 Can't remember what 'grass' looks like"
+      "emoji": "\u2620\ufe0f",
+      "desc": "EMERGENCY: Your scrolling behavior is off the charts. You speed-scrolled through everything, ignored all warnings, and your reaction patterns suggest terminal brainrot. Please close this app and go touch grass immediately.",
+      "symptom1": "\u2620\ufe0f Maximum scroll velocity achieved",
+      "symptom2": "\ud83e\udde0 Brain now processes only short-form content",
+      "symptom3": "\ud83c\udf3f Cannot remember what 'grass' looks like"
     }
   },
   "result": {
     "brainrotLevel": "Brainrot Level",
-    "symptoms": "🩺 Symptoms",
-    "retake": "Retake Test 🔄"
+    "symptoms": "Symptoms",
+    "statsTitle": "Scroll Stats",
+    "retake": "Try Again"
+  },
+  "stats": {
+    "likes": "Likes",
+    "vibes": "Vibes",
+    "skips": "Skips",
+    "totalTime": "Time",
+    "avgSpeed": "Avg Speed",
+    "warningsIgnored": "Warnings Ignored"
   },
   "share": {
     "title": "Share your results",
-    "twitter": "𝕏 Share",
-    "copyUrl": "🔗 Copy Link",
-    "copied": "✅ Copied!",
-    "twitterText": "My Brain Rot Score: {score}% - {tier}! 🧠 How brain-rotted are you?"
+    "twitter": "Share on X",
+    "copyUrl": "Copy Link",
+    "copied": "Copied!",
+    "twitterText": "My Brain Rot Score: {score}% - {tier}! How addicted to scrolling are you?"
   },
   "nav": {
-    "back": "← DopaBrain"
+    "back": "\u2190 DopaBrain"
   },
   "a11y": {
     "skip": "Skip to content"

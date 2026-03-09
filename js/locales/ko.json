@@ -1,173 +1,127 @@
 {
   "meta": {
-    "title": "브레인롯 점수 테스트 | Brain Rot Score - DopaBrain",
-    "description": "당신의 브레인롯 레벨은? 12개 질문으로 인터넷 중독 수준을 측정하세요."
+    "title": "\ube0c\ub808\uc778\ub86f \uc810\uc218 | \uc2a4\ud06c\ub864 \uc911\ub3c5 \uc2dc\ubbac\ub808\uc774\ud130 - DopaBrain",
+    "description": "\uac00\uc9dc SNS \ud53c\ub4dc\ub97c \uc2a4\ud06c\ub864\ud558\uba70 \ub2f9\uc2e0\uc758 \ube0c\ub808\uc778\ub86f \ub808\ubca8\uc744 \uce21\uc815\ud558\uc138\uc694."
   },
   "app": {
-    "title": "🧠 브레인롯 점수",
-    "subtitle": "당신의 브레인롯 레벨은?",
-    "warning": "* 오락 목적으로만 사용됩니다",
-    "introDesc": "인터넷 밈, 유행어, 트렌드에 대한 12개 질문입니다. 솔직하게 답해주세요... 아님 말고요. 우리가 뭐 부모님도 아니고.",
-    "start": "브레인 스캔 시작 🧠"
+    "title": "\ube0c\ub808\uc778\ub86f \uc810\uc218",
+    "subtitle": "\ub2f9\uc2e0\uc758 \ube0c\ub808\uc778\ub86f \ub808\ubca8\uc740?",
+    "warning": "* \uc624\ub77d \ubaa9\uc801\uc73c\ub85c\ub9cc \uc0ac\uc6a9\ub429\ub2c8\ub2e4",
+    "introDesc": "\uac00\uc9dc SNS \ud53c\ub4dc\ub97c \uc2a4\ud06c\ub864\ud558\uba74\uc11c \uac8c\uc2dc\ubb3c\uc5d0 \ubc18\uc751\ud558\uc138\uc694. \uc2a4\ud06c\ub864 \uc18d\ub3c4, \ubc18\uc751 \ud328\ud134, \uba48\ucd9c \uc218 \uc788\ub294\uc9c0\ub97c \ubd84\uc11d\ud574\uc11c \ube0c\ub808\uc778\ub86f \ub808\ubca8\uc744 \uce21\uc815\ud569\ub2c8\ub2e4.",
+    "start": "\uc2a4\ud06c\ub864 \uc2dc\uc791"
   },
   "intro": {
-    "feature1": "12개 질문",
-    "feature1Sub": "약 2분 소요",
-    "feature2": "5단계 등급",
-    "feature2Sub": "어디까지 갔을까?",
-    "feature3": "밈 IQ",
-    "feature3Sub": "지식을 테스트하세요",
-    "feature4": "브레인 스캔",
-    "feature4Sub": "상세한 결과"
+    "feature1": "15\uac1c \uac8c\uc2dc\ubb3c",
+    "feature1Sub": "\ud53c\ub4dc\ub97c \uc2a4\ud06c\ub864\ud558\uc138\uc694",
+    "feature2": "\uc2a4\ud06c\ub864 \uc18d\ub3c4",
+    "feature2Sub": "\uce21\uc815 \uc911\uc785\ub2c8\ub2e4",
+    "feature3": "\ubc18\uc751",
+    "feature3Sub": "\uc88b\uc544\uc694, \uacf5\uac10, \uc2a4\ud0b5",
+    "feature4": "\uacbd\uace0",
+    "feature4Sub": "\uba48\ucd9c \uc218 \uc788\ub098\uc694?"
+  },
+  "feed": {
+    "like": "\uc88b\uc544\uc694",
+    "vibe": "\uacf5\uac10",
+    "skip": "\uc2a4\ud0b5",
+    "scrollSpeed": "\uc18d\ub3c4"
+  },
+  "posts": {
+    "p1": { "user": "\ube0c\ub808\uc778\ub86f \ud0b9", "text": "\uc2dc\uc810: '5\ubd84\ub9cc' \ubcf4\ub824\uace0 \uc571 \uc5f4\uc5c8\ub2e4\uac00 3\uc2dc\uac04\uc774 \uc9c0\ub09c \ub098" },
+    "p2": { "user": "\ubc08 \ub51c\ub7ec", "text": "\uc2a4\ud06c\ub9b0\ud0c0\uc784 \ub9ac\ud3ec\ud2b8\uac00 \uc548\ubd80 \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0c8\uc74c" },
+    "p3": { "user": "\ub458\uc2a4\ud06c\ub864\ub7ec", "text": "\uc218\uba74 \uc2a4\ucf00\uc904\uc774 \uc544\ub2c8\ub77c '\uae30\uc808\ud574\uc11c \uae30\uc808\ud558\ub294' \uc2a4\ucf00\uc904\uc774 \uc788\uc74c" },
+    "p4": { "user": "\ud480\uc548\ub9cc\uc838", "text": "\uc54c\uace0\ub9ac\uc998\uc774 \uc0c1\ub2f4\uc0ac\ubcf4\ub2e4 \ub098\ub97c \ub354 \uc798 \uc54c\uace0 \uc6d4 0\uc6d0\uc784" },
+    "p5": { "user": "\uc2dc\uadf8\ub9c8 \uc2a4\ud0e0", "text": "\uc2a4\ud06c\ub9b0\ud0c0\uc784 1\uc2dc\uac04\ub2f9 1\ub9cc\uc6d0\uc774\uba74 \ub098 25\uc0b4\uc5d0 \uc740\ud1f4\ud568" },
+    "p6": { "user": "\ub9cc\uc131\uc628\ub77c\uc774\ub108", "text": "\ud560\uba38\ub2c8\ud55c\ud14c \uc2e4\uc218\ub85c 'ㄹㅇ' \ub77c\uace0 \ud588\ub354\ub2c8 '\ubb50\uac00 \uc9c4\uc9dc\ub77c\ub294 \uac70\ub2c8' \ud558\uc168\uc74c" },
+    "p7": { "user": "\ub178\ucea1 Fr", "text": "\uc9d1\uc911\ub825\uc774 \ub108\ubb34 \ub9dd\uac00\uc838\uc11c \uc774 \uae00\ub3c4 \uc774\ubbf8 \ub108\ubb34 \uae38\uac8c \ub290\uaef4\uc9c0\ub294 \uc911" },
+    "p8": { "user": "\uc2ac\ub808\uc774 \ud018", "text": "\ud578\ub4dc\ud3f0 \ube0c\ub77c\uc6b0\uc800\uc5d0 \ud0ed 47\uac1c \uc5f4\ub824\uc788\uc74c. \uac01\uac01 \ub2e4\ub978 \uc778\uaca9\uc784." },
+    "p9": { "user": "\uc54c\uace0\ub9ac\uc998\uc758 \uc560\uc644\uacac", "text": "\uc0c8\ubcbd 3\uc2dc\uc5d0 2\ucd08 \uc804\uc5d0 \ubcf8 \ud2f1\ud1a1 \uae30\ubc18\uc73c\ub85c \uc778\uc0dd \uacb0\uc815 \ub0b4\ub9ac\ub294 \uc911" },
+    "p10": { "user": "\uc57c\uac04 \uc804\uc0ac", "text": "\ub208\uc774 \ud0c0\ub294\ub370 \ud53c\ub4dc\uac00 \ubd88\uc774\ub77c \ub9d0 \uadf8\ub300\ub85c \uba48\ucd9c \uc218\uac00 \uc5c6\uc74c" },
+    "p11": { "user": "\uc2a4\ud0a4\ube44\ub514 \uc2a4\ud0e0", "text": "\uc2a4\ud0a4\ube44\ub514 \ub601 \ub601 \ub601 \uc608\uc2a4 \uc608\uc2a4. \uc774\uac78 \uc774\ud574\ud588\ub2e4\uba74 \uc6b0\ub9ac \uc598\uae30 \uc880 \ud574\uc57c \ud568." },
+    "p12": { "user": "\uc8fc\uc778\uacf5", "text": "\uc778\uc0dd\uc744 \ud2f1\ud1a1 \ub0b4\ub808\uc774\uc158\ucc98\ub7fc \uba38\ub9bf\uc18d\uc73c\ub85c \ub0b4\ub808\uc774\uc158 \uc911. \ub9dd\uc0c1\uc774 \ub9ac\uc5bc." },
+    "p13": { "user": "NPC \ud589\ub3d9", "text": "\ub204\uad70\uac00 \ud604\uc2e4\uc5d0\uc11c \ub9d0 \uac78\uc5c8\ub294\ub370 \uc5bc\uad74\uc5d0 \uc2a4\ud0b5 \ubc84\ud2bc \ub204\ub97c \ubfd0\ud588\uc74c" },
+    "p14": { "user": "\ub514\ub8f0\ub8e8 \ud018", "text": "\ub108\ubb34 \uc624\ub798 \uc2a4\ud06c\ub864\ud574\uc11c \uc5c4\uc9c0\uac00 \ub3c5\uc790\uc801\uc778 \uc758\uc2dd\uc744 \ubc1c\ub2ec\uc2dc\ud0b4" },
+    "p15": { "user": "\uc5b8\ud78c\uc9c0\ub4dc \ud3ec\uc2a4\ud130", "text": "\ub9c8\uc9c0\ub9c9 \uae00\uc785\ub2c8\ub2e4. \uc5ec\uae30\uae4c\uc9c0 \uc77d\uc5c8\ub2e4\uba74 \ucd95\ud558\ud569\ub2c8\ub2e4: \ub2f9\uc2e0\uc758 \ub1cc\ub294 \uacf5\uc2dd\uc801\uc73c\ub85c \ube0c\ub808\uc778\ub86f\ub428." }
+  },
+  "warning": {
+    "title1": "\uc544\uc9c1\ub3c4 \uc2a4\ud06c\ub864 \uc911\uc778\uac00\uc694?",
+    "sub1": "\uc774\ubbf8 5\uac1c \uac8c\uc2dc\ubb3c\uc5d0 \ubc18\uc751\ud588\uc5b4\uc694. \uc7a0\uae50 \uc26c\uc5b4\ubcf4\ub294 \uac74 \uc5b4\ub54c\uc694?",
+    "title2": "\uc9c4\uc2ec\uc73c\ub85c \uc544\uc9c1\ub3c4?",
+    "sub2": "10\uac1c \uae4a\uc774 \ub4e4\uc5b4\uc654\uc5b4\uc694. \uc5c4\uc9c0 \ud53c\uace4\ud558\uc9c0 \uc54a\uc544\uc694? \uac71\uc815\ub429\ub2c8\ub2e4.",
+    "ignore": "\uacc4\uc18d \uc2a4\ud06c\ub864",
+    "stop": "\uba48\ucd9c\uac8c\uc694"
   },
   "scan": {
-    "title": "뇌를 스캔하는 중...",
-    "subtitle": "브레인롯 수준 분석 중..."
-  },
-  "questions": {
-    "q1": {
-      "text": "'ㄹㅇ'가 뜻하는 것은?",
-      "o1": "모르겠음, 처음 봄",
-      "o2": "아마 '레알'인 것 같음",
-      "o3": "'리얼'의 줄임말, 당연히 알지",
-      "o4": "ㄹㅇ ㅋㅋ 이것도 모르는 사람이 있어?"
-    },
-    "q2": {
-      "text": "'갓생'의 의미는?",
-      "o1": "신에 대한 종교적 표현?",
-      "o2": "좋은 삶을 사는 것 같음",
-      "o3": "God + 인생 = 최고의 하루를 사는 것",
-      "o4": "오늘도 갓생 살았지~ 새벽 5시 기상 인증 완료"
-    },
-    "q3": {
-      "text": "하루에 숏폼(릴스/숏츠/틱톡) 얼마나 봄?",
-      "o1": "거의 안 봄, 뭔지도 잘 모름",
-      "o2": "가끔, 하루에 10-20분?",
-      "o3": "1-2시간은 기본이지",
-      "o4": "시간 개념이 없음. 정신차리면 새벽 3시"
-    },
-    "q4": {
-      "text": "'쩝쩝박사'는 누구?",
-      "o1": "의사? 박사?",
-      "o2": "맛집 잘 아는 사람?",
-      "o3": "맛집을 귀신같이 찾아내는 사람",
-      "o4": "저요 저요! 쩝쩝박사 인증합니다 🍽️"
-    },
-    "q5": {
-      "text": "알고리즘이 당신에 대해 얼마나 알까?",
-      "o1": "알고리즘? 그게 뭔데?",
-      "o2": "가끔 관련 영상이 뜨긴 함",
-      "o3": "내가 뭘 좋아하는지 나보다 잘 앎",
-      "o4": "알고리즘이 내 영혼의 쌍둥이임. FBI 감시당하는 듯"
-    },
-    "q6": {
-      "text": "'킹받다'의 뜻은?",
-      "o1": "왕이 되다?",
-      "o2": "뭔가 화가 나는 거 같음",
-      "o3": "극대노. 킹 + 받다 = 왕화남",
-      "o4": "지금 이 질문이 킹받네 ㅋㅋㅋㅋ"
-    },
-    "q7": {
-      "text": "밈을 일상 대화에서 얼마나 씀?",
-      "o1": "밈이 뭔데?",
-      "o2": "가끔 쓰긴 하지만 설명해야 함",
-      "o3": "자연스럽게 나옴, 친구들도 다 앎",
-      "o4": "밈 없이는 의사소통 불가. 일상이 밈"
-    },
-    "q8": {
-      "text": "핸드폰 스크린타임 하루 평균은?",
-      "o1": "2시간 이하",
-      "o2": "3-4시간",
-      "o3": "5-7시간",
-      "o4": "8시간+, 확인하기 무서움"
-    },
-    "q9": {
-      "text": "'무야호~'를 들으면 떠오르는 것은?",
-      "o1": "뭐라고요?",
-      "o2": "어디서 들어본 것 같은데...",
-      "o3": "패러글라이딩 아저씨!",
-      "o4": "무야호~!!! (자동 재생) 레전드 밈"
-    },
-    "q10": {
-      "text": "잠들기 전 핸드폰 사용 시간은?",
-      "o1": "침대에서 폰 안 씀",
-      "o2": "10-20분 정도?",
-      "o3": "최소 1시간은 스크롤함",
-      "o4": "'마지막 영상 하나만' → 2시간 후 후회"
-    },
-    "q11": {
-      "text": "'어쩔티비'의 올바른 대응은?",
-      "o1": "... TV를 어쩌라고?",
-      "o2": "무시하고 지나감",
-      "o3": "'저쩔냉장고'로 응수",
-      "o4": "어쩔티비 저쩔냉장고 안물안궁 우짤래미 뇌절티비"
-    },
-    "q12": {
-      "text": "현실 대화 중 밈/유행어가 자동으로 나오나요?",
-      "o1": "전혀 아님",
-      "o2": "가끔, 의식적으로",
-      "o3": "자주 나옴, 멈출 수가 없음",
-      "o4": "현실 대화가 곧 인터넷 대화. 구분 불가"
-    }
+    "title": "\ub1cc\ub97c \uc2a4\uce94\ud558\ub294 \uc911...",
+    "subtitle": "\uc2a4\ud06c\ub864 \uc911\ub3c5 \uc218\uc900 \ubd84\uc11d \uc911..."
   },
   "tiers": {
     "champion": {
-      "name": "디지털 디톡스 챔피언",
-      "emoji": "🌿",
-      "desc": "축하합니다! 당신의 뇌는 깨끗합니다. 인터넷 문화에 거의 오염되지 않은 순수한 영혼이시네요. 밖에서 풀 냄새를 맡으며 살고 계신 것 같습니다.",
-      "symptom1": "🌱 실제로 밖에 나가서 풀을 만짐",
-      "symptom2": "📚 책을 실물로 읽음",
-      "symptom3": "😴 밤 10시에 잠듦"
+      "name": "\ub514\uc9c0\ud138 \ub514\ud1a1\uc2a4 \ucc54\ud53c\uc5b8",
+      "emoji": "\ud83c\udf3f",
+      "desc": "\ub300\ub2e8\ud569\ub2c8\ub2e4. \ucc9c\ucc9c\ud788 \uc2a4\ud06c\ub864\ud558\uace0, \uac8c\uc2dc\ubb3c\uc744 \uc2e4\uc81c\ub85c \uc77d\uace0, \uba48\ucd94\ub294 \uac83\ub3c4 \uace0\ub824\ud588\uc5b4\uc694. \ub2f9\uc2e0\uc758 \ub1cc\ub294 \ub180\ub77d\ub3c4\ub85d \uae68\ub057\ud569\ub2c8\ub2e4.",
+      "symptom1": "\ud83c\udf31 \uac8c\uc2dc\ubb3c\uc744 \uc77d\uace0 \ubc18\uc751\ud568",
+      "symptom2": "\ud83d\udcda \uc815\uc0c1\uc801\uc778 \uc218\uba74 \uc2a4\ucf00\uc904 \ubcf4\uc720",
+      "symptom3": "\ud83d\ude34 \uc790\uc815 \uc804\uc5d0 \uc7a0\ub4e6"
     },
     "casual": {
-      "name": "캐주얼 스크롤러",
-      "emoji": "📱",
-      "desc": "적당히 인터넷을 즐기는 건강한 수준입니다. 밈을 알긴 하지만 삶의 중심은 아니죠. 균형 잡힌 디지털 라이프를 살고 있습니다.",
-      "symptom1": "📱 하루에 SNS 확인 몇 번 정도",
-      "symptom2": "😄 밈을 보면 웃지만 저장은 안 함",
-      "symptom3": "🌅 가끔은 일몰을 실제로 봄"
+      "name": "\uce90\uc8fc\uc5bc \uc2a4\ud06c\ub864\ub7ec",
+      "emoji": "\ud83d\udcf1",
+      "desc": "\uade0\ud615 \uc7a1\ud78c \uc778\ud130\ub137 \uc0ac\uc6a9\uc790\uc785\ub2c8\ub2e4. \ucf58\ud150\uce20\ub97c \uc990\uae30\uc9c0\ub9cc \uc9d1\uc5b4\uc0bc\ud0a4\uc9c0\ub294 \uc54a\uc544\uc694. \uc54c\uace0\ub9ac\uc998\uc774 \ub2f9\uc2e0\uc744 \uc88b\uc544\ud558\uc9c0\ub9cc \uc544\uc9c1 \uc601\ud63c\uc744 \uc810\ub839\ud558\uc9c4 \ubabb\ud588\uc5b4\uc694.",
+      "symptom1": "\ud83d\udcf1 \uc801\ub2f9\ud55c \uc2a4\ud06c\ub864 \uc18d\ub3c4 \uac10\uc9c0",
+      "symptom2": "\ud83d\ude04 \uc77c\ubd80 \uac8c\uc2dc\ubb3c\uc5d0 \uc0ac\ub824 \uae4a\uac8c \ubc18\uc751",
+      "symptom3": "\ud83c\udf05 \uc678\ubd80 \uc138\uacc4\ub97c \uc778\uc9c0\ud558\uace0 \uc788\uc74c"
     },
     "algorithm": {
-      "name": "알고리즘의 총애",
-      "emoji": "🎯",
-      "desc": "알고리즘이 당신을 좋아합니다. 꽤 높은 수준의 인터넷 리터러시를 보유하고 있으며, 트렌드를 빠르게 따라잡습니다. 위험 수준으로 진입 중!",
-      "symptom1": "🔄 '마지막 하나만' → 1시간 후",
-      "symptom2": "💬 대화 중 밈 레퍼런스 자주 사용",
-      "symptom3": "📊 스크린타임 알림을 무시함"
+      "name": "\uc54c\uace0\ub9ac\uc998\uc758 \ucd1d\uc560",
+      "emoji": "\ud83c\udfaf",
+      "desc": "\uc54c\uace0\ub9ac\uc998\uc774 \ub2f9\uc2e0\uc744 \ucda9\uc131 \uc18c\ube44\uc790\ub85c \ub4f1\ub85d\ud588\uc2b5\ub2c8\ub2e4. \uc6b0\ub824\uc2a4\ub7ec\uc6b4 \uc18d\ub3c4\ub85c \uc2a4\ud06c\ub864\ud558\uace0 \ubaa8\ub4e0 \uac83\uc5d0 \ubc18\uc751\ud569\ub2c8\ub2e4. \ube0c\ub808\uc778\ub86f\uc774 \uc815\ucc29\ub418\uace0 \uc788\uc5b4\uc694.",
+      "symptom1": "\ud83d\udd04 \ube60\ub978 \uc2a4\ud06c\ub864 \uc18d\ub3c4 \u2014 \ub2a6\ucd9c \uc218 \uc5c6\uc74c",
+      "symptom2": "\ud83d\udcac \uc0dd\uac01 \uc5c6\uc774 \ub300\ubd80\ubd84\uc758 \uac8c\uc2dc\ubb3c\uc5d0 \ubc18\uc751",
+      "symptom3": "\ud83d\udcca \uac74\uac15 \uacbd\uace0\ub97c \ubb34\uc2dc\ud568"
     },
     "chronic": {
-      "name": "만성 온라인러",
-      "emoji": "💀",
-      "desc": "당신은 만성적으로 온라인 상태입니다. 인터넷이 제2의 고향이며, 밈이 모국어입니다. 밖에 풀이 있다는 사실을 가끔 잊습니다.",
-      "symptom1": "🌙 새벽 3시에 밈 보다가 정신 차림",
-      "symptom2": "🤖 현실 대화에서 밈 없이 소통 불가",
-      "symptom3": "📵 폰 없으면 심각한 불안감"
+      "name": "\ub9cc\uc131 \uc628\ub77c\uc774\ub108",
+      "emoji": "\ud83d\udc80",
+      "desc": "\uc2a4\ud06c\ub864 \uc18d\ub3c4\ub85c \ubcf4\uc544 \uc5c4\uc9c0\uac00 \uc790\uccb4 \uadfc\uc721 \uae30\uc5b5\uc744 \ubcf4\uc720\ud55c \uac83 \uac19\uc2b5\ub2c8\ub2e4. \uac8c\uc2dc\ubb3c\uc744 \uc21c\uc2dd\uac04\uc5d0 \ud6d1\uace0, \uacbd\uace0\ub97c \ubb34\uc2dc\ud558\uace0, \ub458\uc2a4\ud06c\ub864 \ud589\ub3d9\uc744 \ubcf4\uc600\uc2b5\ub2c8\ub2e4.",
+      "symptom1": "\ud83c\udf19 \ud130\ubcf4 \uc2a4\ud06c\ub864 \uc18d\ub3c4 \uac10\uc9c0",
+      "symptom2": "\ud83e\udd16 \uc77d\uc9c0 \uc54a\uace0 \uac8c\uc2dc\ubb3c \uc2a4\ud0b5",
+      "symptom3": "\ud83d\udcf5 \uac74\uac15 \uacbd\uace0 \uc989\uc2dc \ubb34\uc2dc"
     },
     "touchgrass": {
-      "name": "풀 좀 만지세요",
-      "emoji": "☠️",
-      "desc": "긴급 상황입니다. 당신의 뇌는 완전히 인터넷에 잠식되었습니다. 밈이 혈관을 타고 흐르고, 숏폼이 산소를 대체했습니다. 지금 당장 밖에 나가서 풀을 만지세요.",
-      "symptom1": "☠️ 현실과 인터넷의 경계가 사라짐",
-      "symptom2": "🧠 뇌에서 배경음악으로 밈 재생됨",
-      "symptom3": "🌿 '풀'이 뭔지 기억이 안 남"
+      "name": "\uc9c0\uae08 \ub2f9\uc7a5 \ud480 \ub9cc\uc9c0\uc138\uc694",
+      "emoji": "\u2620\ufe0f",
+      "desc": "\uae34\uae09 \uc0c1\ud669: \uc2a4\ud06c\ub864 \ud589\ub3d9\uc774 \ucc28\ud2b8 \ubc16\uc785\ub2c8\ub2e4. \ubaa8\ub4e0 \uac83\uc744 \ucd08\uace0\uc18d\uc73c\ub85c \uc2a4\ud06c\ub864\ud558\uace0, \ubaa8\ub4e0 \uacbd\uace0\ub97c \ubb34\uc2dc\ud588\uc2b5\ub2c8\ub2e4. \uc9c0\uae08 \ub2f9\uc7a5 \uc571\uc744 \ub2eb\uace0 \ubc16\uc5d0 \ub098\uac00\uc138\uc694.",
+      "symptom1": "\u2620\ufe0f \ucd5c\ub300 \uc2a4\ud06c\ub864 \uc18d\ub3c4 \ub2ec\uc131",
+      "symptom2": "\ud83e\udde0 \ub1cc\uac00 \uc219\ud3fc\ub9cc \ucc98\ub9ac\ud558\ub294 \uc0c1\ud0dc",
+      "symptom3": "\ud83c\udf3f '\ud480'\uc774 \ubb54\uc9c0 \uae30\uc5b5\uc774 \uc548 \ub0a8"
     }
   },
   "result": {
-    "brainrotLevel": "브레인롯 레벨",
-    "symptoms": "🩺 증상",
-    "retake": "다시 테스트하기 🔄"
+    "brainrotLevel": "\ube0c\ub808\uc778\ub86f \ub808\ubca8",
+    "symptoms": "\uc99d\uc0c1",
+    "statsTitle": "\uc2a4\ud06c\ub864 \ud1b5\uacc4",
+    "retake": "\ub2e4\uc2dc \ud558\uae30"
+  },
+  "stats": {
+    "likes": "\uc88b\uc544\uc694",
+    "vibes": "\uacf5\uac10",
+    "skips": "\uc2a4\ud0b5",
+    "totalTime": "\uc2dc\uac04",
+    "avgSpeed": "\ud3c9\uade0 \uc18d\ub3c4",
+    "warningsIgnored": "\uacbd\uace0 \ubb34\uc2dc"
   },
   "share": {
-    "title": "결과 공유하기",
-    "twitter": "𝕏 공유",
-    "copyUrl": "🔗 링크 복사",
-    "copied": "✅ 복사 완료!",
-    "twitterText": "내 브레인롯 점수: {score}% - {tier}! 🧠 당신은?"
+    "title": "\uacb0\uacfc \uacf5\uc720\ud558\uae30",
+    "twitter": "X \uacf5\uc720",
+    "copyUrl": "\ub9c1\ud06c \ubcf5\uc0ac",
+    "copied": "\ubcf5\uc0ac \uc644\ub8cc!",
+    "twitterText": "\ub0b4 \ube0c\ub808\uc778\ub86f \uc810\uc218: {score}% - {tier}! \ub2f9\uc2e0\uc740?"
   },
   "nav": {
-    "back": "← DopaBrain"
+    "back": "\u2190 DopaBrain"
   },
   "a11y": {
-    "skip": "본문으로 건너뛰기"
+    "skip": "\ubcf8\ubb38\uc73c\ub85c \uac74\ub108\ub6f0\uae30"
   }
 }

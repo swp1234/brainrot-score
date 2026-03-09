@@ -1,173 +1,37 @@
 {
-  "meta": {
-    "title": "Brain Rot Score | ¿Qué tan podrido está tu cerebro? - DopaBrain",
-    "description": "¡Test de Brain Rot Score! 12 preguntas sobre memes, jerga de internet y cultura online. Descubre qué tan adicto al internet eres."
+  "meta": { "title": "Brain Rot Score | Simulador de Adicci\u00f3n al Scroll - DopaBrain", "description": "Despl\u00e1zate por un feed falso y descubre tu nivel de brain rot." },
+  "app": { "title": "Brain Rot Score", "subtitle": "\u00bfQu\u00e9 tan podrido est\u00e1 tu cerebro?", "warning": "* Solo con fines de entretenimiento", "introDesc": "Despl\u00e1zate por un feed falso de redes sociales. Reacciona a las publicaciones. Mediremos tu nivel de brain rot seg\u00fan tu velocidad de scroll, reacciones y si puedes parar.", "start": "Empezar a Scrollear" },
+  "intro": { "feature1": "15 Posts", "feature1Sub": "Scrollea el feed", "feature2": "Velocidad", "feature2Sub": "Te vigilamos", "feature3": "Reacciones", "feature3Sub": "Like, Vibe, Skip", "feature4": "Avisos", "feature4Sub": "\u00bfPuedes parar?" },
+  "feed": { "like": "JAJA", "vibe": "MUERTO", "skip": "SKIP", "scrollSpeed": "VELOCIDAD" },
+  "posts": {
+    "p1": { "user": "Rey del Brain Rot", "text": "POV: abriste la app 'solo 5 minutos' hace 3 horas" },
+    "p2": { "user": "Dealer de Memes", "text": "Mi reporte de tiempo de pantalla me envi\u00f3 una notificaci\u00f3n de bienestar" },
+    "p3": { "user": "Doom Scroller", "text": "No tengo horario de sue\u00f1o, tengo horario de 'desmayarme de cansancio'" },
+    "p4": { "user": "No Toca Pasto", "text": "El algoritmo me conoce mejor que mi terapeuta y cuesta $0/mes" },
+    "p5": { "user": "Sigma Stan", "text": "Si me pagaran por cada hora de pantalla, me jubilo a los 25" },
+    "p6": { "user": "Cr\u00f3nicamente Online", "text": "Le dije 'no cap' a mi abuela en la cena. Me pregunt\u00f3 si necesitaba una gorra." },
+    "p7": { "user": "No Cap Fr", "text": "Mi capacidad de atenci\u00f3n est\u00e1 tan da\u00f1ada que este post ya es demasiado largo para m\u00ed" },
+    "p8": { "user": "Slay Queen", "text": "Tengo 47 pesta\u00f1as abiertas en el navegador del celular. Cada una es una personalidad diferente." },
+    "p9": { "user": "Pet del Algoritmo", "text": "Yo a las 3 AM tomando decisiones de vida basadas en un TikTok que vi hace 2 segundos" },
+    "p10": { "user": "Guerrero Nocturno", "text": "Me arden los ojos pero este feed est\u00e1 tan fuego que literalmente no puedo parar" },
+    "p11": { "user": "Skibidi Stan", "text": "Skibidi dop dop dop yes yes. Si entendiste eso, necesitamos hablar." },
+    "p12": { "user": "Main Character", "text": "Narro mi vida en mi cabeza como un voiceover de TikTok. La delusi\u00f3n es real." },
+    "p13": { "user": "Comportamiento NPC", "text": "Alguien me habl\u00f3 en la vida real y casi presiono el bot\u00f3n de skip en su cara" },
+    "p14": { "user": "Reina Delulu", "text": "He scrolleado tanto que mi pulgar ha desarrollado su propia consciencia" },
+    "p15": { "user": "Poster Unhinged", "text": "\u00daltimo post. Si est\u00e1s leyendo esto, felicidades: tu cerebro est\u00e1 oficialmente podrido." }
   },
-  "app": {
-    "title": "🧠 Brain Rot Score",
-    "subtitle": "¿Qué tan podrido está tu cerebro?",
-    "warning": "* Solo con fines de entretenimiento",
-    "introDesc": "12 preguntas sobre cultura de internet, memes y jerga. Responde con sinceridad... o no. No somos tus padres.",
-    "start": "Iniciar escaneo cerebral 🧠"
-  },
-  "intro": {
-    "feature1": "12 Preguntas",
-    "feature1Sub": "~2 min",
-    "feature2": "5 Niveles",
-    "feature2Sub": "¿Qué tan perdido estás?",
-    "feature3": "Meme IQ",
-    "feature3Sub": "Pon a prueba tu conocimiento",
-    "feature4": "Escaneo Cerebral",
-    "feature4Sub": "Resultados detallados"
-  },
-  "scan": {
-    "title": "Escaneando tu cerebro...",
-    "subtitle": "Analizando nivel de brain rot..."
-  },
-  "questions": {
-    "q1": {
-      "text": "¿Qué significa 'POV' en internet?",
-      "o1": "No tengo idea",
-      "o2": "¿Algo sobre perspectiva?",
-      "o3": "Point of View - usado en memes y TikTok",
-      "o4": "POV: estás haciendo este test a las 3 AM (literalmente yo rn)"
-    },
-    "q2": {
-      "text": "¿Qué es un 'NPC'?",
-      "o1": "¿Algo de videojuegos?",
-      "o2": "Un personaje no jugable",
-      "o3": "Persona que actúa como robot sin personalidad propia",
-      "o4": "Momento NPC cuando camino por la calle repitiendo frases random"
-    },
-    "q3": {
-      "text": "¿Cuánto contenido corto ves al día?",
-      "o1": "No veo TikTok/Reels/Shorts",
-      "o2": "Unos 10-20 minutos",
-      "o3": "1-2 horas mínimo",
-      "o4": "El tiempo no existe. Despierto a las 3 AM en el void"
-    },
-    "q4": {
-      "text": "¿Qué significa 'simp'?",
-      "o1": "¿Simple?",
-      "o2": "Alguien muy amable?",
-      "o3": "Alguien que hace todo por agradar a quien le gusta",
-      "o4": "Soy un simp certificado y no me avergüenzo fr fr"
-    },
-    "q5": {
-      "text": "¿Qué tan bien te conoce el algoritmo?",
-      "o1": "¿Qué algoritmo?",
-      "o2": "A veces me muestra cosas que me gustan",
-      "o3": "Me conoce mejor que yo mismo",
-      "o4": "El algoritmo ES yo. Somos uno. Mi agente del FBI es mi bestie"
-    },
-    "q6": {
-      "text": "¿Qué es 'shitposting'?",
-      "o1": "Ni idea",
-      "o2": "¿Publicar cosas malas?",
-      "o3": "Publicar contenido absurdo sin sentido a propósito",
-      "o4": "Mi timeline es puro shitpost, es un arte y soy artista"
-    },
-    "q7": {
-      "text": "¿Cuántos memes usas en conversaciones diarias?",
-      "o1": "¿Qué es un meme?",
-      "o2": "A veces, pero debo explicarlos",
-      "o3": "Regularmente, mis amigos entienden",
-      "o4": "Me comunico exclusivamente en memes. Las palabras son opcionales"
-    },
-    "q8": {
-      "text": "¿Cuál es tu tiempo de pantalla diario?",
-      "o1": "Menos de 2 horas",
-      "o2": "3-4 horas",
-      "o3": "5-7 horas",
-      "o4": "8+ horas, me da miedo verificar"
-    },
-    "q9": {
-      "text": "¿Qué significa 'ser random'?",
-      "o1": "¿Aleatorio?",
-      "o2": "Ser diferente, creo",
-      "o3": "Actuar de forma impredecible y sin sentido",
-      "o4": "Soy random 24/7, mi humor es un enigma incluso para mí"
-    },
-    "q10": {
-      "text": "¿Cuánto scrolleas antes de dormir?",
-      "o1": "No uso el celular en la cama",
-      "o2": "10-20 minutos máximo",
-      "o3": "Al menos una hora de doom scrolling",
-      "o4": "'Un video más' → son las 4 AM y tengo arrepentimientos"
-    },
-    "q11": {
-      "text": "¿Qué es 'cringe'?",
-      "o1": "¿Una palabra en inglés?",
-      "o2": "Algo vergonzoso?",
-      "o3": "Vergüenza ajena, algo incómodo de ver",
-      "o4": "Todo es cringe menos yo (mentira, yo también soy cringe)"
-    },
-    "q12": {
-      "text": "¿El lenguaje de internet se filtra en tus conversaciones reales?",
-      "o1": "Nunca",
-      "o2": "Ocasionalmente, a propósito",
-      "o3": "Seguido, no puedo evitarlo",
-      "o4": "La vida real ES internet. Ya no hay diferencia"
-    }
-  },
+  "warning": { "title1": "\u00bfTodav\u00eda scrolleando?", "sub1": "Ya reaccionaste a 5 posts. \u00bfQuiz\u00e1s un descanso?", "title2": "\u00bfEn serio, a\u00fan sigues?", "sub2": "10 posts. Tu pulgar debe estar cansado. Nos preocupamos.", "ignore": "Seguir Scrolleando", "stop": "Voy a Parar" },
+  "scan": { "title": "Escaneando tu cerebro...", "subtitle": "Analizando nivel de adicci\u00f3n al scroll..." },
   "tiers": {
-    "champion": {
-      "name": "Campeón del Detox Digital",
-      "emoji": "🌿",
-      "desc": "¡Felicidades! Tu cerebro está impecable. De alguna manera evitaste el brain rot del internet. Probablemente sales, tocas pasto y lees libros físicos. Estamos impresionados.",
-      "symptom1": "🌱 Realmente toca pasto regularmente",
-      "symptom2": "📚 Lee libros físicos por diversión",
-      "symptom3": "😴 Se duerme antes de medianoche"
-    },
-    "casual": {
-      "name": "Scroller Casual",
-      "emoji": "📱",
-      "desc": "Eres un usuario saludable de internet. Conoces algunos memes pero no te definen. Aún puedes mantener conversaciones sin referencias de TikTok.",
-      "symptom1": "📱 Revisa redes sociales unas veces al día",
-      "symptom2": "😄 Se ríe de memes pero no los guarda",
-      "symptom3": "🌅 A veces ve atardeceres reales"
-    },
-    "algorithm": {
-      "name": "Favorito del Algoritmo",
-      "emoji": "🎯",
-      "desc": "El algoritmo te ama y tú lo amas. Tienes sólida alfabetización digital y captas tendencias rápido. Estás al borde de lo crónicamente online. El brain rot está avanzando.",
-      "symptom1": "🔄 'Un scroll más' se convierte en una hora",
-      "symptom2": "💬 Mete referencias de memes en la conversación",
-      "symptom3": "📊 Ignora notificaciones de tiempo de pantalla"
-    },
-    "chronic": {
-      "name": "Crónicamente Online",
-      "emoji": "💀",
-      "desc": "Estás crónicamente online. Internet es tu segundo hogar y los memes son tu primer idioma. A veces olvidas que el pasto existe afuera.",
-      "symptom1": "🌙 Sesiones de memes a las 3 AM son normales",
-      "symptom2": "🤖 No puede comunicarse sin referencias a memes",
-      "symptom3": "📵 Ansiedad severa sin acceso al celular"
-    },
-    "touchgrass": {
-      "name": "Toca Pasto Inmediatamente",
-      "emoji": "☠️",
-      "desc": "¡ALERTA DE EMERGENCIA! Tu cerebro está completamente podrido. Los memes fluyen por tus venas y el contenido corto reemplazó tu oxígeno. Piensas en sonidos de TikTok. Por favor sal y toca pasto INMEDIATAMENTE.",
-      "symptom1": "☠️ Realidad e internet se fusionaron",
-      "symptom2": "🧠 El cerebro reproduce sonidos de memes como música de fondo",
-      "symptom3": "🌿 No recuerda cómo se ve el 'pasto'"
-    }
+    "champion": { "name": "Campe\u00f3n del Detox Digital", "emoji": "\ud83c\udf3f", "desc": "Incre\u00edble. Scrolleaste lento, le\u00edste posts y consideraste parar. Tu cerebro est\u00e1 notablemente limpio.", "symptom1": "\ud83c\udf31 Lee los posts antes de reaccionar", "symptom2": "\ud83d\udcda Probablemente tiene horario de sue\u00f1o normal", "symptom3": "\ud83d\ude34 Se duerme antes de medianoche" },
+    "casual": { "name": "Scroller Casual", "emoji": "\ud83d\udcf1", "desc": "Eres un usuario equilibrado. El contenido no te controla. El algoritmo te quiere pero a\u00fan no tiene tu alma.", "symptom1": "\ud83d\udcf1 Velocidad moderada de scroll", "symptom2": "\ud83d\ude04 Reacciona con cuidado a algunos posts", "symptom3": "\ud83c\udf05 A\u00fan consciente del mundo exterior" },
+    "algorithm": { "name": "Favorito del Algoritmo", "emoji": "\ud83c\udfaf", "desc": "El algoritmo te marc\u00f3 como consumidor leal. Scrolleas a velocidades preocupantes y reaccionas a todo.", "symptom1": "\ud83d\udd04 Velocidad r\u00e1pida \u2014 no puede frenar", "symptom2": "\ud83d\udcac Reaccion\u00f3 a posts sin pensar", "symptom3": "\ud83d\udcca Ignor\u00f3 el aviso de bienestar" },
+    "chronic": { "name": "Cr\u00f3nicamente Online", "emoji": "\ud83d\udc80", "desc": "Tu velocidad sugiere que tu pulgar tiene memoria muscular propia. Volaste por los posts e ignoraste avisos.", "symptom1": "\ud83c\udf19 Velocidad turbo de scroll", "symptom2": "\ud83e\udd16 Skip\u00f3 posts sin leer", "symptom3": "\ud83d\udcf5 Descart\u00f3 avisos al instante" },
+    "touchgrass": { "name": "Toca Pasto Inmediatamente", "emoji": "\u2620\ufe0f", "desc": "EMERGENCIA: Tu scroll est\u00e1 fuera de gr\u00e1fica. Velocidad m\u00e1xima, todos los avisos ignorados. Cierra la app y sal a tocar pasto.", "symptom1": "\u2620\ufe0f Velocidad m\u00e1xima de scroll", "symptom2": "\ud83e\udde0 El cerebro solo procesa contenido corto", "symptom3": "\ud83c\udf3f No recuerda c\u00f3mo se ve el 'pasto'" }
   },
-  "result": {
-    "brainrotLevel": "Nivel de Brain Rot",
-    "symptoms": "🩺 Síntomas",
-    "retake": "Repetir Test 🔄"
-  },
-  "share": {
-    "title": "Comparte tus resultados",
-    "twitter": "𝕏 Compartir",
-    "copyUrl": "🔗 Copiar enlace",
-    "copied": "✅ ¡Copiado!",
-    "twitterText": "Mi Brain Rot Score: {score}% - {tier}! 🧠 ¿Y el tuyo?"
-  },
-  "nav": {
-    "back": "← DopaBrain"
-  },
-  "a11y": {
-    "skip": "Saltar al contenido"
-  }
+  "result": { "brainrotLevel": "Nivel de Brain Rot", "symptoms": "S\u00edntomas", "statsTitle": "Estad\u00edsticas de Scroll", "retake": "Intentar de Nuevo" },
+  "stats": { "likes": "Likes", "vibes": "Vibes", "skips": "Skips", "totalTime": "Tiempo", "avgSpeed": "Vel. Promedio", "warningsIgnored": "Avisos Ignorados" },
+  "share": { "title": "Comparte tus resultados", "twitter": "Compartir en X", "copyUrl": "Copiar enlace", "copied": "\u00a1Copiado!", "twitterText": "Mi Brain Rot Score: {score}% - {tier}! \u00bfY el tuyo?" },
+  "nav": { "back": "\u2190 DopaBrain" },
+  "a11y": { "skip": "Saltar al contenido" }
 }

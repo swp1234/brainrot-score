@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="meta.title">브레인롯 점수 테스트 | Brain Rot Score - DopaBrain</title>
-  <meta name="description" data-i18n="meta.description" content="당신의 브레인롯 레벨은? 12개 질문으로 인터넷 중독 수준을 측정하세요.">
+  <title data-i18n="meta.title">Brain Rot Score - DopaBrain</title>
+  <meta name="description" data-i18n="meta.description" content="Scroll through a fake social feed and discover your brainrot level. How addicted are you?">
   <meta property="og:title" content="Brain Rot Score - DopaBrain">
-  <meta property="og:description" content="How brain-rotted are you? Take the 12-question quiz to find out!">
+  <meta property="og:description" content="How brain-rotted are you? Scroll the feed to find out!">
   <meta property="og:image" content="https://dopabrain.com/brainrot-score/icon-512.svg">
   <meta property="og:url" content="https://dopabrain.com/brainrot-score/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Brain Rot Score - DopaBrain">
-  <meta name="twitter:description" content="How brain-rotted are you? Take the quiz!">
+  <meta name="twitter:description" content="How brain-rotted are you? Scroll the feed!">
   <link rel="canonical" href="https://dopabrain.com/brainrot-score/">
   <link rel="alternate" hreflang="ko" href="https://dopabrain.com/brainrot-score/?lang=ko">
   <link rel="alternate" hreflang="en" href="https://dopabrain.com/brainrot-score/?lang=en">
@@ -43,7 +43,7 @@
     "@type": "WebApplication",
     "name": "Brain Rot Score",
     "url": "https://dopabrain.com/brainrot-score/",
-    "description": "Measure your brain rot level with 12 internet culture questions. How chronically online are you?",
+    "description": "Scroll through a fake social feed and discover your brainrot level based on your reactions and scroll speed.",
     "applicationCategory": "EntertainmentApplication",
     "operatingSystem": "Any",
     "offers": {"@type": "Offer", "price": "0"},
@@ -91,54 +91,64 @@
 
     <!-- Intro Screen -->
     <section id="intro-screen" class="intro-section" aria-label="Intro">
-      <p class="intro-desc" data-i18n="app.introDesc">12 questions about internet culture, memes, and slang. Answer honestly... or don't. We're not your parents.</p>
+      <p class="intro-desc" data-i18n="app.introDesc">Scroll through a fake social feed. React to posts. We'll measure your brainrot level.</p>
       <div class="intro-features">
         <div class="intro-feature">
           <div class="intro-feature-icon">📱</div>
-          <div class="intro-feature-text" data-i18n="intro.feature1">12 Questions</div>
-          <div class="intro-feature-sub" data-i18n="intro.feature1Sub">~2 min</div>
+          <div class="intro-feature-text" data-i18n="intro.feature1">15 Posts</div>
+          <div class="intro-feature-sub" data-i18n="intro.feature1Sub">Scroll the feed</div>
         </div>
         <div class="intro-feature">
-          <div class="intro-feature-icon">🎯</div>
-          <div class="intro-feature-text" data-i18n="intro.feature2">5 Tiers</div>
-          <div class="intro-feature-sub" data-i18n="intro.feature2Sub">How far gone are you?</div>
+          <div class="intro-feature-icon">⚡</div>
+          <div class="intro-feature-text" data-i18n="intro.feature2">Scroll Speed</div>
+          <div class="intro-feature-sub" data-i18n="intro.feature2Sub">We're watching</div>
         </div>
         <div class="intro-feature">
-          <div class="intro-feature-icon">🔥</div>
-          <div class="intro-feature-text" data-i18n="intro.feature3">Meme IQ</div>
-          <div class="intro-feature-sub" data-i18n="intro.feature3Sub">Test your knowledge</div>
+          <div class="intro-feature-icon">🎭</div>
+          <div class="intro-feature-text" data-i18n="intro.feature3">Reactions</div>
+          <div class="intro-feature-sub" data-i18n="intro.feature3Sub">Like, Vibe, Skip</div>
         </div>
         <div class="intro-feature">
-          <div class="intro-feature-icon">📊</div>
-          <div class="intro-feature-text" data-i18n="intro.feature4">Brain Scan</div>
-          <div class="intro-feature-sub" data-i18n="intro.feature4Sub">Detailed results</div>
+          <div class="intro-feature-icon">🚨</div>
+          <div class="intro-feature-text" data-i18n="intro.feature4">Warnings</div>
+          <div class="intro-feature-sub" data-i18n="intro.feature4Sub">Can you stop?</div>
         </div>
       </div>
-      <button class="start-btn" id="startBtn" data-i18n="app.start">Start Brain Scan 🧠</button>
+      <button class="start-btn" id="startBtn" data-i18n="app.start">Start Scrolling 📱</button>
     </section>
 
-    <!-- Quiz Screen -->
-    <section id="quiz-screen" style="display:none;" aria-label="Quiz">
-      <div class="progress-container" role="progressbar" aria-label="Progress">
-        <div class="progress-bar-bg">
-          <div class="progress-bar" id="progressBar" style="width:0%"></div>
+    <!-- Feed Screen -->
+    <section id="feed-screen" style="display:none;" aria-label="Feed">
+      <div class="feed-header">
+        <div class="feed-app-name">BrainRot<span class="feed-app-accent">FYP</span></div>
+        <div class="feed-progress-wrap">
+          <div class="feed-progress-bar" id="feedProgressBar" style="width:0%"></div>
         </div>
-        <div class="progress-text">
-          <span id="currentQ">1</span> / <span id="totalQ">12</span>
-        </div>
+        <div class="feed-counter"><span id="feedCurrent">0</span> / <span id="feedTotal">15</span></div>
       </div>
-      <div class="question-card fade-in" id="questionCard">
-        <div class="question-number" id="qNumber">Q 1</div>
-        <p class="question-text" id="qText"></p>
-        <div class="options-container" id="optionsContainer"></div>
+      <div class="feed-scroll-area" id="feedScrollArea">
+        <!-- Posts injected by JS -->
       </div>
     </section>
+
+    <!-- Warning Popup (overlay) -->
+    <div class="warning-overlay" id="warningOverlay" style="display:none;">
+      <div class="warning-card">
+        <div class="warning-icon">🚨</div>
+        <div class="warning-title" id="warningTitle">Are you still scrolling?</div>
+        <div class="warning-sub" id="warningSub">Maybe take a break...</div>
+        <div class="warning-btns">
+          <button class="warning-btn warning-ignore" id="warningIgnore" data-i18n="warning.ignore">Keep Scrolling</button>
+          <button class="warning-btn warning-stop" id="warningStop" data-i18n="warning.stop">I'll Stop</button>
+        </div>
+      </div>
+    </div>
 
     <!-- Scan Animation Screen -->
     <section id="scan-screen" class="scan-screen" aria-label="Scanning">
       <div class="scan-brain">🧠</div>
       <div class="scan-text" data-i18n="scan.title">Scanning your brain...</div>
-      <div class="scan-subtext" data-i18n="scan.subtitle">Analyzing brainrot levels...</div>
+      <div class="scan-subtext" data-i18n="scan.subtitle">Analyzing scroll addiction...</div>
     </section>
 
     <!-- Result Screen -->
@@ -166,6 +176,11 @@
 
       <div class="tier-desc" id="tierDesc"></div>
 
+      <div class="stats-section" id="statsSection">
+        <div class="stats-title" data-i18n="result.statsTitle">Scroll Stats</div>
+        <div class="stats-grid" id="statsGrid"></div>
+      </div>
+
       <div class="symptoms-section">
         <div class="symptoms-title" data-i18n="result.symptoms">Symptoms</div>
         <div id="symptomsList"></div>
@@ -178,7 +193,7 @@
           <button class="share-btn share-copy" id="shareCopyBtn" data-i18n="share.copyUrl">Copy Link</button>
         </div>
       </div>
-      <button class="retake-btn" id="retakeBtn" data-i18n="result.retake">Retake Test 🔄</button>
+      <button class="retake-btn" id="retakeBtn" data-i18n="result.retake">Try Again 🔄</button>
     </section>
 
     <div class="cross-promo-section" id="crossPromoContainer"></div>
@@ -192,6 +207,6 @@
 <script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
 <script src="/portal/js/cross-promo.js" defer></script>
-  <script>if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}</script>
+<script>if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}</script>
 </body>
 </html>
