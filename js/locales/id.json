@@ -1,37 +1,180 @@
 {
-  "meta": { "title": "Brain Rot Score | Simulator Kecanduan Scroll - DopaBrain", "description": "Scroll feed palsu dan temukan level brain rot kamu." },
-  "app": { "title": "Brain Rot Score", "subtitle": "Seberapa busuk otakmu?", "warning": "* Hanya untuk hiburan", "introDesc": "Scroll feed media sosial palsu. Reaksi ke postingan. Kami akan ukur level brain rot kamu dari kecepatan scroll, pola reaksi, dan apakah kamu bisa berhenti.", "start": "Mulai Scroll" },
-  "intro": { "feature1": "15 Post", "feature1Sub": "Scroll feednya", "feature2": "Kecepatan Scroll", "feature2Sub": "Kami mengawasi", "feature3": "Reaksi", "feature3Sub": "Suka, Vibe, Skip", "feature4": "Peringatan", "feature4Sub": "Bisa berhenti?" },
-  "feed": { "like": "WKWK", "vibe": "MATI", "skip": "SKIP", "scrollSpeed": "KECEPATAN" },
+  "meta": {
+    "title": "Brain Rot Score | Simulator Kecanduan Scroll - DopaBrain",
+    "description": "Scroll feed palsu dan temukan level brain rot kamu."
+  },
+  "app": {
+    "title": "Brain Rot Score",
+    "subtitle": "Seberapa busuk otakmu?",
+    "warning": "* Hanya untuk hiburan",
+    "introDesc": "Scroll feed media sosial palsu. Reaksi ke postingan. Kami akan ukur level brain rot kamu dari kecepatan scroll, pola reaksi, dan apakah kamu bisa berhenti.",
+    "start": "Mulai Scroll"
+  },
+  "intro": {
+    "feature1": "15 Post",
+    "feature1Sub": "Scroll feednya",
+    "feature2": "Kecepatan Scroll",
+    "feature2Sub": "Kami mengawasi",
+    "feature3": "Reaksi",
+    "feature3Sub": "Suka, Vibe, Skip",
+    "feature4": "Peringatan",
+    "feature4Sub": "Bisa berhenti?"
+  },
+  "feed": {
+    "like": "WKWK",
+    "vibe": "MATI",
+    "skip": "SKIP",
+    "scrollSpeed": "KECEPATAN"
+  },
   "posts": {
-    "p1": { "user": "Raja Brain Rot", "text": "POV: buka app 'cuma 5 menit' 3 jam yang lalu" },
-    "p2": { "user": "Dealer Meme", "text": "Laporan screen time ku kirim notifikasi kesehatan" },
-    "p3": { "user": "Doom Scroller", "text": "Nggak punya jadwal tidur, punya jadwal 'pingsan kecapekan'" },
-    "p4": { "user": "Nggak Sentuh Rumput", "text": "Algoritma lebih paham aku daripada psikolog dan gratis per bulan" },
-    "p5": { "user": "Sigma Stan", "text": "Kalau setiap jam screen time dapat Rp10rb, aku pensiun umur 25" },
-    "p6": { "user": "Kronis Online", "text": "Nggak sengaja bilang 'bestie' ke nenek pas makan malam. Dia tanya 'bestie itu apa?'" },
-    "p7": { "user": "No Cap Fr", "text": "Attention span ku sudah rusak sampai post ini aja udah terlalu panjang" },
-    "p8": { "user": "Slay Queen", "text": "Ada 47 tab terbuka di browser HP. Masing-masing personalitas berbeda." },
-    "p9": { "user": "Peliharaan Algoritma", "text": "Aku jam 3 pagi ambil keputusan hidup berdasarkan TikTok yang baru diliat 2 detik lalu" },
-    "p10": { "user": "Pejuang Malam", "text": "Mata panas tapi feed terlalu fire jadi literally nggak bisa berhenti" },
-    "p11": { "user": "Skibidi Stan", "text": "Skibidi dop dop dop yes yes. Kalau kamu paham, kita perlu ngobrol." },
-    "p12": { "user": "Karakter Utama", "text": "Narasi hidup di kepala kayak voiceover TikTok. Delusional is real." },
-    "p13": { "user": "Perilaku NPC", "text": "Seseorang ngajak ngobrol di dunia nyata dan aku hampir pencet tombol skip di mukanya" },
-    "p14": { "user": "Ratu Delulu", "text": "Udah scroll terlalu lama sampai jempol punya kesadaran sendiri" },
-    "p15": { "user": "Poster Unhinged", "text": "Post terakhir. Kalau baca ini, selamat: otakmu resmi busuk." }
+    "p1": {
+      "user": "Raja Brain Rot",
+      "text": "POV: buka app 'cuma 5 menit' 3 jam yang lalu"
+    },
+    "p2": {
+      "user": "Dealer Meme",
+      "text": "Laporan screen time ku kirim notifikasi kesehatan"
+    },
+    "p3": {
+      "user": "Doom Scroller",
+      "text": "Nggak punya jadwal tidur, punya jadwal 'pingsan kecapekan'"
+    },
+    "p4": {
+      "user": "Nggak Sentuh Rumput",
+      "text": "Algoritma lebih paham aku daripada psikolog dan gratis per bulan"
+    },
+    "p5": {
+      "user": "Sigma Stan",
+      "text": "Kalau setiap jam screen time dapat Rp10rb, aku pensiun umur 25"
+    },
+    "p6": {
+      "user": "Kronis Online",
+      "text": "Nggak sengaja bilang 'bestie' ke nenek pas makan malam. Dia tanya 'bestie itu apa?'"
+    },
+    "p7": {
+      "user": "No Cap Fr",
+      "text": "Attention span ku sudah rusak sampai post ini aja udah terlalu panjang"
+    },
+    "p8": {
+      "user": "Slay Queen",
+      "text": "Ada 47 tab terbuka di browser HP. Masing-masing personalitas berbeda."
+    },
+    "p9": {
+      "user": "Peliharaan Algoritma",
+      "text": "Aku jam 3 pagi ambil keputusan hidup berdasarkan TikTok yang baru diliat 2 detik lalu"
+    },
+    "p10": {
+      "user": "Pejuang Malam",
+      "text": "Mata panas tapi feed terlalu fire jadi literally nggak bisa berhenti"
+    },
+    "p11": {
+      "user": "Skibidi Stan",
+      "text": "Skibidi dop dop dop yes yes. Kalau kamu paham, kita perlu ngobrol."
+    },
+    "p12": {
+      "user": "Karakter Utama",
+      "text": "Narasi hidup di kepala kayak voiceover TikTok. Delusional is real."
+    },
+    "p13": {
+      "user": "Perilaku NPC",
+      "text": "Seseorang ngajak ngobrol di dunia nyata dan aku hampir pencet tombol skip di mukanya"
+    },
+    "p14": {
+      "user": "Ratu Delulu",
+      "text": "Udah scroll terlalu lama sampai jempol punya kesadaran sendiri"
+    },
+    "p15": {
+      "user": "Poster Unhinged",
+      "text": "Post terakhir. Kalau baca ini, selamat: otakmu resmi busuk."
+    }
   },
-  "warning": { "title1": "Masih scroll?", "sub1": "Udah reaksi ke 5 post. Mau istirahat?", "title2": "Serius, masih?", "sub2": "10 post. Jempol nggak capek? Kami khawatir.", "ignore": "Lanjut Scroll", "stop": "Aku Berhenti" },
-  "scan": { "title": "Memindai otakmu...", "subtitle": "Menganalisis level kecanduan scroll..." },
+  "warning": {
+    "title1": "Masih scroll?",
+    "sub1": "Udah reaksi ke 5 post. Mau istirahat?",
+    "title2": "Serius, masih?",
+    "sub2": "10 post. Jempol nggak capek? Kami khawatir.",
+    "ignore": "Lanjut Scroll",
+    "stop": "Aku Berhenti"
+  },
+  "scan": {
+    "title": "Memindai otakmu...",
+    "subtitle": "Menganalisis level kecanduan scroll..."
+  },
   "tiers": {
-    "champion": { "name": "Juara Detoks Digital", "emoji": "\ud83c\udf3f", "desc": "Luar biasa. Kamu scroll pelan, baca postingan, dan bahkan pertimbangkan berhenti. Otakmu bersih banget.", "symptom1": "\ud83c\udf31 Baca post sebelum reaksi", "symptom2": "\ud83d\udcda Mungkin punya jadwal tidur normal", "symptom3": "\ud83d\ude34 Tidur sebelum tengah malam" },
-    "casual": { "name": "Scroller Santai", "emoji": "\ud83d\udcf1", "desc": "Pengguna internet seimbang. Konten nggak menguasaimu. Algoritma suka kamu tapi belum klaim jiwamu.", "symptom1": "\ud83d\udcf1 Kecepatan scroll moderat", "symptom2": "\ud83d\ude04 Reaksi dengan bijak ke beberapa post", "symptom3": "\ud83c\udf05 Masih sadar dunia luar" },
-    "algorithm": { "name": "Kesayangan Algoritma", "emoji": "\ud83c\udfaf", "desc": "Algoritma tandai kamu sebagai konsumen setia. Kamu scroll dengan kecepatan mengkhawatirkan dan reaksi ke semua.", "symptom1": "\ud83d\udd04 Kecepatan scroll cepat \u2014 nggak bisa pelan", "symptom2": "\ud83d\udcac Reaksi ke post tanpa mikir", "symptom3": "\ud83d\udcca Abaikan peringatan kesehatan" },
-    "chronic": { "name": "Kronis Online", "emoji": "\ud83d\udc80", "desc": "Kecepatan scrollmu menunjukkan jempolmu punya muscle memory sendiri. Kamu terbang melewati post dan abaikan peringatan.", "symptom1": "\ud83c\udf19 Kecepatan turbo scroll terdeteksi", "symptom2": "\ud83e\udd16 Skip post tanpa baca", "symptom3": "\ud83d\udcf5 Tutup peringatan langsung" },
-    "touchgrass": { "name": "Sentuh Rumput Sekarang", "emoji": "\u2620\ufe0f", "desc": "DARURAT: Scrollmu di luar grafik. Kecepatan maksimum, semua peringatan diabaikan. Tutup app dan pergi sentuh rumput.", "symptom1": "\u2620\ufe0f Kecepatan scroll maksimum", "symptom2": "\ud83e\udde0 Otak hanya proses konten pendek", "symptom3": "\ud83c\udf3f Nggak ingat 'rumput' kayak apa" }
+    "champion": {
+      "name": "Juara Detoks Digital",
+      "emoji": "🌿",
+      "desc": "Luar biasa. Kamu scroll pelan, baca postingan, dan bahkan pertimbangkan berhenti. Otakmu bersih banget.",
+      "symptom1": "🌱 Baca post sebelum reaksi",
+      "symptom2": "📚 Mungkin punya jadwal tidur normal",
+      "symptom3": "😴 Tidur sebelum tengah malam"
+    },
+    "casual": {
+      "name": "Scroller Santai",
+      "emoji": "📱",
+      "desc": "Pengguna internet seimbang. Konten nggak menguasaimu. Algoritma suka kamu tapi belum klaim jiwamu.",
+      "symptom1": "📱 Kecepatan scroll moderat",
+      "symptom2": "😄 Reaksi dengan bijak ke beberapa post",
+      "symptom3": "🌅 Masih sadar dunia luar"
+    },
+    "algorithm": {
+      "name": "Kesayangan Algoritma",
+      "emoji": "🎯",
+      "desc": "Algoritma tandai kamu sebagai konsumen setia. Kamu scroll dengan kecepatan mengkhawatirkan dan reaksi ke semua.",
+      "symptom1": "🔄 Kecepatan scroll cepat — nggak bisa pelan",
+      "symptom2": "💬 Reaksi ke post tanpa mikir",
+      "symptom3": "📊 Abaikan peringatan kesehatan"
+    },
+    "chronic": {
+      "name": "Kronis Online",
+      "emoji": "💀",
+      "desc": "Kecepatan scrollmu menunjukkan jempolmu punya muscle memory sendiri. Kamu terbang melewati post dan abaikan peringatan.",
+      "symptom1": "🌙 Kecepatan turbo scroll terdeteksi",
+      "symptom2": "🤖 Skip post tanpa baca",
+      "symptom3": "📵 Tutup peringatan langsung"
+    },
+    "touchgrass": {
+      "name": "Sentuh Rumput Sekarang",
+      "emoji": "☠️",
+      "desc": "DARURAT: Scrollmu di luar grafik. Kecepatan maksimum, semua peringatan diabaikan. Tutup app dan pergi sentuh rumput.",
+      "symptom1": "☠️ Kecepatan scroll maksimum",
+      "symptom2": "🧠 Otak hanya proses konten pendek",
+      "symptom3": "🌿 Nggak ingat 'rumput' kayak apa"
+    }
   },
-  "result": { "brainrotLevel": "Level Brain Rot", "symptoms": "Gejala", "statsTitle": "Statistik Scroll", "retake": "Coba Lagi" },
-  "stats": { "likes": "Suka", "vibes": "Vibe", "skips": "Skip", "totalTime": "Waktu", "avgSpeed": "Kec. Rata-rata", "warningsIgnored": "Peringatan Diabaikan" },
-  "share": { "title": "Bagikan hasilmu", "twitter": "Bagikan di X", "copyUrl": "Salin link", "copied": "Disalin!", "twitterText": "Brain Rot Score ku: {score}% - {tier}! Punyamu berapa?" },
-  "nav": { "back": "\u2190 DopaBrain" },
-  "a11y": { "skip": "Lompat ke konten" }
+  "result": {
+    "brainrotLevel": "Level Brain Rot",
+    "symptoms": "Gejala",
+    "statsTitle": "Statistik Scroll",
+    "retake": "Coba Lagi",
+    "moreTests": "Jelajahi Tes Lainnya",
+    "percentileStat": "Otakmu lebih sehat dari <strong>{percentile}%</strong> pengguna"
+  },
+  "stats": {
+    "likes": "Suka",
+    "vibes": "Vibe",
+    "skips": "Skip",
+    "totalTime": "Waktu",
+    "avgSpeed": "Kec. Rata-rata",
+    "warningsIgnored": "Peringatan Diabaikan"
+  },
+  "share": {
+    "title": "Bagikan hasilmu",
+    "twitter": "Bagikan di X",
+    "copyUrl": "Salin link",
+    "copied": "Disalin!",
+    "twitterText": "Brain Rot Score ku: {score}% - {tier}! Punyamu berapa?"
+  },
+  "nav": {
+    "back": "← DopaBrain"
+  },
+  "a11y": {
+    "skip": "Lompat ke konten"
+  },
+  "related": {
+    "npcTest": "Tes NPC",
+    "rizzScore": "Rizz Score",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Factor"
+  }
 }

@@ -27,21 +27,66 @@
     "scrollSpeed": "SPEED"
   },
   "posts": {
-    "p1": { "user": "BrainRot King", "text": "POV: you opened this app 'for just 5 minutes' three hours ago" },
-    "p2": { "user": "Meme Dealer", "text": "My screen time report just sent me a wellness check notification" },
-    "p3": { "user": "Doom Scroller", "text": "I don't have a sleep schedule, I have a 'passing out from exhaustion' schedule" },
-    "p4": { "user": "Touch Grass Never", "text": "The algorithm knows me better than my therapist and it costs $0/month" },
-    "p5": { "user": "Sigma Stan", "text": "If I had a dollar for every hour of screen time, I could retire at 25" },
-    "p6": { "user": "Chronically Online", "text": "Just accidentally said 'no cap' to my grandma at dinner. She asked if I needed a hat." },
-    "p7": { "user": "No Cap Fr", "text": "My attention span is so cooked that this post is already too long for me" },
-    "p8": { "user": "Slay Queen", "text": "I have 47 tabs open on my phone browser. Each one is a different personality." },
-    "p9": { "user": "Algorithm's Pet", "text": "3 AM me making life decisions based on a TikTok I saw 2 seconds ago" },
-    "p10": { "user": "Night Warrior", "text": "My eyes are burning but this feed is fire so I literally cannot stop" },
-    "p11": { "user": "Skibidi Stan", "text": "Skibidi dop dop dop yes yes. If you understood that, we need to talk." },
-    "p12": { "user": "Main Character", "text": "I narrate my life in my head like a TikTok voiceover. The delusion is real." },
-    "p13": { "user": "NPC Behavior", "text": "Someone talked to me IRL and I almost hit the skip button on their face" },
-    "p14": { "user": "Delulu Queen", "text": "I've been scrolling so long my thumb has developed its own consciousness" },
-    "p15": { "user": "Unhinged Poster", "text": "This is the last post. If you're reading this, congratulations: your brain is officially rotted." }
+    "p1": {
+      "user": "BrainRot King",
+      "text": "POV: you opened this app 'for just 5 minutes' three hours ago"
+    },
+    "p2": {
+      "user": "Meme Dealer",
+      "text": "My screen time report just sent me a wellness check notification"
+    },
+    "p3": {
+      "user": "Doom Scroller",
+      "text": "I don't have a sleep schedule, I have a 'passing out from exhaustion' schedule"
+    },
+    "p4": {
+      "user": "Touch Grass Never",
+      "text": "The algorithm knows me better than my therapist and it costs $0/month"
+    },
+    "p5": {
+      "user": "Sigma Stan",
+      "text": "If I had a dollar for every hour of screen time, I could retire at 25"
+    },
+    "p6": {
+      "user": "Chronically Online",
+      "text": "Just accidentally said 'no cap' to my grandma at dinner. She asked if I needed a hat."
+    },
+    "p7": {
+      "user": "No Cap Fr",
+      "text": "My attention span is so cooked that this post is already too long for me"
+    },
+    "p8": {
+      "user": "Slay Queen",
+      "text": "I have 47 tabs open on my phone browser. Each one is a different personality."
+    },
+    "p9": {
+      "user": "Algorithm's Pet",
+      "text": "3 AM me making life decisions based on a TikTok I saw 2 seconds ago"
+    },
+    "p10": {
+      "user": "Night Warrior",
+      "text": "My eyes are burning but this feed is fire so I literally cannot stop"
+    },
+    "p11": {
+      "user": "Skibidi Stan",
+      "text": "Skibidi dop dop dop yes yes. If you understood that, we need to talk."
+    },
+    "p12": {
+      "user": "Main Character",
+      "text": "I narrate my life in my head like a TikTok voiceover. The delusion is real."
+    },
+    "p13": {
+      "user": "NPC Behavior",
+      "text": "Someone talked to me IRL and I almost hit the skip button on their face"
+    },
+    "p14": {
+      "user": "Delulu Queen",
+      "text": "I've been scrolling so long my thumb has developed its own consciousness"
+    },
+    "p15": {
+      "user": "Unhinged Poster",
+      "text": "This is the last post. If you're reading this, congratulations: your brain is officially rotted."
+    }
   },
   "warning": {
     "title1": "Are you still scrolling?",
@@ -58,50 +103,52 @@
   "tiers": {
     "champion": {
       "name": "Digital Detox Champion",
-      "emoji": "\ud83c\udf3f",
+      "emoji": "🌿",
       "desc": "Incredible. You scrolled slowly, actually read posts, and even considered stopping. Your brain is remarkably unrotted. Do you also read books and go outside? Disgusting.",
-      "symptom1": "\ud83c\udf31 Actually reads posts before reacting",
-      "symptom2": "\ud83d\udcda Probably has a normal sleep schedule",
-      "symptom3": "\ud83d\ude34 Falls asleep before midnight"
+      "symptom1": "🌱 Actually reads posts before reacting",
+      "symptom2": "📚 Probably has a normal sleep schedule",
+      "symptom3": "😴 Falls asleep before midnight"
     },
     "casual": {
       "name": "Casual Scroller",
-      "emoji": "\ud83d\udcf1",
+      "emoji": "📱",
       "desc": "You're a balanced internet user. You engage with content but don't let it consume you. The algorithm likes you but hasn't claimed your soul yet.",
-      "symptom1": "\ud83d\udcf1 Moderate scroll speed detected",
-      "symptom2": "\ud83d\ude04 Engages thoughtfully with some posts",
-      "symptom3": "\ud83c\udf05 Still aware of the outside world"
+      "symptom1": "📱 Moderate scroll speed detected",
+      "symptom2": "😄 Engages thoughtfully with some posts",
+      "symptom3": "🌅 Still aware of the outside world"
     },
     "algorithm": {
       "name": "Algorithm's Favorite",
-      "emoji": "\ud83c\udfaf",
+      "emoji": "🎯",
       "desc": "The algorithm has marked you as a loyal consumer. You scroll at concerning speeds and react to everything. The brainrot is settling in comfortably.",
-      "symptom1": "\ud83d\udd04 Fast scroll speed — can't slow down",
-      "symptom2": "\ud83d\udcac Reacted to most posts without thinking",
-      "symptom3": "\ud83d\udcca Ignored the wellness warning"
+      "symptom1": "🔄 Fast scroll speed — can't slow down",
+      "symptom2": "💬 Reacted to most posts without thinking",
+      "symptom3": "📊 Ignored the wellness warning"
     },
     "chronic": {
       "name": "Chronically Online",
-      "emoji": "\ud83d\udc80",
+      "emoji": "💀",
       "desc": "Your scroll speed suggests your thumb has its own muscle memory. You blazed through posts, skipped warnings, and showed classic doom-scroll behavior. The brainrot is advanced.",
-      "symptom1": "\ud83c\udf19 Turbo scroll speed detected",
-      "symptom2": "\ud83e\udd16 Skipped posts without reading",
-      "symptom3": "\ud83d\udcf5 Dismissed wellness warnings instantly"
+      "symptom1": "🌙 Turbo scroll speed detected",
+      "symptom2": "🤖 Skipped posts without reading",
+      "symptom3": "📵 Dismissed wellness warnings instantly"
     },
     "touchgrass": {
       "name": "Touch Grass Immediately",
-      "emoji": "\u2620\ufe0f",
+      "emoji": "☠️",
       "desc": "EMERGENCY: Your scrolling behavior is off the charts. You speed-scrolled through everything, ignored all warnings, and your reaction patterns suggest terminal brainrot. Please close this app and go touch grass immediately.",
-      "symptom1": "\u2620\ufe0f Maximum scroll velocity achieved",
-      "symptom2": "\ud83e\udde0 Brain now processes only short-form content",
-      "symptom3": "\ud83c\udf3f Cannot remember what 'grass' looks like"
+      "symptom1": "☠️ Maximum scroll velocity achieved",
+      "symptom2": "🧠 Brain now processes only short-form content",
+      "symptom3": "🌿 Cannot remember what 'grass' looks like"
     }
   },
   "result": {
     "brainrotLevel": "Brainrot Level",
     "symptoms": "Symptoms",
     "statsTitle": "Scroll Stats",
-    "retake": "Try Again"
+    "retake": "Try Again",
+    "moreTests": "Explore More Tests",
+    "percentileStat": "Your brain is healthier than <strong>{percentile}%</strong> of users"
   },
   "stats": {
     "likes": "Likes",
@@ -119,9 +166,15 @@
     "twitterText": "My Brain Rot Score: {score}% - {tier}! How addicted to scrolling are you?"
   },
   "nav": {
-    "back": "\u2190 DopaBrain"
+    "back": "← DopaBrain"
   },
   "a11y": {
     "skip": "Skip to content"
+  },
+  "related": {
+    "npcTest": "NPC Test",
+    "rizzScore": "Rizz Score",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Factor"
   }
 }

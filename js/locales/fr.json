@@ -1,37 +1,180 @@
 {
-  "meta": { "title": "Brain Rot Score | Simulateur d'Addiction au Scroll - DopaBrain", "description": "D\u00e9file un faux feed social et d\u00e9couvre ton niveau de brain rot." },
-  "app": { "title": "Brain Rot Score", "subtitle": "\u00c0 quel point ton cerveau est pourri ?", "warning": "* \u00c0 des fins de divertissement uniquement", "introDesc": "D\u00e9file un faux feed de r\u00e9seaux sociaux. R\u00e9agis aux posts. On mesurera ton brain rot selon ta vitesse de scroll, tes r\u00e9actions et si tu arrives \u00e0 t'arr\u00eater.", "start": "Commencer \u00e0 Scroller" },
-  "intro": { "feature1": "15 Posts", "feature1Sub": "D\u00e9file le feed", "feature2": "Vitesse de Scroll", "feature2Sub": "On surveille", "feature3": "R\u00e9actions", "feature3Sub": "Like, Vibe, Skip", "feature4": "Alertes", "feature4Sub": "Tu peux t'arr\u00eater ?" },
-  "feed": { "like": "MDR", "vibe": "MORT", "skip": "SKIP", "scrollSpeed": "VITESSE" },
+  "meta": {
+    "title": "Brain Rot Score | Simulateur d'Addiction au Scroll - DopaBrain",
+    "description": "Défile un faux feed social et découvre ton niveau de brain rot."
+  },
+  "app": {
+    "title": "Brain Rot Score",
+    "subtitle": "À quel point ton cerveau est pourri ?",
+    "warning": "* À des fins de divertissement uniquement",
+    "introDesc": "Défile un faux feed de réseaux sociaux. Réagis aux posts. On mesurera ton brain rot selon ta vitesse de scroll, tes réactions et si tu arrives à t'arrêter.",
+    "start": "Commencer à Scroller"
+  },
+  "intro": {
+    "feature1": "15 Posts",
+    "feature1Sub": "Défile le feed",
+    "feature2": "Vitesse de Scroll",
+    "feature2Sub": "On surveille",
+    "feature3": "Réactions",
+    "feature3Sub": "Like, Vibe, Skip",
+    "feature4": "Alertes",
+    "feature4Sub": "Tu peux t'arrêter ?"
+  },
+  "feed": {
+    "like": "MDR",
+    "vibe": "MORT",
+    "skip": "SKIP",
+    "scrollSpeed": "VITESSE"
+  },
   "posts": {
-    "p1": { "user": "Roi du Brain Rot", "text": "POV: t'as ouvert l'appli 'juste 5 minutes' il y a 3 heures" },
-    "p2": { "user": "Dealer de Memes", "text": "Mon rapport de temps d'\u00e9cran m'a envoy\u00e9 une notification de bien-\u00eatre" },
-    "p3": { "user": "Doom Scroller", "text": "J'ai pas d'horaire de sommeil, j'ai un horaire de 'm'effondrer d'\u00e9puisement'" },
-    "p4": { "user": "Touche Pas l'Herbe", "text": "L'algorithme me conna\u00eet mieux que mon psy et \u00e7a co\u00fbte 0\u20ac/mois" },
-    "p5": { "user": "Sigma Stan", "text": "Si j'avais 1\u20ac par heure de temps d'\u00e9cran, je serais retrait\u00e9 \u00e0 25 ans" },
-    "p6": { "user": "Chroniquement en Ligne", "text": "J'ai dit 'sah quel bail' \u00e0 ma grand-m\u00e8re. Elle a demand\u00e9 'c'est quoi un bail?'" },
-    "p7": { "user": "No Cap Fr", "text": "Ma capacit\u00e9 d'attention est tellement morte que ce post est d\u00e9j\u00e0 trop long pour moi" },
-    "p8": { "user": "Slay Queen", "text": "J'ai 47 onglets ouverts sur le navigateur de mon t\u00e9l. Chacun est une personnalit\u00e9 diff\u00e9rente." },
-    "p9": { "user": "Animal de l'Algorithme", "text": "Moi \u00e0 3h du mat' prenant des d\u00e9cisions de vie bas\u00e9es sur un TikTok vu il y a 2 secondes" },
-    "p10": { "user": "Guerrier Nocturne", "text": "Mes yeux br\u00fblent mais le feed est tellement fire que je peux litt\u00e9ralement pas m'arr\u00eater" },
-    "p11": { "user": "Skibidi Stan", "text": "Skibidi dop dop dop yes yes. Si t'as compris \u00e7a, faut qu'on parle." },
-    "p12": { "user": "Personnage Principal", "text": "Je narre ma vie dans ma t\u00eate comme une voix-off TikTok. Le d\u00e9lire est r\u00e9el." },
-    "p13": { "user": "Comportement NPC", "text": "Quelqu'un m'a parl\u00e9 IRL et j'ai failli appuyer sur skip sur sa t\u00eate" },
-    "p14": { "user": "Reine Delulu", "text": "J'ai tellement scroll\u00e9 que mon pouce a d\u00e9velopp\u00e9 sa propre conscience" },
-    "p15": { "user": "Poster Unhinged", "text": "Dernier post. Si tu lis \u00e7a, f\u00e9licitations : ton cerveau est officiellement pourri." }
+    "p1": {
+      "user": "Roi du Brain Rot",
+      "text": "POV: t'as ouvert l'appli 'juste 5 minutes' il y a 3 heures"
+    },
+    "p2": {
+      "user": "Dealer de Memes",
+      "text": "Mon rapport de temps d'écran m'a envoyé une notification de bien-être"
+    },
+    "p3": {
+      "user": "Doom Scroller",
+      "text": "J'ai pas d'horaire de sommeil, j'ai un horaire de 'm'effondrer d'épuisement'"
+    },
+    "p4": {
+      "user": "Touche Pas l'Herbe",
+      "text": "L'algorithme me connaît mieux que mon psy et ça coûte 0€/mois"
+    },
+    "p5": {
+      "user": "Sigma Stan",
+      "text": "Si j'avais 1€ par heure de temps d'écran, je serais retraité à 25 ans"
+    },
+    "p6": {
+      "user": "Chroniquement en Ligne",
+      "text": "J'ai dit 'sah quel bail' à ma grand-mère. Elle a demandé 'c'est quoi un bail?'"
+    },
+    "p7": {
+      "user": "No Cap Fr",
+      "text": "Ma capacité d'attention est tellement morte que ce post est déjà trop long pour moi"
+    },
+    "p8": {
+      "user": "Slay Queen",
+      "text": "J'ai 47 onglets ouverts sur le navigateur de mon tél. Chacun est une personnalité différente."
+    },
+    "p9": {
+      "user": "Animal de l'Algorithme",
+      "text": "Moi à 3h du mat' prenant des décisions de vie basées sur un TikTok vu il y a 2 secondes"
+    },
+    "p10": {
+      "user": "Guerrier Nocturne",
+      "text": "Mes yeux brûlent mais le feed est tellement fire que je peux littéralement pas m'arrêter"
+    },
+    "p11": {
+      "user": "Skibidi Stan",
+      "text": "Skibidi dop dop dop yes yes. Si t'as compris ça, faut qu'on parle."
+    },
+    "p12": {
+      "user": "Personnage Principal",
+      "text": "Je narre ma vie dans ma tête comme une voix-off TikTok. Le délire est réel."
+    },
+    "p13": {
+      "user": "Comportement NPC",
+      "text": "Quelqu'un m'a parlé IRL et j'ai failli appuyer sur skip sur sa tête"
+    },
+    "p14": {
+      "user": "Reine Delulu",
+      "text": "J'ai tellement scrollé que mon pouce a développé sa propre conscience"
+    },
+    "p15": {
+      "user": "Poster Unhinged",
+      "text": "Dernier post. Si tu lis ça, félicitations : ton cerveau est officiellement pourri."
+    }
   },
-  "warning": { "title1": "Tu scrolles encore ?", "sub1": "T'as d\u00e9j\u00e0 r\u00e9agi \u00e0 5 posts. Une petite pause ?", "title2": "S\u00e9rieux, encore ?", "sub2": "10 posts. Ton pouce est pas fatigu\u00e9 ? On s'inqui\u00e8te.", "ignore": "Continuer \u00e0 Scroller", "stop": "Je m'arr\u00eate" },
-  "scan": { "title": "Scan de ton cerveau en cours...", "subtitle": "Analyse du niveau d'addiction au scroll..." },
+  "warning": {
+    "title1": "Tu scrolles encore ?",
+    "sub1": "T'as déjà réagi à 5 posts. Une petite pause ?",
+    "title2": "Sérieux, encore ?",
+    "sub2": "10 posts. Ton pouce est pas fatigué ? On s'inquiète.",
+    "ignore": "Continuer à Scroller",
+    "stop": "Je m'arrête"
+  },
+  "scan": {
+    "title": "Scan de ton cerveau en cours...",
+    "subtitle": "Analyse du niveau d'addiction au scroll..."
+  },
   "tiers": {
-    "champion": { "name": "Champion du D\u00e9tox Digital", "emoji": "\ud83c\udf3f", "desc": "Incroyable. T'as scroll\u00e9 lentement, lu les posts et envisag\u00e9 de t'arr\u00eater. Ton cerveau est remarquablement propre.", "symptom1": "\ud83c\udf31 Lit les posts avant de r\u00e9agir", "symptom2": "\ud83d\udcda A probablement un rythme de sommeil normal", "symptom3": "\ud83d\ude34 S'endort avant minuit" },
-    "casual": { "name": "Scrolleur Casual", "emoji": "\ud83d\udcf1", "desc": "Utilisateur \u00e9quilibr\u00e9. Le contenu ne te contr\u00f4le pas. L'algorithme t'aime bien mais n'a pas encore ton \u00e2me.", "symptom1": "\ud83d\udcf1 Vitesse de scroll mod\u00e9r\u00e9e", "symptom2": "\ud83d\ude04 R\u00e9agit avec r\u00e9flexion \u00e0 certains posts", "symptom3": "\ud83c\udf05 Encore conscient du monde ext\u00e9rieur" },
-    "algorithm": { "name": "Chouchou de l'Algorithme", "emoji": "\ud83c\udfaf", "desc": "L'algorithme t'a marqu\u00e9 comme consommateur fid\u00e8le. Tu scrolles \u00e0 des vitesses inqui\u00e9tantes et r\u00e9agis \u00e0 tout.", "symptom1": "\ud83d\udd04 Vitesse rapide \u2014 ne peut pas ralentir", "symptom2": "\ud83d\udcac A r\u00e9agi aux posts sans r\u00e9fl\u00e9chir", "symptom3": "\ud83d\udcca A ignor\u00e9 l'alerte bien-\u00eatre" },
-    "chronic": { "name": "Chroniquement en Ligne", "emoji": "\ud83d\udc80", "desc": "Ta vitesse de scroll sugg\u00e8re que ton pouce a sa propre m\u00e9moire musculaire. T'as fly\u00e9 \u00e0 travers les posts et ignor\u00e9 les alertes.", "symptom1": "\ud83c\udf19 Vitesse turbo de scroll d\u00e9tect\u00e9e", "symptom2": "\ud83e\udd16 A saut\u00e9 des posts sans lire", "symptom3": "\ud83d\udcf5 A ferm\u00e9 les alertes instantan\u00e9ment" },
-    "touchgrass": { "name": "Touche de l'Herbe Imm\u00e9diatement", "emoji": "\u2620\ufe0f", "desc": "URGENCE : Ton scroll est hors des graphiques. Vitesse maximale, toutes les alertes ignor\u00e9es. Ferme l'appli et va toucher de l'herbe.", "symptom1": "\u2620\ufe0f Vitesse maximale de scroll atteinte", "symptom2": "\ud83e\udde0 Le cerveau ne traite que du contenu court", "symptom3": "\ud83c\udf3f Ne se souvient plus \u00e0 quoi ressemble 'l'herbe'" }
+    "champion": {
+      "name": "Champion du Détox Digital",
+      "emoji": "🌿",
+      "desc": "Incroyable. T'as scrollé lentement, lu les posts et envisagé de t'arrêter. Ton cerveau est remarquablement propre.",
+      "symptom1": "🌱 Lit les posts avant de réagir",
+      "symptom2": "📚 A probablement un rythme de sommeil normal",
+      "symptom3": "😴 S'endort avant minuit"
+    },
+    "casual": {
+      "name": "Scrolleur Casual",
+      "emoji": "📱",
+      "desc": "Utilisateur équilibré. Le contenu ne te contrôle pas. L'algorithme t'aime bien mais n'a pas encore ton âme.",
+      "symptom1": "📱 Vitesse de scroll modérée",
+      "symptom2": "😄 Réagit avec réflexion à certains posts",
+      "symptom3": "🌅 Encore conscient du monde extérieur"
+    },
+    "algorithm": {
+      "name": "Chouchou de l'Algorithme",
+      "emoji": "🎯",
+      "desc": "L'algorithme t'a marqué comme consommateur fidèle. Tu scrolles à des vitesses inquiétantes et réagis à tout.",
+      "symptom1": "🔄 Vitesse rapide — ne peut pas ralentir",
+      "symptom2": "💬 A réagi aux posts sans réfléchir",
+      "symptom3": "📊 A ignoré l'alerte bien-être"
+    },
+    "chronic": {
+      "name": "Chroniquement en Ligne",
+      "emoji": "💀",
+      "desc": "Ta vitesse de scroll suggère que ton pouce a sa propre mémoire musculaire. T'as flyé à travers les posts et ignoré les alertes.",
+      "symptom1": "🌙 Vitesse turbo de scroll détectée",
+      "symptom2": "🤖 A sauté des posts sans lire",
+      "symptom3": "📵 A fermé les alertes instantanément"
+    },
+    "touchgrass": {
+      "name": "Touche de l'Herbe Immédiatement",
+      "emoji": "☠️",
+      "desc": "URGENCE : Ton scroll est hors des graphiques. Vitesse maximale, toutes les alertes ignorées. Ferme l'appli et va toucher de l'herbe.",
+      "symptom1": "☠️ Vitesse maximale de scroll atteinte",
+      "symptom2": "🧠 Le cerveau ne traite que du contenu court",
+      "symptom3": "🌿 Ne se souvient plus à quoi ressemble 'l'herbe'"
+    }
   },
-  "result": { "brainrotLevel": "Niveau de Brain Rot", "symptoms": "Sympt\u00f4mes", "statsTitle": "Statistiques de Scroll", "retake": "R\u00e9essayer" },
-  "stats": { "likes": "Likes", "vibes": "Vibes", "skips": "Skips", "totalTime": "Temps", "avgSpeed": "Vitesse Moy.", "warningsIgnored": "Alertes Ignor\u00e9es" },
-  "share": { "title": "Partage tes r\u00e9sultats", "twitter": "Partager sur X", "copyUrl": "Copier le lien", "copied": "Copi\u00e9 !", "twitterText": "Mon Brain Rot Score : {score}% - {tier} ! Et toi ?" },
-  "nav": { "back": "\u2190 DopaBrain" },
-  "a11y": { "skip": "Aller au contenu" }
+  "result": {
+    "brainrotLevel": "Niveau de Brain Rot",
+    "symptoms": "Symptômes",
+    "statsTitle": "Statistiques de Scroll",
+    "retake": "Réessayer",
+    "moreTests": "Découvre Plus de Tests",
+    "percentileStat": "Ton cerveau est plus sain que celui de <strong>{percentile}%</strong> des utilisateurs"
+  },
+  "stats": {
+    "likes": "Likes",
+    "vibes": "Vibes",
+    "skips": "Skips",
+    "totalTime": "Temps",
+    "avgSpeed": "Vitesse Moy.",
+    "warningsIgnored": "Alertes Ignorées"
+  },
+  "share": {
+    "title": "Partage tes résultats",
+    "twitter": "Partager sur X",
+    "copyUrl": "Copier le lien",
+    "copied": "Copié !",
+    "twitterText": "Mon Brain Rot Score : {score}% - {tier} ! Et toi ?"
+  },
+  "nav": {
+    "back": "← DopaBrain"
+  },
+  "a11y": {
+    "skip": "Aller au contenu"
+  },
+  "related": {
+    "npcTest": "Test NPC",
+    "rizzScore": "Rizz Score",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Factor"
+  }
 }

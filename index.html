@@ -199,6 +199,30 @@
         <div id="symptomsList"></div>
       </div>
 
+      <p class="percentile-stat" id="percentile-stat"></p>
+
+      <div class="related-tests">
+        <h3 data-i18n="result.moreTests">Explore More Tests</h3>
+        <div class="related-grid">
+          <a href="/npc-test/" class="related-card" style="--card-color: #1abc9c">
+            <span class="related-emoji">🤖</span>
+            <span class="related-name" data-i18n="related.npcTest">NPC Test</span>
+          </a>
+          <a href="/rizz-score/" class="related-card" style="--card-color: #e74c3c">
+            <span class="related-emoji">😎</span>
+            <span class="related-name" data-i18n="related.rizzScore">Rizz Score</span>
+          </a>
+          <a href="/delulu-score/" class="related-card" style="--card-color: #9b59b6">
+            <span class="related-emoji">💭</span>
+            <span class="related-name" data-i18n="related.deluluScore">Delulu Score</span>
+          </a>
+          <a href="/ick-factor/" class="related-card" style="--card-color: #f39c12">
+            <span class="related-emoji">😬</span>
+            <span class="related-name" data-i18n="related.ickFactor">Ick Factor</span>
+          </a>
+        </div>
+      </div>
+
       <div class="share-section">
         <div class="share-title" data-i18n="share.title">Share your results</div>
         <div class="share-btns">
@@ -220,17 +244,6 @@
 <script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
 
-<!-- Related Apps (SEO Internal Links) -->
-<section class="related-games" style="margin:20px auto;padding:16px;max-width:480px;background:rgba(255,255,255,0.05);border-radius:12px;">
-  <p style="font-size:13px;color:#aaa;margin:0 0 8px 0;font-weight:600;">More Free Tests</p>
-  <div style="display:flex;gap:8px;flex-wrap:wrap;">
-    <a href="/rizz-score/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">✨ Rizz Score</a>
-    <a href="/delulu-score/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🌈 Delulu Score</a>
-    <a href="/villain-origin/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🦹 Villain Origin</a>
-    <a href="/ick-factor/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">😬 Ick Factor</a>
-    <a href="/pick-me/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🙋 Pick Me Test</a>
-  </div>
-</section>
 
 <script src="/portal/js/cross-promo.js" defer></script>
 <script>if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}</script>

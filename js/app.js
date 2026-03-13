@@ -531,6 +531,15 @@
       }
     }
 
+    // Percentile stat
+    const percentileEl = document.getElementById('percentile-stat');
+    if (percentileEl) {
+      const percentile = pct <= 20 ? 95 : pct <= 40 ? 78 : pct <= 60 ? 55 : pct <= 80 ? 28 : 8;
+      const statText = t('result.percentileStat')
+        .replace('{percentile}', percentile);
+      percentileEl.innerHTML = statText;
+    }
+
     // Show result screen
     const rs = document.getElementById('result-screen');
     rs.classList.add('active');

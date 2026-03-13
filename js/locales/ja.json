@@ -1,127 +1,180 @@
 {
   "meta": {
-    "title": "\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u30b9\u30b3\u30a2 | \u30b9\u30af\u30ed\u30fc\u30eb\u4e2d\u6bd2\u30b7\u30df\u30e5\u30ec\u30fc\u30bf\u30fc - DopaBrain",
-    "description": "\u5076\u306eSNS\u30d5\u30a3\u30fc\u30c9\u3092\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3066\u3001\u3042\u306a\u305f\u306e\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u30ec\u30d9\u30eb\u3092\u6e2c\u5b9a\u3057\u3088\u3046\u3002"
+    "title": "ブレインロットスコア | スクロール中毒シミュレーター - DopaBrain",
+    "description": "偶のSNSフィードをスクロールして、あなたのブレインロットレベルを測定しよう。"
   },
   "app": {
-    "title": "\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u30b9\u30b3\u30a2",
-    "subtitle": "\u3042\u306a\u305f\u306e\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u30ec\u30d9\u30eb\u306f\uff1f",
-    "warning": "\u203b\u5a2f\u697d\u76ee\u7684\u306e\u307f",
-    "introDesc": "\u5076\u306eSNS\u30d5\u30a3\u30fc\u30c9\u3092\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3066\u6295\u7a3f\u306b\u53cd\u5fdc\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6\u3001\u53cd\u5fdc\u30d1\u30bf\u30fc\u30f3\u3001\u6b62\u3081\u3089\u308c\u308b\u304b\u3092\u5206\u6790\u3057\u307e\u3059\u3002",
-    "start": "\u30b9\u30af\u30ed\u30fc\u30eb\u958b\u59cb"
+    "title": "ブレインロットスコア",
+    "subtitle": "あなたのブレインロットレベルは？",
+    "warning": "※娯楽目的のみ",
+    "introDesc": "偶のSNSフィードをスクロールして投稿に反応してください。スクロール速度、反応パターン、止められるかを分析します。",
+    "start": "スクロール開始"
   },
   "intro": {
-    "feature1": "15\u6295\u7a3f",
-    "feature1Sub": "\u30d5\u30a3\u30fc\u30c9\u3092\u30b9\u30af\u30ed\u30fc\u30eb",
-    "feature2": "\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6",
-    "feature2Sub": "\u6e2c\u5b9a\u4e2d\u3067\u3059",
-    "feature3": "\u30ea\u30a2\u30af\u30b7\u30e7\u30f3",
-    "feature3Sub": "\u7b11\u3001\u5171\u611f\u3001\u30b9\u30ad\u30c3\u30d7",
-    "feature4": "\u8b66\u544a",
-    "feature4Sub": "\u6b62\u3081\u3089\u308c\u308b\uff1f"
+    "feature1": "15投稿",
+    "feature1Sub": "フィードをスクロール",
+    "feature2": "スクロール速度",
+    "feature2Sub": "測定中です",
+    "feature3": "リアクション",
+    "feature3Sub": "笑、共感、スキップ",
+    "feature4": "警告",
+    "feature4Sub": "止められる？"
   },
   "feed": {
-    "like": "\u7b11",
-    "vibe": "\u6b7b",
-    "skip": "\u30b9\u30ad\u30c3\u30d7",
-    "scrollSpeed": "\u901f\u5ea6"
+    "like": "笑",
+    "vibe": "死",
+    "skip": "スキップ",
+    "scrollSpeed": "速度"
   },
   "posts": {
-    "p1": { "user": "\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u738b", "text": "\u300c5\u5206\u3060\u3051\u300d\u3068\u601d\u3063\u3066\u30a2\u30d7\u30ea\u958b\u3044\u3066\u304b\u30893\u6642\u9593\u7d4c\u904e\u3057\u305f\u79c1\u306e\u8996\u70b9" },
-    "p2": { "user": "\u30df\u30fc\u30e0\u30c7\u30a3\u30fc\u30e9\u30fc", "text": "\u30b9\u30af\u30ea\u30fc\u30f3\u30bf\u30a4\u30e0\u30ec\u30dd\u30fc\u30c8\u304c\u5b89\u5426\u78ba\u8a8d\u901a\u77e5\u3092\u9001\u3063\u3066\u304d\u305f" },
-    "p3": { "user": "\u30c9\u30a5\u30fc\u30e0\u30b9\u30af\u30ed\u30fc\u30e9\u30fc", "text": "\u7761\u7720\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3058\u3083\u306a\u304f\u3066\u300c\u6c17\u7d76\u3059\u308b\u307e\u3067\u8d77\u304d\u3066\u308b\u300d\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u304c\u3042\u308b" },
-    "p4": { "user": "\u8349\u306b\u89e6\u308c\u306a\u3044", "text": "\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u304c\u30bb\u30e9\u30d4\u30b9\u30c8\u3088\u308a\u79c1\u3092\u3088\u304f\u7406\u89e3\u3057\u3066\u3066\u6708\u984d0\u5186" },
-    "p5": { "user": "\u30b7\u30b0\u30de\u30b9\u30bf\u30f3", "text": "\u30b9\u30af\u30ea\u30fc\u30f3\u30bf\u30a4\u30e01\u6642\u9593\u30671\u4e07\u5186\u3082\u3089\u3048\u305f\u306525\u6b73\u3067\u5f15\u9000\u3067\u304d\u308b" },
-    "p6": { "user": "\u6162\u6027\u30aa\u30f3\u30e9\u30a4\u30f3", "text": "\u304a\u3070\u3042\u3061\u3083\u3093\u306b\u3046\u3063\u304b\u308a\u300c\u305d\u308c\u306a\u300d\u3068\u8a00\u3063\u305f\u3089\u300c\u4f55\u304c\u305d\u308c\u306a\u306e\uff1f\u300d\u3068\u8a00\u308f\u308c\u305f" },
-    "p7": { "user": "\u30ce\u30fc\u30ad\u30e3\u30c3\u30d7", "text": "\u96c6\u4e2d\u529b\u304c\u58ca\u308c\u3059\u304e\u3066\u3053\u306e\u6295\u7a3f\u3082\u3046\u9577\u3059\u304e\u308b\u3068\u611f\u3058\u3066\u308b" },
-    "p8": { "user": "\u30b9\u30ec\u30a4\u30af\u30a4\u30fc\u30f3", "text": "\u30b9\u30de\u30db\u30d6\u30e9\u30a6\u30b6\u306b\u30bf\u30d647\u500b\u958b\u3044\u3066\u308b\u3002\u305d\u308c\u305e\u308c\u5225\u306e\u4eba\u683c\u3002" },
-    "p9": { "user": "\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u306e\u30da\u30c3\u30c8", "text": "\u6df1\u591c3\u6642\u306b2\u79d2\u524d\u306b\u898b\u305fTikTok\u3092\u57fa\u306b\u4eba\u751f\u306e\u6c7a\u65ad\u3092\u4e0b\u3059\u79c1" },
-    "p10": { "user": "\u591c\u306e\u6226\u58eb", "text": "\u76ee\u304c\u71c3\u3048\u3066\u308b\u3051\u3069\u30d5\u30a3\u30fc\u30c9\u304c\u71b1\u3059\u304e\u3066\u6587\u5b57\u901a\u308a\u6b62\u3081\u3089\u308c\u306a\u3044" },
-    "p11": { "user": "\u30b9\u30ad\u30d3\u30c7\u30a3\u30b9\u30bf\u30f3", "text": "\u30b9\u30ad\u30d3\u30c7\u30a3\u30c9\u30c3\u30d7\u30c9\u30c3\u30d7\u30c9\u30c3\u30d7\u30a4\u30a8\u30b9\u30a4\u30a8\u30b9\u3002\u7406\u89e3\u3067\u304d\u305f\u306a\u3089\u8a71\u3057\u5408\u304a\u3046\u3002" },
-    "p12": { "user": "\u4e3b\u4eba\u516c", "text": "\u4eba\u751f\u3092TikTok\u306e\u30ca\u30ec\u30fc\u30b7\u30e7\u30f3\u307f\u305f\u3044\u306b\u982d\u306e\u4e2d\u3067\u8a9e\u3063\u3066\u308b\u3002\u5984\u60f3\u304c\u30ea\u30a2\u30eb\u3002" },
-    "p13": { "user": "NPC\u884c\u52d5", "text": "\u73fe\u5b9f\u3067\u8a71\u3057\u304b\u3051\u3089\u308c\u305f\u3089\u9854\u306e\u30b9\u30ad\u30c3\u30d7\u30dc\u30bf\u30f3\u3092\u62bc\u3057\u305d\u3046\u306b\u306a\u3063\u305f" },
-    "p14": { "user": "\u30c7\u30a3\u30eb\u30eb\u30af\u30a4\u30fc\u30f3", "text": "\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3059\u304e\u3066\u89aa\u6307\u304c\u72ec\u81ea\u306e\u610f\u8b58\u3092\u767a\u9054\u3055\u305b\u305f" },
-    "p15": { "user": "\u30a2\u30f3\u30d2\u30f3\u30b8\u30c9", "text": "\u6700\u5f8c\u306e\u6295\u7a3f\u3067\u3059\u3002\u3053\u3053\u307e\u3067\u8aad\u3093\u3060\u3042\u306a\u305f\u3001\u304a\u3081\u3067\u3068\u3046\uff1a\u8133\u306f\u516c\u5f0f\u306b\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u6e08\u307f\u3002" }
+    "p1": {
+      "user": "ブレインロット王",
+      "text": "「5分だけ」と思ってアプリ開いてから3時間経過した私の視点"
+    },
+    "p2": {
+      "user": "ミームディーラー",
+      "text": "スクリーンタイムレポートが安否確認通知を送ってきた"
+    },
+    "p3": {
+      "user": "ドゥームスクローラー",
+      "text": "睡眠スケジュールじゃなくて「気絶するまで起きてる」スケジュールがある"
+    },
+    "p4": {
+      "user": "草に触れない",
+      "text": "アルゴリズムがセラピストより私をよく理解してて月額0円"
+    },
+    "p5": {
+      "user": "シグマスタン",
+      "text": "スクリーンタイム1時間で1万円もらえたづ25歳で引退できる"
+    },
+    "p6": {
+      "user": "慢性オンライン",
+      "text": "おばあちゃんにうっかり「それな」と言ったら「何がそれなの？」と言われた"
+    },
+    "p7": {
+      "user": "ノーキャップ",
+      "text": "集中力が壊れすぎてこの投稿もう長すぎると感じてる"
+    },
+    "p8": {
+      "user": "スレイクイーン",
+      "text": "スマホブラウザにタブ47個開いてる。それぞれ別の人格。"
+    },
+    "p9": {
+      "user": "アルゴリズムのペット",
+      "text": "深夜3時に2秒前に見たTikTokを基に人生の決断を下す私"
+    },
+    "p10": {
+      "user": "夜の戦士",
+      "text": "目が燃えてるけどフィードが熱すぎて文字通り止められない"
+    },
+    "p11": {
+      "user": "スキビディスタン",
+      "text": "スキビディドップドップドップイエスイエス。理解できたなら話し合おう。"
+    },
+    "p12": {
+      "user": "主人公",
+      "text": "人生をTikTokのナレーションみたいに頭の中で語ってる。妄想がリアル。"
+    },
+    "p13": {
+      "user": "NPC行動",
+      "text": "現実で話しかけられたら顔のスキップボタンを押しそうになった"
+    },
+    "p14": {
+      "user": "ディルルクイーン",
+      "text": "スクロールしすぎて親指が独自の意識を発達させた"
+    },
+    "p15": {
+      "user": "アンヒンジド",
+      "text": "最後の投稿です。ここまで読んだあなた、おめでとう：脳は公式にブレインロット済み。"
+    }
   },
   "warning": {
-    "title1": "\u307e\u3060\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3066\u308b\uff1f",
-    "sub1": "\u3082\u30465\u3064\u306e\u6295\u7a3f\u306b\u53cd\u5fdc\u3057\u307e\u3057\u305f\u3002\u4f11\u61a9\u3057\u307e\u305b\u3093\u304b\uff1f",
-    "title2": "\u672c\u6c17\u3067\u307e\u3060\uff1f",
-    "sub2": "10\u6295\u7a3f\u76ee\u3067\u3059\u3002\u89aa\u6307\u75b2\u308c\u3066\u307e\u305b\u3093\u304b\uff1f\u5fc3\u914d\u3067\u3059\u3002",
-    "ignore": "\u30b9\u30af\u30ed\u30fc\u30eb\u7d9a\u884c",
-    "stop": "\u6b62\u3081\u307e\u3059"
+    "title1": "まだスクロールしてる？",
+    "sub1": "もう5つの投稿に反応しました。休憩しませんか？",
+    "title2": "本気でまだ？",
+    "sub2": "10投稿目です。親指疲れてませんか？心配です。",
+    "ignore": "スクロール続行",
+    "stop": "止めます"
   },
   "scan": {
-    "title": "\u8133\u3092\u30b9\u30ad\u30e3\u30f3\u4e2d...",
-    "subtitle": "\u30b9\u30af\u30ed\u30fc\u30eb\u4e2d\u6bd2\u30ec\u30d9\u30eb\u3092\u5206\u6790\u4e2d..."
+    "title": "脳をスキャン中...",
+    "subtitle": "スクロール中毒レベルを分析中..."
   },
   "tiers": {
     "champion": {
-      "name": "\u30c7\u30b8\u30bf\u30eb\u30c7\u30c8\u30c3\u30af\u30b9\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3",
-      "emoji": "\ud83c\udf3f",
-      "desc": "\u7d20\u6674\u3089\u3057\u3044\u3002\u3086\u3063\u304f\u308a\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3001\u6295\u7a3f\u3092\u5b9f\u969b\u306b\u8aad\u307f\u3001\u6b62\u3081\u308b\u3053\u3068\u3082\u8003\u3048\u307e\u3057\u305f\u3002\u3042\u306a\u305f\u306e\u8133\u306f\u9a5a\u304f\u307b\u3069\u304d\u308c\u3044\u3067\u3059\u3002",
-      "symptom1": "\ud83c\udf31 \u6295\u7a3f\u3092\u8aad\u3093\u3067\u304b\u3089\u53cd\u5fdc",
-      "symptom2": "\ud83d\udcda \u6b63\u5e38\u306a\u7761\u7720\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb",
-      "symptom3": "\ud83d\ude34 \u771f\u591c\u4e2d\u524d\u306b\u5c31\u5bdd"
+      "name": "デジタルデトックスチャンピオン",
+      "emoji": "🌿",
+      "desc": "素晴らしい。ゆっくりスクロールし、投稿を実際に読み、止めることも考えました。あなたの脳は驚くほどきれいです。",
+      "symptom1": "🌱 投稿を読んでから反応",
+      "symptom2": "📚 正常な睡眠スケジュール",
+      "symptom3": "😴 真夜中前に就寝"
     },
     "casual": {
-      "name": "\u30ab\u30b8\u30e5\u30a2\u30eb\u30b9\u30af\u30ed\u30fc\u30e9\u30fc",
-      "emoji": "\ud83d\udcf1",
-      "desc": "\u30d0\u30e9\u30f3\u30b9\u306e\u53d6\u308c\u305f\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30e6\u30fc\u30b6\u30fc\u3067\u3059\u3002\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u697d\u3057\u3080\u304c\u652f\u914d\u3055\u308c\u307e\u305b\u3093\u3002",
-      "symptom1": "\ud83d\udcf1 \u9069\u5ea6\u306a\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6",
-      "symptom2": "\ud83d\ude04 \u4e00\u90e8\u306e\u6295\u7a3f\u306b\u4e01\u5be7\u306b\u53cd\u5fdc",
-      "symptom3": "\ud83c\udf05 \u5916\u306e\u4e16\u754c\u3092\u8a8d\u8b58\u3057\u3066\u3044\u308b"
+      "name": "カジュアルスクローラー",
+      "emoji": "📱",
+      "desc": "バランスの取れたインターネットユーザーです。コンテンツを楽しむが支配されません。",
+      "symptom1": "📱 適度なスクロール速度",
+      "symptom2": "😄 一部の投稿に丁寧に反応",
+      "symptom3": "🌅 外の世界を認識している"
     },
     "algorithm": {
-      "name": "\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u306e\u304a\u6c17\u306b\u5165\u308a",
-      "emoji": "\ud83c\udfaf",
-      "desc": "\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u304c\u3042\u306a\u305f\u3092\u5fe0\u5b9f\u306a\u6d88\u8cbb\u8005\u3068\u3057\u3066\u767b\u9332\u3057\u307e\u3057\u305f\u3002\u5fc3\u914d\u306a\u901f\u5ea6\u3067\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3001\u5168\u3066\u306b\u53cd\u5fdc\u3057\u307e\u3059\u3002",
-      "symptom1": "\ud83d\udd04 \u901f\u3044\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6\u2014\u6e1b\u901f\u4e0d\u53ef",
-      "symptom2": "\ud83d\udcac \u8003\u3048\u305a\u306b\u6295\u7a3f\u306b\u53cd\u5fdc",
-      "symptom3": "\ud83d\udcca \u5065\u5eb7\u8b66\u544a\u3092\u7121\u8996"
+      "name": "アルゴリズムのお気に入り",
+      "emoji": "🎯",
+      "desc": "アルゴリズムがあなたを忠実な消費者として登録しました。心配な速度でスクロールし、全てに反応します。",
+      "symptom1": "🔄 速いスクロール速度—減速不可",
+      "symptom2": "💬 考えずに投稿に反応",
+      "symptom3": "📊 健康警告を無視"
     },
     "chronic": {
-      "name": "\u6162\u6027\u30aa\u30f3\u30e9\u30a4\u30f3",
-      "emoji": "\ud83d\udc80",
-      "desc": "\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6\u304b\u3089\u89aa\u6307\u304c\u72ec\u81ea\u306e\u7b4b\u8089\u8a18\u61b6\u3092\u6301\u3063\u3066\u3044\u308b\u3088\u3046\u3067\u3059\u3002\u6295\u7a3f\u3092\u7206\u901f\u3067\u901a\u904e\u3057\u3001\u8b66\u544a\u3092\u7121\u8996\u3057\u307e\u3057\u305f\u3002",
-      "symptom1": "\ud83c\udf19 \u30bf\u30fc\u30dc\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6\u691c\u51fa",
-      "symptom2": "\ud83e\udd16 \u8aad\u307e\u305a\u306b\u6295\u7a3f\u3092\u30b9\u30ad\u30c3\u30d7",
-      "symptom3": "\ud83d\udcf5 \u5065\u5eb7\u8b66\u544a\u3092\u5373\u5ea7\u306b\u5374\u4e0b"
+      "name": "慢性オンライン",
+      "emoji": "💀",
+      "desc": "スクロール速度から親指が独自の筋肉記憶を持っているようです。投稿を爆速で通過し、警告を無視しました。",
+      "symptom1": "🌙 ターボスクロール速度検出",
+      "symptom2": "🤖 読まずに投稿をスキップ",
+      "symptom3": "📵 健康警告を即座に却下"
     },
     "touchgrass": {
-      "name": "\u4eca\u3059\u3050\u8349\u306b\u89e6\u308c\u3066",
-      "emoji": "\u2620\ufe0f",
-      "desc": "\u7dca\u6025\u4e8b\u614b\uff1a\u30b9\u30af\u30ed\u30fc\u30eb\u884c\u52d5\u304c\u898f\u683c\u5916\u3067\u3059\u3002\u5168\u3066\u3092\u8d85\u9ad8\u901f\u3067\u30b9\u30af\u30ed\u30fc\u30eb\u3057\u3001\u5168\u8b66\u544a\u3092\u7121\u8996\u3057\u307e\u3057\u305f\u3002\u4eca\u3059\u3050\u30a2\u30d7\u30ea\u3092\u9589\u3058\u3066\u5916\u306b\u51fa\u3066\u304f\u3060\u3055\u3044\u3002",
-      "symptom1": "\u2620\ufe0f \u6700\u5927\u30b9\u30af\u30ed\u30fc\u30eb\u901f\u5ea6\u9054\u6210",
-      "symptom2": "\ud83e\udde0 \u8133\u304c\u30b7\u30e7\u30fc\u30c8\u30b3\u30f3\u30c6\u30f3\u30c4\u3060\u3051\u3092\u51e6\u7406",
-      "symptom3": "\ud83c\udf3f \u300c\u8349\u300d\u306e\u898b\u305f\u76ee\u3092\u601d\u3044\u51fa\u305b\u306a\u3044"
+      "name": "今すぐ草に触れて",
+      "emoji": "☠️",
+      "desc": "緊急事態：スクロール行動が規格外です。全てを超高速でスクロールし、全警告を無視しました。今すぐアプリを閉じて外に出てください。",
+      "symptom1": "☠️ 最大スクロール速度達成",
+      "symptom2": "🧠 脳がショートコンテンツだけを処理",
+      "symptom3": "🌿 「草」の見た目を思い出せない"
     }
   },
   "result": {
-    "brainrotLevel": "\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u30ec\u30d9\u30eb",
-    "symptoms": "\u75c7\u72b6",
-    "statsTitle": "\u30b9\u30af\u30ed\u30fc\u30eb\u7d71\u8a08",
-    "retake": "\u3082\u3046\u4e00\u5ea6"
+    "brainrotLevel": "ブレインロットレベル",
+    "symptoms": "症状",
+    "statsTitle": "スクロール統計",
+    "retake": "もう一度",
+    "moreTests": "もっとテストを探す",
+    "percentileStat": "あなたの脳は<strong>{percentile}%</strong>のユーザーより健康です"
   },
   "stats": {
-    "likes": "\u3044\u3044\u306d",
-    "vibes": "\u5171\u611f",
-    "skips": "\u30b9\u30ad\u30c3\u30d7",
-    "totalTime": "\u6642\u9593",
-    "avgSpeed": "\u5e73\u5747\u901f\u5ea6",
-    "warningsIgnored": "\u8b66\u544a\u7121\u8996"
+    "likes": "いいね",
+    "vibes": "共感",
+    "skips": "スキップ",
+    "totalTime": "時間",
+    "avgSpeed": "平均速度",
+    "warningsIgnored": "警告無視"
   },
   "share": {
-    "title": "\u7d50\u679c\u3092\u30b7\u30a7\u30a2",
-    "twitter": "X\u3067\u30b7\u30a7\u30a2",
-    "copyUrl": "\u30ea\u30f3\u30af\u30b3\u30d4\u30fc",
-    "copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\uff01",
-    "twitterText": "\u30d6\u30ec\u30a4\u30f3\u30ed\u30c3\u30c8\u30b9\u30b3\u30a2: {score}% - {tier}\uff01\u3042\u306a\u305f\u306f\uff1f"
+    "title": "結果をシェア",
+    "twitter": "Xでシェア",
+    "copyUrl": "リンクコピー",
+    "copied": "コピーしました！",
+    "twitterText": "ブレインロットスコア: {score}% - {tier}！あなたは？"
   },
   "nav": {
-    "back": "\u2190 DopaBrain"
+    "back": "← DopaBrain"
   },
   "a11y": {
-    "skip": "\u30b3\u30f3\u30c6\u30f3\u30c4\u3078\u30b9\u30ad\u30c3\u30d7"
+    "skip": "コンテンツへスキップ"
+  },
+  "related": {
+    "npcTest": "NPCテスト",
+    "rizzScore": "リズスコア",
+    "deluluScore": "デリュルスコア",
+    "ickFactor": "イックファクター"
   }
 }

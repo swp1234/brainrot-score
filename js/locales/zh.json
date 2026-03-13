@@ -1,127 +1,180 @@
 {
   "meta": {
-    "title": "\u8111\u8150\u6307\u6570 | \u6eda\u52a8\u4e0a\u763e\u6a21\u62df\u5668 - DopaBrain",
-    "description": "\u6eda\u52a8\u865a\u62df\u793e\u4ea4\u5a92\u4f53\u4fe1\u606f\u6d41\uff0c\u53d1\u73b0\u4f60\u7684\u8111\u8150\u7a0b\u5ea6\u3002"
+    "title": "脑腐指数 | 滚动上瘾模拟器 - DopaBrain",
+    "description": "滚动虚拟社交媒体信息流，发现你的脑腐程度。"
   },
   "app": {
-    "title": "\u8111\u8150\u6307\u6570",
-    "subtitle": "\u4f60\u7684\u8111\u5b50\u8150\u4e86\u591a\u5c11\uff1f",
-    "warning": "* \u4ec5\u4f9b\u5a31\u4e50",
-    "introDesc": "\u6eda\u52a8\u865a\u62df\u793e\u4ea4\u5a92\u4f53\u4fe1\u606f\u6d41\uff0c\u5bf9\u5e16\u5b50\u505a\u51fa\u53cd\u5e94\u3002\u6211\u4eec\u4f1a\u6839\u636e\u4f60\u7684\u6eda\u52a8\u901f\u5ea6\u3001\u53cd\u5e94\u6a21\u5f0f\u548c\u80fd\u5426\u505c\u4e0b\u6765\u6765\u8861\u91cf\u4f60\u7684\u8111\u8150\u7a0b\u5ea6\u3002",
-    "start": "\u5f00\u59cb\u6eda\u52a8"
+    "title": "脑腐指数",
+    "subtitle": "你的脑子腐了多少？",
+    "warning": "* 仅供娱乐",
+    "introDesc": "滚动虚拟社交媒体信息流，对帖子做出反应。我们会根据你的滚动速度、反应模式和能否停下来来衡量你的脑腐程度。",
+    "start": "开始滚动"
   },
   "intro": {
-    "feature1": "15\u7bc7\u5e16\u5b50",
-    "feature1Sub": "\u6eda\u52a8\u4fe1\u606f\u6d41",
-    "feature2": "\u6eda\u52a8\u901f\u5ea6",
-    "feature2Sub": "\u6211\u4eec\u5728\u76d1\u6d4b",
-    "feature3": "\u53cd\u5e94",
-    "feature3Sub": "\u559c\u6b22\u3001\u5171\u9e23\u3001\u8df3\u8fc7",
-    "feature4": "\u8b66\u544a",
-    "feature4Sub": "\u4f60\u80fd\u505c\u4e0b\u6765\u5417\uff1f"
+    "feature1": "15篇帖子",
+    "feature1Sub": "滚动信息流",
+    "feature2": "滚动速度",
+    "feature2Sub": "我们在监测",
+    "feature3": "反应",
+    "feature3Sub": "喜欢、共鸣、跳过",
+    "feature4": "警告",
+    "feature4Sub": "你能停下来吗？"
   },
   "feed": {
-    "like": "\u54c8\u54c8",
-    "vibe": "\u7edd\u4e86",
-    "skip": "\u8df3\u8fc7",
-    "scrollSpeed": "\u901f\u5ea6"
+    "like": "哈哈",
+    "vibe": "绝了",
+    "skip": "跳过",
+    "scrollSpeed": "速度"
   },
   "posts": {
-    "p1": { "user": "\u8111\u8150\u738b", "text": "\u89c6\u89d2\uff1a\u6253\u5f00APP\u201c\u5c31\u770b5\u5206\u949f\u201d\u7ed3\u679c3\u5c0f\u65f6\u8fc7\u53bb\u4e86" },
-    "p2": { "user": "\u6897\u8d29\u5b50", "text": "\u5c4f\u5e55\u4f7f\u7528\u65f6\u95f4\u62a5\u544a\u7ed9\u6211\u53d1\u4e86\u4e00\u6761\u5173\u6000\u901a\u77e5" },
-    "p3": { "user": "\u6df1\u6e0a\u5237\u624b", "text": "\u6211\u6ca1\u6709\u7761\u7720\u65f6\u95f4\u8868\uff0c\u6211\u6709\u7684\u662f\u201c\u7d2f\u6655\u8fc7\u53bb\u201d\u65f6\u95f4\u8868" },
-    "p4": { "user": "\u4e0d\u6478\u8349", "text": "\u7b97\u6cd5\u6bd4\u5fc3\u7406\u533b\u751f\u66f4\u61c2\u6211\uff0c\u800c\u4e14\u6bcf\u6708\u52a0\u94b10\u5143" },
-    "p5": { "user": "\u897f\u683c\u739b\u7c89", "text": "\u5982\u679c\u5c4f\u5e55\u65f6\u95f4\u6bcf\u5c0f\u65f61\u5757\u94b1\uff0c\u621125\u5c81\u5c31\u80fd\u9000\u4f11" },
-    "p6": { "user": "\u6162\u6027\u5728\u7ebf", "text": "\u4e0d\u5c0f\u5fc3\u8ddf\u5976\u5976\u8bf4\u4e86\u201cyyds\u201d\uff0c\u5979\u95ee\u6211\u201c\u8fd9\u662f\u4ec0\u4e48\u7f29\u5199\u201d" },
-    "p7": { "user": "\u65e0Cap", "text": "\u6211\u7684\u6ce8\u610f\u529b\u5df2\u7ecf\u5d29\u574f\u5230\u89c9\u5f97\u8fd9\u7bc7\u5e16\u5b50\u90fd\u592a\u957f\u4e86" },
-    "p8": { "user": "\u706b\u8fb9\u5973\u738b", "text": "\u624b\u673a\u6d4f\u89c8\u5668\u5f00\u4e8647\u4e2a\u6807\u7b7e\u9875\uff0c\u6bcf\u4e00\u4e2a\u90fd\u662f\u4e0d\u540c\u7684\u4eba\u683c" },
-    "p9": { "user": "\u7b97\u6cd5\u5ba0\u7269", "text": "\u51cc\u66a83\u70b9\u6839\u636e2\u79d2\u524d\u770b\u7684\u6296\u97f3\u505a\u4eba\u751f\u51b3\u5b9a" },
-    "p10": { "user": "\u591c\u6218\u58eb", "text": "\u773c\u775b\u5728\u71c3\u70e7\u4f46\u4fe1\u606f\u6d41\u592a\u706b\u4e86\u6587\u5b57\u6ca1\u6cd5\u505c\u4e0b\u6765" },
-    "p11": { "user": "\u65af\u57fa\u6bd4\u8fea\u7c89", "text": "Skibidi dop dop dop yes yes\u3002\u5982\u679c\u4f60\u770b\u61c2\u4e86\uff0c\u6211\u4eec\u9700\u8981\u8c08\u8c08\u3002" },
-    "p12": { "user": "\u4e3b\u89d2", "text": "\u6211\u5728\u8111\u5b50\u91cc\u50cf\u6296\u97f3\u65c1\u767d\u4e00\u6837\u53d9\u8ff0\u6211\u7684\u751f\u6d3b\u3002\u5984\u60f3\u662f\u771f\u7684\u3002" },
-    "p13": { "user": "NPC\u884c\u4e3a", "text": "\u73b0\u5b9e\u4e2d\u6709\u4eba\u8ddf\u6211\u8bf4\u8bdd\uff0c\u6211\u5dee\u70b9\u6309\u4e86\u4ed6\u8138\u4e0a\u7684\u8df3\u8fc7\u6309\u94ae" },
-    "p14": { "user": "\u8ff7\u60d1\u5973\u738b", "text": "\u5237\u5f97\u592a\u4e45\u4e86\uff0c\u6211\u7684\u62c7\u6307\u5df2\u7ecf\u53d1\u5c55\u51fa\u4e86\u72ec\u7acb\u610f\u8bc6" },
-    "p15": { "user": "\u7591\u4f3c\u53d1\u7591", "text": "\u6700\u540e\u4e00\u7bc7\u3002\u5982\u679c\u4f60\u8bfb\u5230\u4e86\u8fd9\u91cc\uff0c\u606d\u559c\uff1a\u4f60\u7684\u8111\u5b50\u5df2\u7ecf\u6b63\u5f0f\u8150\u70c2\u4e86\u3002" }
+    "p1": {
+      "user": "脑腐王",
+      "text": "视角：打开APP“就看5分钟”结果3小时过去了"
+    },
+    "p2": {
+      "user": "梗贩子",
+      "text": "屏幕使用时间报告给我发了一条关怀通知"
+    },
+    "p3": {
+      "user": "深渊刷手",
+      "text": "我没有睡眠时间表，我有的是“累晕过去”时间表"
+    },
+    "p4": {
+      "user": "不摸草",
+      "text": "算法比心理医生更懂我，而且每月加钱0元"
+    },
+    "p5": {
+      "user": "西格玛粉",
+      "text": "如果屏幕时间每小时1块钱，我25岁就能退休"
+    },
+    "p6": {
+      "user": "慢性在线",
+      "text": "不小心跟奶奶说了“yyds”，她问我“这是什么缩写”"
+    },
+    "p7": {
+      "user": "无Cap",
+      "text": "我的注意力已经崩坏到觉得这篇帖子都太长了"
+    },
+    "p8": {
+      "user": "火边女王",
+      "text": "手机浏览器开了47个标签页，每一个都是不同的人格"
+    },
+    "p9": {
+      "user": "算法宠物",
+      "text": "凌暨3点根据2秒前看的抖音做人生决定"
+    },
+    "p10": {
+      "user": "夜战士",
+      "text": "眼睛在燃烧但信息流太火了文字没法停下来"
+    },
+    "p11": {
+      "user": "斯基比迪粉",
+      "text": "Skibidi dop dop dop yes yes。如果你看懂了，我们需要谈谈。"
+    },
+    "p12": {
+      "user": "主角",
+      "text": "我在脑子里像抖音旁白一样叙述我的生活。妄想是真的。"
+    },
+    "p13": {
+      "user": "NPC行为",
+      "text": "现实中有人跟我说话，我差点按了他脸上的跳过按钮"
+    },
+    "p14": {
+      "user": "迷惑女王",
+      "text": "刷得太久了，我的拇指已经发展出了独立意识"
+    },
+    "p15": {
+      "user": "疑似发疑",
+      "text": "最后一篇。如果你读到了这里，恭喜：你的脑子已经正式腐烂了。"
+    }
   },
   "warning": {
-    "title1": "\u8fd8\u5728\u5237\u5417\uff1f",
-    "sub1": "\u4f60\u5df2\u7ecf\u5bf9\u4e865\u7bc7\u5e16\u5b50\u505a\u51fa\u53cd\u5e94\u3002\u4f11\u606f\u4e00\u4e0b\u5982\u4f55\uff1f",
-    "title2": "\u8ba4\u771f\u7684\uff0c\u8fd8\u5728\uff1f",
-    "sub2": "\u5df2\u7ecf\u523010\u7bc7\u4e86\u3002\u62c7\u6307\u4e0d\u7d2f\u5417\uff1f\u6211\u4eec\u62c5\u5fc3\u4f60\u3002",
-    "ignore": "\u7ee7\u7eed\u5237",
-    "stop": "\u6211\u505c"
+    "title1": "还在刷吗？",
+    "sub1": "你已经对了5篇帖子做出反应。休息一下如何？",
+    "title2": "认真的，还在？",
+    "sub2": "已经到10篇了。拇指不累吗？我们担心你。",
+    "ignore": "继续刷",
+    "stop": "我停"
   },
   "scan": {
-    "title": "\u6b63\u5728\u626b\u63cf\u4f60\u7684\u5927\u8111...",
-    "subtitle": "\u5206\u6790\u6eda\u52a8\u4e0a\u763e\u7a0b\u5ea6\u4e2d..."
+    "title": "正在扫描你的大脑...",
+    "subtitle": "分析滚动上瘾程度中..."
   },
   "tiers": {
     "champion": {
-      "name": "\u6570\u5b57\u6212\u6bd2\u51a0\u519b",
-      "emoji": "\ud83c\udf3f",
-      "desc": "\u4e0d\u53ef\u601d\u8bae\u3002\u4f60\u6162\u6162\u6eda\u52a8\uff0c\u771f\u6b63\u9605\u8bfb\u5e16\u5b50\uff0c\u751a\u81f3\u8003\u8651\u505c\u4e0b\u6765\u3002\u4f60\u7684\u5927\u8111\u60ca\u4eba\u5730\u5e72\u51c0\u3002",
-      "symptom1": "\ud83c\udf31 \u53cd\u5e94\u524d\u5148\u9605\u8bfb\u5e16\u5b50",
-      "symptom2": "\ud83d\udcda \u53ef\u80fd\u6709\u6b63\u5e38\u7684\u7761\u7720\u65f6\u95f4\u8868",
-      "symptom3": "\ud83d\ude34 \u5348\u591c\u524d\u5165\u7761"
+      "name": "数字戒毒冠军",
+      "emoji": "🌿",
+      "desc": "不可思议。你慢慢滚动，真正阅读帖子，甚至考虑停下来。你的大脑惊人地干净。",
+      "symptom1": "🌱 反应前先阅读帖子",
+      "symptom2": "📚 可能有正常的睡眠时间表",
+      "symptom3": "😴 午夜前入睡"
     },
     "casual": {
-      "name": "\u4f5b\u7cfb\u51b2\u6d6a\u8005",
-      "emoji": "\ud83d\udcf1",
-      "desc": "\u4f60\u662f\u5747\u8861\u7684\u4e92\u8054\u7f51\u7528\u6237\u3002\u4f60\u53c2\u4e0e\u5185\u5bb9\u4f46\u4e0d\u88ab\u5185\u5bb9\u5438\u5f15\u3002\u7b97\u6cd5\u559c\u6b22\u4f60\u4f46\u8fd8\u6ca1\u5360\u636e\u4f60\u7684\u7075\u9b42\u3002",
-      "symptom1": "\ud83d\udcf1 \u9002\u5ea6\u7684\u6eda\u52a8\u901f\u5ea6",
-      "symptom2": "\ud83d\ude04 \u5bf9\u90e8\u5206\u5e16\u5b50\u4ed4\u7ec6\u53cd\u5e94",
-      "symptom3": "\ud83c\udf05 \u4ecd\u7136\u610f\u8bc6\u5230\u5916\u9762\u7684\u4e16\u754c"
+      "name": "佛系冲浪者",
+      "emoji": "📱",
+      "desc": "你是均衡的互联网用户。你参与内容但不被内容吸引。算法喜欢你但还没占据你的灵魂。",
+      "symptom1": "📱 适度的滚动速度",
+      "symptom2": "😄 对部分帖子仔细反应",
+      "symptom3": "🌅 仍然意识到外面的世界"
     },
     "algorithm": {
-      "name": "\u7b97\u6cd5\u7684\u5ba0\u513f",
-      "emoji": "\ud83c\udfaf",
-      "desc": "\u7b97\u6cd5\u5df2\u5c06\u4f60\u6807\u8bb0\u4e3a\u5fe0\u5b9e\u6d88\u8d39\u8005\u3002\u4f60\u4ee5\u4ee4\u4eba\u62c5\u5fe7\u7684\u901f\u5ea6\u6eda\u52a8\u5e76\u5bf9\u4e00\u5207\u505a\u51fa\u53cd\u5e94\u3002\u8111\u8150\u6b63\u5728\u5f62\u6210\u3002",
-      "symptom1": "\ud83d\udd04 \u5feb\u901f\u6eda\u52a8\u2014\u65e0\u6cd5\u51cf\u901f",
-      "symptom2": "\ud83d\udcac \u4e0d\u52a0\u601d\u8003\u5730\u5bf9\u5e16\u5b50\u53cd\u5e94",
-      "symptom3": "\ud83d\udcca \u65e0\u89c6\u5065\u5eb7\u8b66\u544a"
+      "name": "算法的宠儿",
+      "emoji": "🎯",
+      "desc": "算法已将你标记为忠实消费者。你以令人担忧的速度滚动并对一切做出反应。脑腐正在形成。",
+      "symptom1": "🔄 快速滚动—无法减速",
+      "symptom2": "💬 不加思考地对帖子反应",
+      "symptom3": "📊 无视健康警告"
     },
     "chronic": {
-      "name": "\u6162\u6027\u7f51\u7606\u60a3\u8005",
-      "emoji": "\ud83d\udc80",
-      "desc": "\u4ece\u4f60\u7684\u6eda\u52a8\u901f\u5ea6\u6765\u770b\uff0c\u4f60\u7684\u62c7\u6307\u5df2\u7ecf\u6709\u4e86\u81ea\u5df1\u7684\u808c\u8089\u8bb0\u5fc6\u3002\u4f60\u98de\u901f\u5237\u8fc7\u5e16\u5b50\uff0c\u8df3\u8fc7\u8b66\u544a\uff0c\u663e\u793a\u51fa\u7ecf\u5178\u7684\u6df1\u6e0a\u5237\u884c\u4e3a\u3002",
-      "symptom1": "\ud83c\udf19 \u8d85\u9ad8\u901f\u6eda\u52a8\u68c0\u6d4b",
-      "symptom2": "\ud83e\udd16 \u4e0d\u8bfb\u5c31\u8df3\u8fc7\u5e16\u5b50",
-      "symptom3": "\ud83d\udcf5 \u7acb\u5373\u65e0\u89c6\u5065\u5eb7\u8b66\u544a"
+      "name": "慢性网瘆患者",
+      "emoji": "💀",
+      "desc": "从你的滚动速度来看，你的拇指已经有了自己的肌肉记忆。你飞速刷过帖子，跳过警告，显示出经典的深渊刷行为。",
+      "symptom1": "🌙 超高速滚动检测",
+      "symptom2": "🤖 不读就跳过帖子",
+      "symptom3": "📵 立即无视健康警告"
     },
     "touchgrass": {
-      "name": "\u5feb\u53bb\u6478\u8349",
-      "emoji": "\u2620\ufe0f",
-      "desc": "\u7d27\u6025\u60c5\u51b5\uff1a\u4f60\u7684\u6eda\u52a8\u884c\u4e3a\u5df2\u7ecf\u7206\u8868\u3002\u4f60\u8d85\u9ad8\u901f\u5237\u8fc7\u6240\u6709\u5185\u5bb9\uff0c\u65e0\u89c6\u6240\u6709\u8b66\u544a\u3002\u8bf7\u7acb\u5373\u5173\u95edAPP\u53bb\u6478\u8349\u3002",
-      "symptom1": "\u2620\ufe0f \u8fbe\u5230\u6700\u5927\u6eda\u52a8\u901f\u5ea6",
-      "symptom2": "\ud83e\udde0 \u5927\u8111\u53ea\u80fd\u5904\u7406\u77ed\u89c6\u9891",
-      "symptom3": "\ud83c\udf3f \u5fd8\u4e86\u201c\u8349\u201d\u957f\u4ec0\u4e48\u6837"
+      "name": "快去摸草",
+      "emoji": "☠️",
+      "desc": "紧急情况：你的滚动行为已经爆表。你超高速刷过所有内容，无视所有警告。请立即关闭APP去摸草。",
+      "symptom1": "☠️ 达到最大滚动速度",
+      "symptom2": "🧠 大脑只能处理短视频",
+      "symptom3": "🌿 忘了“草”长什么样"
     }
   },
   "result": {
-    "brainrotLevel": "\u8111\u8150\u6307\u6570",
-    "symptoms": "\u75c7\u72b6",
-    "statsTitle": "\u6eda\u52a8\u7edf\u8ba1",
-    "retake": "\u518d\u6765\u4e00\u6b21"
+    "brainrotLevel": "脑腐指数",
+    "symptoms": "症状",
+    "statsTitle": "滚动统计",
+    "retake": "再来一次",
+    "moreTests": "探索更多测试",
+    "percentileStat": "你的大脑比 <strong>{percentile}%</strong> 的用户更健康"
   },
   "stats": {
-    "likes": "\u559c\u6b22",
-    "vibes": "\u5171\u9e23",
-    "skips": "\u8df3\u8fc7",
-    "totalTime": "\u65f6\u95f4",
-    "avgSpeed": "\u5e73\u5747\u901f\u5ea6",
-    "warningsIgnored": "\u8b66\u544a\u5ffd\u89c6"
+    "likes": "喜欢",
+    "vibes": "共鸣",
+    "skips": "跳过",
+    "totalTime": "时间",
+    "avgSpeed": "平均速度",
+    "warningsIgnored": "警告忽视"
   },
   "share": {
-    "title": "\u5206\u4eab\u7ed3\u679c",
-    "twitter": "X \u5206\u4eab",
-    "copyUrl": "\u590d\u5236\u94fe\u63a5",
-    "copied": "\u5df2\u590d\u5236\uff01",
-    "twitterText": "\u6211\u7684\u8111\u8150\u6307\u6570\uff1a{score}% - {tier}\uff01\u4f60\u5462\uff1f"
+    "title": "分享结果",
+    "twitter": "X 分享",
+    "copyUrl": "复制链接",
+    "copied": "已复制！",
+    "twitterText": "我的脑腐指数：{score}% - {tier}！你呢？"
   },
   "nav": {
-    "back": "\u2190 DopaBrain"
+    "back": "← DopaBrain"
   },
   "a11y": {
-    "skip": "\u8df3\u8f6c\u5230\u5185\u5bb9"
+    "skip": "跳转到内容"
+  },
+  "related": {
+    "npcTest": "NPC 测试",
+    "rizzScore": "Rizz 指数",
+    "deluluScore": "Delulu 指数",
+    "ickFactor": "Ick 指数"
   }
 }
