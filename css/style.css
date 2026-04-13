@@ -525,6 +525,76 @@ header {
 }
 .tier-desc strong { color: var(--primary); }
 
+.quick-actions-card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--cta-color, var(--primary)) 35%, rgba(255,255,255,0.08));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--cta-color, var(--primary)) 12%, rgba(255,255,255,0.04)), rgba(255,255,255,0.03));
+}
+
+.quick-actions-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.quick-actions-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  background: color-mix(in srgb, var(--cta-color, var(--primary)) 18%, rgba(255,255,255,0.06));
+  border: 1px solid color-mix(in srgb, var(--cta-color, var(--primary)) 42%, rgba(255,255,255,0.12));
+  flex-shrink: 0;
+}
+
+.quick-actions-copy { min-width: 0; }
+
+.quick-actions-label {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.quick-actions-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--cta-color, var(--primary));
+}
+
+.quick-actions-desc {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.quick-actions-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.quick-action-primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: var(--cta-color, var(--primary));
+  color: #071014;
+  box-shadow: 0 10px 24px color-mix(in srgb, var(--cta-color, var(--primary)) 28%, transparent);
+}
+
+.quick-action-primary:hover { filter: brightness(1.04); }
+
 /* -- Share Section -- */
 .share-section { text-align: center; margin: 24px 0 16px; }
 .share-title {
@@ -544,6 +614,15 @@ header {
 }
 .share-twitter { background: #1a1a1a; color: #fff; border: 1px solid #333; }
 [data-theme="light"] .share-twitter { background: #0f1419; }
+
+.result-ad-slot {
+  max-width: 420px;
+  margin: 18px auto 0;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
 
 .retake-btn {
   display: block; width: 100%; padding: 18px;
@@ -573,8 +652,15 @@ footer a:hover { color: var(--primary); }
 .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .related-card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 8px; background: var(--surface, rgba(255,255,255,0.05)); border: 1px solid var(--border, rgba(255,255,255,0.1)); border-radius: 12px; text-decoration: none; color: var(--text, #fff); transition: transform 0.2s, border-color 0.2s; }
 .related-card:hover { transform: translateY(-2px); border-color: var(--card-color, var(--primary)); }
+.related-card.is-featured {
+  border-color: color-mix(in srgb, var(--card-color, var(--primary)) 70%, rgba(255,255,255,0.14));
+  box-shadow: 0 10px 24px color-mix(in srgb, var(--card-color, var(--primary)) 20%, transparent);
+}
 .related-emoji { font-size: 28px; }
 .related-name { font-size: 12px; font-weight: 600; text-align: center; color: var(--text-muted, #a0a0b8); }
+[data-theme="light"] .quick-actions-card { background: linear-gradient(180deg, color-mix(in srgb, var(--cta-color, var(--primary)) 10%, white), rgba(255,255,255,0.92)); border-color: color-mix(in srgb, var(--cta-color, var(--primary)) 28%, rgba(15,23,42,0.12)); }
+[data-theme="light"] .quick-actions-icon { background: color-mix(in srgb, var(--cta-color, var(--primary)) 14%, white); border-color: color-mix(in srgb, var(--cta-color, var(--primary)) 28%, rgba(15,23,42,0.12)); }
+[data-theme="light"] .result-ad-slot { border-color: rgba(0,0,0,0.1); background: rgba(255,255,255,0.92); }
 [data-theme="light"] .related-card { background: rgba(0,0,0,0.04); border-color: rgba(0,0,0,0.1); }
 [data-theme="light"] .related-card:hover { background: rgba(0,0,0,0.06); }
 .percentile-stat { text-align: center; margin: 16px 0 0; font-size: 13px; color: var(--text-muted, #a0a0b8); max-width: 420px; }
@@ -618,4 +704,6 @@ footer a:hover { color: var(--primary); }
   .meter-number { font-size: 40px; }
   .post-card { padding: 16px; }
   .stats-grid { grid-template-columns: 1fr; }
+  .quick-actions-summary { align-items: flex-start; }
+  .quick-actions-buttons { grid-template-columns: 1fr; }
 }

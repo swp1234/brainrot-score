@@ -265,24 +265,41 @@
 
       <p class="percentile-stat" id="percentile-stat"></p>
 
+      <div class="quick-actions-card" id="next-step-card">
+        <div class="quick-actions-summary">
+          <div class="quick-actions-icon" id="primary-related-emoji" aria-hidden="true">💡</div>
+          <div class="quick-actions-copy">
+            <p class="quick-actions-label" data-i18n="result.nextStepLabel">Best Recovery Move</p>
+            <h3 class="quick-actions-title" id="primary-related-title">Protect Your Focus With Habit Tracker</h3>
+            <p class="quick-actions-desc" id="primary-related-desc">You still have some offline brain cells left. Build one routine before the feed wins.</p>
+          </div>
+        </div>
+        <div class="quick-actions-buttons">
+          <a id="primary-related-cta" class="share-btn quick-action-primary" href="/habit-tracker/">
+            <span id="primary-related-cta-text">Open Habit Tracker</span>
+          </a>
+          <button id="related-jump-btn" class="share-btn share-copy" data-i18n="result.jumpToMore">See All Recovery Tools</button>
+        </div>
+      </div>
+
       <div class="related-tests">
         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
-        <div class="related-grid">
-          <a href="/npc-test/" class="related-card" style="--card-color: #1abc9c">
-            <span class="related-emoji">🤖</span>
-            <span class="related-name" data-i18n="related.npcTest">NPC Test</span>
+        <div class="related-grid" id="related-grid">
+          <a href="/habit-tracker/" class="related-card" data-related-key="habit-tracker" style="--card-color: #22c55e">
+            <span class="related-emoji">✅</span>
+            <span class="related-name" data-i18n="related.habitTracker">Habit Tracker</span>
           </a>
-          <a href="/rizz-score/" class="related-card" style="--card-color: #e74c3c">
-            <span class="related-emoji">😎</span>
-            <span class="related-name" data-i18n="related.rizzScore">Rizz Score</span>
+          <a href="/stress-check/" class="related-card" data-related-key="stress-check" style="--card-color: #06b6d4">
+            <span class="related-emoji">🧠</span>
+            <span class="related-name" data-i18n="related.stressCheck">Stress Check</span>
           </a>
-          <a href="/delulu-score/" class="related-card" style="--card-color: #9b59b6">
-            <span class="related-emoji">💭</span>
-            <span class="related-name" data-i18n="related.deluluScore">Delulu Score</span>
+          <a href="/detox-timer/" class="related-card" data-related-key="detox-timer" style="--card-color: #f97316">
+            <span class="related-emoji">📱</span>
+            <span class="related-name" data-i18n="related.detoxTimer">Detox Timer</span>
           </a>
-          <a href="/ick-factor/" class="related-card" style="--card-color: #f39c12">
-            <span class="related-emoji">😬</span>
-            <span class="related-name" data-i18n="related.ickFactor">Ick Factor</span>
+          <a href="/eq-test/" class="related-card" data-related-key="eq-test" style="--card-color: #a855f7">
+            <span class="related-emoji">✨</span>
+            <span class="related-name" data-i18n="related.eqTest">EQ Test</span>
           </a>
         </div>
       </div>
@@ -293,6 +310,14 @@
           <button class="share-btn share-twitter" id="shareTwitterBtn" data-i18n="share.twitter">Share on X</button>
           <button class="share-btn share-copy" id="shareCopyBtn" data-i18n="share.copyUrl">Copy Link</button>
         </div>
+      </div>
+      <div class="result-ad-slot" id="result-inline-ad" aria-label="Sponsored">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3600813755953882"
+             data-ad-slot="auto"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
       </div>
       <button class="retake-btn" id="retakeBtn" data-i18n="result.retake">Try Again 🔄</button>
     </section>

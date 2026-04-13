@@ -148,7 +148,36 @@
     "statsTitle": "Scroll Stats",
     "retake": "Try Again",
     "moreTests": "Explore More Tests",
-    "percentileStat": "Your brain is healthier than <strong>{percentile}%</strong> of users"
+    "percentileStat": "Your brain is healthier than <strong>{percentile}%</strong> of users",
+    "nextStepLabel": "Best Recovery Move",
+    "jumpToMore": "See All Recovery Tools",
+    "nextStep": {
+      "champion": {
+        "title": "Protect Your Focus With Habit Tracker",
+        "desc": "You still have some offline brain cells left. Build one routine before the feed wins.",
+        "cta": "Open Habit Tracker"
+      },
+      "casual": {
+        "title": "Lock In Better Habits With Habit Tracker",
+        "desc": "You are still mostly in control, but the feed is gaining ground. Add one repeatable habit before scrolling takes over.",
+        "cta": "Start Habit Tracker"
+      },
+      "algorithm": {
+        "title": "Check The Damage With Stress Check",
+        "desc": "The algorithm already has your attention. See whether your scrolling pattern is turning into real stress.",
+        "cta": "Take Stress Check"
+      },
+      "chronic": {
+        "title": "Reset The Loop With Detox Timer",
+        "desc": "Your thumb is running the show. Use a short detox block to interrupt the doom-scroll loop before it gets worse.",
+        "cta": "Open Detox Timer"
+      },
+      "touchgrass": {
+        "title": "Emergency Reset: Detox Timer",
+        "desc": "This score needs a hard stop. Start a focused break and give your brain a chance to cool down.",
+        "cta": "Start Detox Timer"
+      }
+    }
   },
   "stats": {
     "likes": "Likes",
@@ -175,6 +204,10 @@
     "npcTest": "NPC Test",
     "rizzScore": "Rizz Score",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "habitTracker": "Habit Tracker",
+    "stressCheck": "Stress Check",
+    "detoxTimer": "Detox Timer",
+    "eqTest": "EQ Test"
   }
 }

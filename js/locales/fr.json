@@ -148,7 +148,36 @@
     "statsTitle": "Statistiques de Scroll",
     "retake": "Réessayer",
     "moreTests": "Découvre Plus de Tests",
-    "percentileStat": "Ton cerveau est plus sain que celui de <strong>{percentile}%</strong> des utilisateurs"
+    "percentileStat": "Ton cerveau est plus sain que celui de <strong>{percentile}%</strong> des utilisateurs",
+    "nextStepLabel": "Meilleure action de r?cup?ration",
+    "jumpToMore": "Voir tous les outils de r?cup?ration",
+    "nextStep": {
+      "champion": {
+        "title": "Prot?gez votre concentration avec Habit Tracker",
+        "desc": "Il vous reste encore quelques cellules grises hors ligne. Construisez une routine avant que le fil d'actualit? ne gagne.",
+        "cta": "Ouvrir Habit Tracker"
+      },
+      "casual": {
+        "title": "Verrouillez de meilleures habitudes avec Habit Tracker",
+        "desc": "Vous avez encore le contr?le, mais le fil d'actualit? gagne du terrain. Ajoutez une habitude reproductible avant que le d?filement ne prenne le dessus.",
+        "cta": "D?marrer Habit Tracker"
+      },
+      "algorithm": {
+        "title": "V?rifiez les d?g?ts avec Stress Check",
+        "desc": "L'algorithme a d?j? votre attention. Voyez si votre mod?le de d?filement se transforme en vrai stress.",
+        "cta": "Passer Stress Check"
+      },
+      "chronic": {
+        "title": "R?initialisez la boucle avec Detox Timer",
+        "desc": "Votre pouce m?ne la danse. Utilisez un court bloc de d?tox pour interrompre la boucle de d?filement compulsif avant que ?a ne s'aggrave.",
+        "cta": "Ouvrir Detox Timer"
+      },
+      "touchgrass": {
+        "title": "R?initialisation d'urgence : Detox Timer",
+        "desc": "Ce score n?cessite un arr?t brutal. Commencez une pause concentr?e et donnez ? votre cerveau une chance de se calmer.",
+        "cta": "D?marrer Detox Timer"
+      }
+    }
   },
   "stats": {
     "likes": "Likes",
@@ -175,6 +204,10 @@
     "npcTest": "Test NPC",
     "rizzScore": "Rizz Score",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "habitTracker": "Habit Tracker",
+    "stressCheck": "Stress Check",
+    "detoxTimer": "Detox Timer",
+    "eqTest": "EQ Test"
   }
 }

@@ -148,7 +148,36 @@
     "statsTitle": "Estadísticas de Scroll",
     "retake": "Intentar de Nuevo",
     "moreTests": "Explora Más Tests",
-    "percentileStat": "Tu cerebro es más sano que el de <strong>{percentile}%</strong> de usuarios"
+    "percentileStat": "Tu cerebro es más sano que el de <strong>{percentile}%</strong> de usuarios",
+    "nextStepLabel": "Mejor movimiento de recuperaci?n",
+    "jumpToMore": "Ver todas las herramientas de recuperaci?n",
+    "nextStep": {
+      "champion": {
+        "title": "Protege tu concentraci?n con Habit Tracker",
+        "desc": "A?n te quedan algunas neuronas desconectadas. Construye una rutina antes de que gane el feed.",
+        "cta": "Abrir Habit Tracker"
+      },
+      "casual": {
+        "title": "Asegura mejores h?bitos con Habit Tracker",
+        "desc": "A?n tienes el control en su mayor?a, pero el feed est? ganando terreno. A?ade un h?bito repetible antes de que el desplazamiento tome el control.",
+        "cta": "Iniciar Habit Tracker"
+      },
+      "algorithm": {
+        "title": "Comprueba los da?os con Stress Check",
+        "desc": "El algoritmo ya tiene tu atenci?n. Comprueba si tu patr?n de desplazamiento se est? convirtiendo en estr?s real.",
+        "cta": "Realizar Stress Check"
+      },
+      "chronic": {
+        "title": "Reinicia el bucle con Detox Timer",
+        "desc": "Tu pulgar est? al mando. Usa un breve bloque de desintoxicaci?n para interrumpir el bucle de doom-scrolling antes de que empeore.",
+        "cta": "Abrir Detox Timer"
+      },
+      "touchgrass": {
+        "title": "Reinicio de emergencia: Detox Timer",
+        "desc": "Esta puntuaci?n necesita una parada en seco. Inicia un descanso concentrado y dale a tu cerebro la oportunidad de enfriarse.",
+        "cta": "Iniciar Detox Timer"
+      }
+    }
   },
   "stats": {
     "likes": "Likes",
@@ -175,6 +204,10 @@
     "npcTest": "Test NPC",
     "rizzScore": "Rizz Score",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "habitTracker": "Habit Tracker",
+    "stressCheck": "Stress Check",
+    "detoxTimer": "Detox Timer",
+    "eqTest": "EQ Test"
   }
 }

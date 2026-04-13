@@ -148,7 +148,36 @@
     "statsTitle": "Statistik Scroll",
     "retake": "Coba Lagi",
     "moreTests": "Jelajahi Tes Lainnya",
-    "percentileStat": "Otakmu lebih sehat dari <strong>{percentile}%</strong> pengguna"
+    "percentileStat": "Otakmu lebih sehat dari <strong>{percentile}%</strong> pengguna",
+    "nextStepLabel": "Langkah Pemulihan Terbaik",
+    "jumpToMore": "Lihat Semua Alat Pemulihan",
+    "nextStep": {
+      "champion": {
+        "title": "Lindungi Fokus Anda Dengan Habit Tracker",
+        "desc": "Anda masih memiliki beberapa sel otak luring yang tersisa. Bangun satu rutinitas sebelum feed menang.",
+        "cta": "Buka Habit Tracker"
+      },
+      "casual": {
+        "title": "Kunci Kebiasaan yang Lebih Baik Dengan Habit Tracker",
+        "desc": "Anda masih memegang kendali, tetapi feed mulai mengambil alih. Tambahkan satu kebiasaan yang dapat diulang sebelum terus menggulir mengambil alih.",
+        "cta": "Mulai Habit Tracker"
+      },
+      "algorithm": {
+        "title": "Periksa Kerusakan Dengan Stress Check",
+        "desc": "Algoritma sudah menarik perhatian Anda. Lihat apakah pola menggulir Anda berubah menjadi stres yang nyata.",
+        "cta": "Ikuti Stress Check"
+      },
+      "chronic": {
+        "title": "Atur Ulang Siklus Dengan Detox Timer",
+        "desc": "Jempol Anda yang mengambil alih. Gunakan blok detoks singkat untuk menghentikan siklus doom-scrolling sebelum menjadi lebih buruk.",
+        "cta": "Buka Detox Timer"
+      },
+      "touchgrass": {
+        "title": "Reset Darurat: Detox Timer",
+        "desc": "Skor ini membutuhkan penghentian paksa. Mulai istirahat yang terfokus dan beri otak Anda kesempatan untuk menenangkan diri.",
+        "cta": "Mulai Detox Timer"
+      }
+    }
   },
   "stats": {
     "likes": "Suka",
@@ -175,6 +204,10 @@
     "npcTest": "Tes NPC",
     "rizzScore": "Rizz Score",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "habitTracker": "Habit Tracker",
+    "stressCheck": "Stress Check",
+    "detoxTimer": "Detox Timer",
+    "eqTest": "EQ Test"
   }
 }

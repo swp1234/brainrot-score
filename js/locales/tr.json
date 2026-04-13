@@ -148,7 +148,36 @@
     "statsTitle": "Scroll İstatistikleri",
     "retake": "Tekrar Dene",
     "moreTests": "Daha Fazla Test Keşfet",
-    "percentileStat": "Beynin kullanıcıların <strong>{percentile}%</strong>'inden daha sağlıklı"
+    "percentileStat": "Beynin kullanıcıların <strong>{percentile}%</strong>'inden daha sağlıklı",
+    "nextStepLabel": "En ?yi Toparlanma Hamlesi",
+    "jumpToMore": "T?m Toparlanma Ara?lar?n? G?r",
+    "nextStep": {
+      "champion": {
+        "title": "Habit Tracker ?le Oda??n?z? Koruyun",
+        "desc": "Hala biraz ?evrimd??? beyin h?creniz var. Ak?? kazanmadan ?nce bir rutin olu?turun.",
+        "cta": "Habit Tracker'? A?"
+      },
+      "casual": {
+        "title": "Habit Tracker ?le Daha ?yi Al??kanl?klar Edinin",
+        "desc": "Hala ?o?unlukla kontrol sizde, ancak ak?? zemin kazan?yor. Kayd?rma i?lemi kontrol? ele almadan ?nce tekrarlanabilir bir al??kanl?k ekleyin.",
+        "cta": "Habit Tracker'? Ba?lat"
+      },
+      "algorithm": {
+        "title": "Stress Check ?le Hasar? Kontrol Edin",
+        "desc": "Algoritma zaten dikkatinizi ?ekti. Kayd?rma d?zeninizin ger?ek bir strese d?n???p d?n??medi?ini g?r?n.",
+        "cta": "Stress Check'i ??z"
+      },
+      "chronic": {
+        "title": "Detox Timer ?le D?ng?y? S?f?rlay?n",
+        "desc": "?ovu ba?parma??n?z y?netiyor. K?yamet kayd?rmas? d?ng?s?n? daha da k?t?le?meden kesmek i?in k?sa bir detoks blo?u kullan?n.",
+        "cta": "Detox Timer'? A?"
+      },
+      "touchgrass": {
+        "title": "Acil S?f?rlama: Detox Timer",
+        "desc": "Bu skorun sert bir duru?a ihtiyac? var. Odaklanm?? bir mola ba?lat?n ve beyninize sakinle?mesi i?in bir ?ans verin.",
+        "cta": "Detox Timer'? Ba?lat"
+      }
+    }
   },
   "stats": {
     "likes": "Beğeni",
@@ -175,6 +204,10 @@
     "npcTest": "NPC Testi",
     "rizzScore": "Rizz Skoru",
     "deluluScore": "Delulu Skoru",
-    "ickFactor": "Ick Faktörü"
+    "ickFactor": "Ick Faktörü",
+    "habitTracker": "Habit Tracker",
+    "stressCheck": "Stress Check",
+    "detoxTimer": "Detox Timer",
+    "eqTest": "EQ Test"
   }
 }

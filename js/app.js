@@ -40,12 +40,131 @@
   let feedEndTime = 0;
   let postsRevealed = 0;
   let currentWarningIdx = 0;
+  let activeWarningId = null;
+  let currentResult = null;
+  let resultInlineAdLoaded = false;
 
   // -- Helper: get i18n text --
   function t(key) {
-    if (!window.i18n) return key;
-    const val = window.i18n.t(key);
+    if (typeof i18n === 'undefined') return key;
+    const val = i18n.t(key);
     return val !== key ? val : key;
+  }
+
+  const introScreen = document.getElementById('intro-screen');
+  const feedScreen = document.getElementById('feed-screen');
+  const scanScreen = document.getElementById('scan-screen');
+  const resultScreen = document.getElementById('result-screen');
+  const startBtn = document.getElementById('startBtn');
+  const warningOverlay = document.getElementById('warningOverlay');
+  const warningTitle = document.getElementById('warningTitle');
+  const warningSub = document.getElementById('warningSub');
+  const warningIgnoreBtn = document.getElementById('warningIgnore');
+  const warningStopBtn = document.getElementById('warningStop');
+  const shareTwitterBtn = document.getElementById('shareTwitterBtn');
+  const shareCopyBtn = document.getElementById('shareCopyBtn');
+  const retakeBtn = document.getElementById('retakeBtn');
+  const relatedGrid = document.getElementById('related-grid');
+  const primaryRelatedEmoji = document.getElementById('primary-related-emoji');
+  const primaryRelatedTitle = document.getElementById('primary-related-title');
+  const primaryRelatedDesc = document.getElementById('primary-related-desc');
+  const primaryRelatedCta = document.getElementById('primary-related-cta');
+  const primaryRelatedCtaText = document.getElementById('primary-related-cta-text');
+  const relatedJumpBtn = document.getElementById('related-jump-btn');
+  const resultInlineAd = document.getElementById('result-inline-ad');
+
+  const recommendationMap = {
+    champion: ['habit-tracker', 'eq-test', 'stress-check', 'detox-timer'],
+    casual: ['habit-tracker', 'stress-check', 'eq-test', 'detox-timer'],
+    algorithm: ['stress-check', 'eq-test', 'detox-timer', 'habit-tracker'],
+    chronic: ['detox-timer', 'stress-check', 'habit-tracker', 'eq-test'],
+    touchgrass: ['detox-timer', 'stress-check', 'habit-tracker', 'eq-test']
+  };
+
+  function trackEvent(name, params) {
+    if (typeof gtag !== 'function') return;
+    gtag('event', name, params || {});
+  }
+
+  function getShareUrl() {
+    const url = new URL(window.location.origin + window.location.pathname);
+    url.searchParams.set('lang', i18n.currentLang || 'en');
+    return url.toString();
+  }
+
+  function prioritizeRelatedCards(tierId) {
+    if (!relatedGrid) return;
+
+    const cards = Array.from(relatedGrid.querySelectorAll('.related-card'));
+    const order = recommendationMap[tierId] || recommendationMap.casual;
+    const rankMap = {};
+
+    order.forEach((key, index) => {
+      rankMap[key] = index;
+    });
+
+    cards.sort((a, b) => {
+      const aKey = a.getAttribute('data-related-key') || '';
+      const bKey = b.getAttribute('data-related-key') || '';
+      const aRank = Object.prototype.hasOwnProperty.call(rankMap, aKey) ? rankMap[aKey] : 999;
+      const bRank = Object.prototype.hasOwnProperty.call(rankMap, bKey) ? rankMap[bKey] : 999;
+      return aRank - bRank;
+    });
+
+    cards.forEach((card, index) => {
+      card.classList.toggle('is-featured', index < 2);
+      card.setAttribute('data-rank', String(index + 1));
+      relatedGrid.appendChild(card);
+    });
+  }
+
+  function updatePrimaryRecommendation(tierId) {
+    if (!relatedGrid || !primaryRelatedTitle || !primaryRelatedDesc || !primaryRelatedCta || !primaryRelatedCtaText || !primaryRelatedEmoji) {
+      return;
+    }
+
+    const firstCard = relatedGrid.querySelector('.related-card');
+    if (!firstCard) return;
+
+    const titleKey = `result.nextStep.${tierId}.title`;
+    const descKey = `result.nextStep.${tierId}.desc`;
+    const ctaKey = `result.nextStep.${tierId}.cta`;
+    const titleEl = firstCard.querySelector('.related-name');
+    const emojiEl = firstCard.querySelector('.related-emoji');
+    const cardTitle = titleEl ? titleEl.textContent.trim() : 'Recommended Tool';
+    const href = firstCard.getAttribute('href') || '#';
+    const emoji = emojiEl ? emojiEl.textContent.trim() : '💡';
+    const cardColor = firstCard.style.getPropertyValue('--card-color') || '';
+
+    primaryRelatedTitle.textContent = t(titleKey) !== titleKey ? t(titleKey) : cardTitle;
+    primaryRelatedDesc.textContent = t(descKey) !== descKey ? t(descKey) : cardTitle;
+    primaryRelatedCtaText.textContent = t(ctaKey) !== ctaKey ? t(ctaKey) : cardTitle;
+    primaryRelatedEmoji.textContent = emoji;
+    primaryRelatedCta.setAttribute('href', href);
+    primaryRelatedCta.setAttribute('data-related-key', firstCard.getAttribute('data-related-key') || '');
+    primaryRelatedCta.setAttribute('data-related-rank', firstCard.getAttribute('data-rank') || '1');
+
+    if (cardColor) {
+      primaryRelatedTitle.style.setProperty('--cta-color', cardColor);
+      primaryRelatedCta.style.setProperty('--cta-color', cardColor);
+      const nextStepCard = document.getElementById('next-step-card');
+      if (nextStepCard) {
+        nextStepCard.style.setProperty('--cta-color', cardColor);
+      }
+    }
+  }
+
+  function ensureResultAdLoaded() {
+    if (resultInlineAdLoaded || !resultInlineAd) return;
+    const adNode = resultInlineAd.querySelector('.adsbygoogle');
+    if (!adNode) return;
+
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      resultInlineAdLoaded = true;
+    } catch (error) {
+      // Ad blockers or delayed AdSense init are non-fatal here.
+    }
   }
 
   // -- Theme Toggle --
@@ -92,9 +211,16 @@
   document.querySelectorAll('.lang-option').forEach(btn => {
     btn.addEventListener('click', async () => {
       const lang = btn.dataset.lang;
-      if (window.i18n) {
-        await window.i18n.setLanguage(lang);
+      if (typeof i18n !== 'undefined') {
+        await i18n.setLanguage(lang);
         currentLangSpan.textContent = LANG_NAMES[lang] || lang;
+        if (speedIndicator) {
+          const label = speedIndicator.querySelector('.speed-label');
+          if (label) label.textContent = t('feed.scrollSpeed');
+        }
+        if (resultScreen.classList.contains('active')) {
+          showResult(false);
+        }
       }
       langDropdown.classList.remove('open');
     });
@@ -213,6 +339,14 @@
     document.getElementById('feedProgressBar').style.width =
       ((reacted / TOTAL_POSTS) * 100) + '%';
 
+    trackEvent('brainrot_reaction_select', {
+      event_category: 'brainrot_score',
+      event_label: reactType,
+      post_number: postIdx + 1,
+      reacted_count: reacted,
+      value: postIdx + 1
+    });
+
     // Check if all posts reacted
     if (reacted === TOTAL_POSTS) {
       feedEndTime = Date.now();
@@ -291,31 +425,41 @@
 
   // -- Warning Popup --
   function showWarning(wIdx) {
-    const overlay = document.getElementById('warningOverlay');
-    const titleEl = document.getElementById('warningTitle');
-    const subEl = document.getElementById('warningSub');
-
-    titleEl.textContent = t('warning.title' + (wIdx + 1));
-    subEl.textContent = t('warning.sub' + (wIdx + 1));
-
-    overlay.style.display = 'flex';
+    activeWarningId = wIdx + 1;
+    warningTitle.textContent = t('warning.title' + activeWarningId);
+    warningSub.textContent = t('warning.sub' + activeWarningId);
+    warningOverlay.style.display = 'flex';
   }
 
-  document.getElementById('warningIgnore').addEventListener('click', () => {
+  warningIgnoreBtn.addEventListener('click', () => {
     warningsIgnored++;
-    document.getElementById('warningOverlay').style.display = 'none';
+    warningOverlay.style.display = 'none';
+    trackEvent('brainrot_warning_choice', {
+      event_category: 'brainrot_score',
+      event_label: 'ignore',
+      warning_number: activeWarningId || 0,
+      value: warningsIgnored
+    });
+    activeWarningId = null;
   });
 
-  document.getElementById('warningStop').addEventListener('click', () => {
+  warningStopBtn.addEventListener('click', () => {
     warningsStopped++;
-    document.getElementById('warningOverlay').style.display = 'none';
+    warningOverlay.style.display = 'none';
+    trackEvent('brainrot_warning_choice', {
+      event_category: 'brainrot_score',
+      event_label: 'stop',
+      warning_number: activeWarningId || 0,
+      value: warningsStopped
+    });
+    activeWarningId = null;
     // Stopping still counts — fill remaining as null and finish
     feedEndTime = Date.now();
     setTimeout(() => startScan(), 300);
   });
 
   // -- Start Button --
-  document.getElementById('startBtn').addEventListener('click', () => {
+  startBtn.addEventListener('click', () => {
     // Reset state
     reactions = new Array(TOTAL_POSTS).fill(null);
     scrollSpeeds = [];
@@ -325,13 +469,15 @@
     warningsStopped = 0;
     postsRevealed = 0;
     currentWarningIdx = 0;
+    activeWarningId = null;
+    currentResult = null;
     feedStartTime = Date.now();
     feedEndTime = 0;
 
-    document.getElementById('intro-screen').style.display = 'none';
-    const fs = document.getElementById('feed-screen');
-    fs.style.display = 'block';
-    fs.classList.add('fade-in');
+    introScreen.style.display = 'none';
+    feedScreen.style.display = 'block';
+    feedScreen.classList.add('fade-in');
+    resultScreen.classList.remove('active', 'fade-in');
 
     buildFeed();
     initSpeedIndicator();
@@ -345,24 +491,25 @@
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'feed_start', { event_category: 'brainrot_score' });
-    }
+    trackEvent('quiz_start', {
+      event_category: 'brainrot_score',
+      event_label: i18n.currentLang,
+      value: TOTAL_POSTS
+    });
+    trackEvent('feed_start', { event_category: 'brainrot_score' });
   });
 
   // -- Brain Scan Animation --
   function startScan() {
     window.removeEventListener('scroll', trackScroll);
-    document.getElementById('feed-screen').style.display = 'none';
+    feedScreen.style.display = 'none';
     if (speedIndicator) speedIndicator.classList.remove('active');
-
-    const scanScreen = document.getElementById('scan-screen');
     scanScreen.classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     setTimeout(() => {
       scanScreen.classList.remove('active');
-      showResult();
+      showResult(true);
     }, 2500);
   }
 
@@ -442,10 +589,24 @@
   }
 
   // -- Show Result --
-  function showResult() {
+  function showResult(trackCompletion = true) {
     const pct = calculateScore();
     const tier = getTier(pct);
     const color = getScoreColor(pct);
+    const avgSpeed = scrollSpeeds.length > 0
+      ? Math.round(scrollSpeeds.reduce((a, b) => a + b, 0) / scrollSpeeds.length)
+      : 0;
+    const totalTimeSec = Math.round(((feedEndTime || Date.now()) - feedStartTime) / 1000);
+
+    currentResult = {
+      score: pct,
+      tierId: tier.id,
+      avgSpeed,
+      totalTimeSec
+    };
+
+    prioritizeRelatedCards(tier.id);
+    updatePrimaryRecommendation(tier.id);
 
     // Hero section
     const hero = document.getElementById('resultHero');
@@ -479,10 +640,6 @@
     const likeCount = reactions.filter(r => r === 'like').length;
     const vibeCount = reactions.filter(r => r === 'vibe').length;
     const skipCount = reactions.filter(r => r === 'skip').length;
-    const totalTimeSec = Math.round(((feedEndTime || Date.now()) - feedStartTime) / 1000);
-    const avgSpeed = scrollSpeeds.length > 0
-      ? Math.round(scrollSpeeds.reduce((a, b) => a + b, 0) / scrollSpeeds.length)
-      : 0;
 
     statsGrid.innerHTML = `
       <div class="stat-card">
@@ -541,60 +698,134 @@
     }
 
     // Show result screen
-    const rs = document.getElementById('result-screen');
-    rs.classList.add('active');
-    rs.classList.add('fade-in');
+    resultScreen.classList.add('active');
+    resultScreen.classList.add('fade-in');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'feed_complete', {
+    if (trackCompletion) {
+      trackEvent('result_view', {
+        event_category: 'brainrot_score',
+        event_label: tier.id,
+        warnings_ignored: warningsIgnored,
+        avg_speed: avgSpeed,
+        total_time_sec: totalTimeSec,
+        value: pct
+      });
+      trackEvent('quiz_complete', {
+        event_category: 'brainrot_score',
+        event_label: tier.id,
+        warnings_ignored: warningsIgnored,
+        avg_speed: avgSpeed,
+        total_time_sec: totalTimeSec,
+        value: pct
+      });
+      trackEvent('feed_complete', {
         event_category: 'brainrot_score',
         score: pct,
         tier: tier.id,
         warnings_ignored: warningsIgnored
       });
     }
+
+    ensureResultAdLoaded();
   }
 
   // -- Share Functions --
-  document.getElementById('shareTwitterBtn').addEventListener('click', () => {
-    const pct = calculateScore();
-    const tier = getTier(pct);
+  shareTwitterBtn.addEventListener('click', () => {
+    const pct = currentResult ? currentResult.score : calculateScore();
+    const tier = currentResult ? getTier(currentResult.score) : getTier(pct);
     const text = t('share.twitterText')
       .replace('{score}', pct)
       .replace('{tier}', t('tiers.' + tier.id + '.name'));
-    const url = encodeURIComponent(window.location.href);
+    const url = encodeURIComponent(getShareUrl());
     window.open(
       'https://twitter.com/intent/tweet?url=' + url + '&text=' + encodeURIComponent(text),
       '_blank', 'noopener'
     );
+    trackEvent('brainrot_share_click', {
+      event_category: 'brainrot_score',
+      event_label: 'twitter',
+      tier: currentResult ? currentResult.tierId : tier.id,
+      value: pct
+    });
   });
 
-  document.getElementById('shareCopyBtn').addEventListener('click', () => {
-    const url = window.location.href;
+  shareCopyBtn.addEventListener('click', () => {
+    const url = getShareUrl();
     if (navigator.clipboard) {
       navigator.clipboard.writeText(url).then(() => {
-        const btn = document.getElementById('shareCopyBtn');
-        const original = btn.textContent;
-        btn.textContent = t('share.copied');
-        setTimeout(() => { btn.textContent = original; }, 2000);
+        const original = shareCopyBtn.textContent;
+        shareCopyBtn.textContent = t('share.copied');
+        setTimeout(() => { shareCopyBtn.textContent = original; }, 2000);
       }).catch(() => { prompt('Copy:', url); });
     } else {
       prompt('Copy:', url);
     }
+    trackEvent('brainrot_share_click', {
+      event_category: 'brainrot_score',
+      event_label: 'copy',
+      tier: currentResult ? currentResult.tierId : 'unknown',
+      value: currentResult ? currentResult.score : calculateScore()
+    });
   });
 
   // -- Retake --
-  document.getElementById('retakeBtn').addEventListener('click', () => {
-    document.getElementById('result-screen').classList.remove('active', 'fade-in');
-    document.getElementById('feed-screen').style.display = 'none';
-    document.getElementById('scan-screen').classList.remove('active');
-    document.getElementById('intro-screen').style.display = 'block';
+  if (primaryRelatedCta) {
+    primaryRelatedCta.addEventListener('click', () => {
+      trackEvent('brainrot_primary_cta_click', {
+        event_category: 'brainrot_score',
+        event_label: primaryRelatedCta.getAttribute('data-related-key') || primaryRelatedCta.getAttribute('href'),
+        tier: currentResult ? currentResult.tierId : 'unknown',
+        related_rank: primaryRelatedCta.getAttribute('data-related-rank') || '1',
+        value: currentResult ? currentResult.score : 0
+      });
+    });
+  }
+
+  if (relatedJumpBtn) {
+    relatedJumpBtn.addEventListener('click', () => {
+      const relatedSection = document.querySelector('.related-tests');
+      if (relatedSection) {
+        relatedSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      trackEvent('brainrot_related_jump_click', {
+        event_category: 'brainrot_score',
+        event_label: currentResult ? currentResult.tierId : 'unknown'
+      });
+    });
+  }
+
+  if (relatedGrid) {
+    relatedGrid.addEventListener('click', (event) => {
+      const card = event.target.closest('.related-card');
+      if (!card) return;
+      trackEvent('brainrot_related_click', {
+        event_category: 'brainrot_score',
+        event_label: card.getAttribute('data-related-key') || card.getAttribute('href'),
+        tier: currentResult ? currentResult.tierId : 'unknown',
+        related_rank: card.getAttribute('data-rank') || 'unknown',
+        value: currentResult ? currentResult.score : 0
+      });
+    });
+  }
+
+  retakeBtn.addEventListener('click', () => {
+    trackEvent('brainrot_retry_click', {
+      event_category: 'brainrot_score',
+      event_label: currentResult ? currentResult.tierId : 'unknown',
+      value: currentResult ? currentResult.score : 0
+    });
+
+    resultScreen.classList.remove('active', 'fade-in');
+    feedScreen.style.display = 'none';
+    scanScreen.classList.remove('active');
+    introScreen.style.display = 'block';
 
     // Reset meter
     document.getElementById('meterFill').style.strokeDashoffset = '553';
     document.getElementById('meterNumber').textContent = '0';
     document.getElementById('meterNumber').classList.remove('glitch-text');
+    currentResult = null;
 
     // Remove speed indicator
     if (speedIndicator) {

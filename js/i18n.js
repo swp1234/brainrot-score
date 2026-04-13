@@ -5,6 +5,9 @@ class I18n {
         this.currentLang = this.detectLanguage();
     }
     detectLanguage() {
+        const params = new URLSearchParams(window.location.search);
+        const urlLang = params.get('lang');
+        if (urlLang && this.supportedLanguages.includes(urlLang)) return urlLang;
         const saved = localStorage.getItem('app_language');
         if (saved && this.supportedLanguages.includes(saved)) return saved;
         const browser = (navigator.language || navigator.userLanguage).split('-')[0];
@@ -34,6 +37,9 @@ class I18n {
         this.currentLang = lang;
         localStorage.setItem('app_language', lang);
         document.documentElement.lang = lang;
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url.toString());
         this.updateUI();
         return true;
     }
